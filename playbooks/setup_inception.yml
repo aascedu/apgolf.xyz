@@ -1,0 +1,8 @@
+---
+- hosts: all
+
+  tasks:
+    - name: Copy source files
+      ansible.builtin.copy:
+        src: ../srcs/
+        dest: /home/ubuntu
