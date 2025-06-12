@@ -1,0 +1,9 @@
+version: '3'
+services:
+  vueapp:
+    build:
+      context: ./VueJS
+      dockerfile: Dockerfile
+    ports:
+      - "443:443"
+      - "80:80"

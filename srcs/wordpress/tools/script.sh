@@ -1,22 +1,27 @@
 #!bin/bash
+set -e
+
 
 if [ ! -f "/var/www/html/wp-config.php" ]; then
 
+sed -i 's/^memory_limit = .*/memory_limit = 256M/' /etc/php83/php.ini
 wp core download --path=/var/www/html \
                  --allow-root
+# echo
+# echo
+# echo HEY "--dbname=$SQL_DATABASE --dbuser=$SQL_ADMIN --dbpass=$SQL_ADMINPASSWD --dbhost=mariadb:3306 --path=/var/www/html"
+# echo
+# echo
 
-wp config create	--allow-root \
-                    --dbname=$SQL_DATABASE \
-                    --dbuser=$SQL_ADMIN \
-                    --dbpass=$SQL_ADMINPASSWD \
-                    --dbhost=mariadb:3306 \
-                    --path=/var/www/html
+# echo which wp: `wp cli version` and `whoami` 
+sleep 5
+wp config create	--allow-root --dbname=$SQL_DATABASE --dbuser=$SQL_ADMIN --dbpass=$SQL_ADMINPASSWD --dbhost=mariadb:3306 --path=/var/www/html
 
 wp core install     --allow-root \
                     --url=$DOMAIN_NAME \
                     --admin_user=$SQL_ADMIN \
                     --admin_password=$SQL_ADMINPASSWD \
-                    --admin_email=aascedu@student.42lyon.fr \
+                    --admin_email=arthurascedu@proton.me \
                     --title=Inception \
                     --path=/var/www/html
 
@@ -32,4 +37,4 @@ if [ ! -d "/run/php" ]; then
     mkdir -p /run/php
 fi
 
-/usr/sbin/php-fpm7.4 -F
+/usr/sbin/php-fpm83 -F
