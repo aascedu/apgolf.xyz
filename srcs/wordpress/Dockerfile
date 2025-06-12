@@ -7,7 +7,7 @@ RUN wget https://github.com/wp-cli/wp-cli-bundle/releases/download/v2.12.0/wp-cl
     chmod +x wp-cli-2.12.0.phar && \
     mv wp-cli-2.12.0.phar /usr/local/bin/wp 
 
-# COPY conf/www.conf /etc/php83/php-fpm.d/www.conf
+COPY conf/www.conf /etc/php83/php-fpm.d/www.conf
 COPY tools/script.sh /usr/local/bin/script_php.sh
 RUN chmod +x /usr/local/bin/script_php.sh
 CMD ["sh", "/usr/local/bin/script_php.sh"]

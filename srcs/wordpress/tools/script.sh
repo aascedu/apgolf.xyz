@@ -1,20 +1,12 @@
 #!bin/bash
 set -e
 
-
 if [ ! -f "/var/www/html/wp-config.php" ]; then
 
 sed -i 's/^memory_limit = .*/memory_limit = 256M/' /etc/php83/php.ini
 wp core download --path=/var/www/html \
                  --allow-root
-# echo
-# echo
-# echo HEY "--dbname=$SQL_DATABASE --dbuser=$SQL_ADMIN --dbpass=$SQL_ADMINPASSWD --dbhost=mariadb:3306 --path=/var/www/html"
-# echo
-# echo
 
-# echo which wp: `wp cli version` and `whoami` 
-sleep 5
 wp config create	--allow-root --dbname=$SQL_DATABASE --dbuser=$SQL_ADMIN --dbpass=$SQL_ADMINPASSWD --dbhost=mariadb:3306 --path=/var/www/html
 
 wp core install     --allow-root \
@@ -25,11 +17,11 @@ wp core install     --allow-root \
                     --title=Inception \
                     --path=/var/www/html
 
-wp user create      --allow-root \
-                    $SQL_USER \
-                    example@example.com \
-                    --user_pass=$SQL_USERPASSWD \
-                    --path=/var/www/html
+# wp user create      --allow-root \
+#                     $SQL_USER \
+#                     example@example.com \
+#                     --user_pass=$SQL_USERPASSWD \
+#                     --path=/var/www/html
 
 fi
 
