@@ -4,8 +4,8 @@ Personnaly, I needed to host a website for my dad which is a golf instructor, so
 
 ## Table of Contents (branches)
 
-- [AP Golf Website](https://github.com/aascedu/cloud-1/tree/main)
-- [42 cloud-1 Project](https://github.com/aascedu/cloud-1/tree/cloud-1)
+- [AP Golf Website]()
+- [42 cloud-1 Project]()
 
 ## How to run the project
 
