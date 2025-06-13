@@ -19,6 +19,7 @@ services:
       - wordpress
     ports:
       - "443:443"
+      - "80:80"
     volumes:
       - wordpress:/var/www/html
 
@@ -26,7 +27,7 @@ services:
     container_name: wordpress
     networks:
       - inception
-    env_file: wordpress.env
+    env_file: env/wordpress.env
     build:
       context: ./wordpress
       dockerfile: Dockerfile
@@ -43,7 +44,7 @@ services:
     container_name: mariadb
     networks:
       - inception
-    env_file: mariadb.env
+    env_file: env/mariadb.env
     build:
       context: ./mariadb
       dockerfile: Dockerfile
