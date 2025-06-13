@@ -1,2 +1,2 @@
-# apgolf.xyz
-Automated deployment of a golf coach website on the cloud.
+# [apgolf.xyz](apgolf.xyz)
+Automated deployment of a golf coach website coded with VueJS on the cloud.
