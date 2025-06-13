@@ -2,21 +2,21 @@
 - hosts: all
   become: true
   tasks:
-    - name: "[DEBUG] Stop Inception and remove volumes"
-      community.docker.docker_compose_v2:
-        project_src: ./srcs/
-        files: docker-compose.yml
-        state: absent
-        remove_images: all
-        remove_orphans: true
-        remove_volumes: true
-    - name: "[DEBUG] Remove old files"
-      ansible.builtin.file:
-        path: /home/ubuntu/{{ item }}
-        state: absent
-      loop:
-        - data
-        - srcs
+    # - name: "[DEBUG] Stop Inception and remove volumes"
+    #   community.docker.docker_compose_v2:
+    #     project_src: ./srcs/
+    #     files: docker-compose.yml
+    #     state: absent
+    #     remove_images: all
+    #     remove_orphans: true
+    #     remove_volumes: true
+    # - name: "[DEBUG] Remove old files"
+    #   ansible.builtin.file:
+    #     path: '/home/ubuntu/{{ item }}'
+    #     state: absent
+    #   loop:
+    #     - data
+    #     - srcs
     - name: Copy Inception source files
       ansible.builtin.copy:
         src: ../srcs/
@@ -31,7 +31,8 @@
       loop:
         - mariadb
         - wordpress
-    # - name: Launch Inception
-    #   community.docker.docker_compose_v2:
-    #     project_src: ./srcs/
-    #     files: docker-compose.yml
+    - name: Launch Inception
+      community.docker.docker_compose_v2:
+        project_src: ./srcs/
+        files: docker-compose.yml
+        build: always
