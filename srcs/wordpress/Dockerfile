@@ -10,4 +10,5 @@ RUN wget https://github.com/wp-cli/wp-cli-bundle/releases/download/v2.12.0/wp-cl
 COPY conf/www.conf /etc/php83/php-fpm.d/www.conf
 COPY tools/script.sh /usr/local/bin/script_php.sh
 RUN chmod +x /usr/local/bin/script_php.sh
+
 CMD ["sh", "/usr/local/bin/script_php.sh"]

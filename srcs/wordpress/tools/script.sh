@@ -22,7 +22,7 @@ wp core install     --allow-root \
 #                     example@example.com \
 #                     --user_pass=$SQL_USERPASSWD \
 #                     --path=/var/www/html
-
+chown -R nobody:nobody /var/www/html/
 fi
 
 if [ ! -d "/run/php" ]; then
