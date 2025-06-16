@@ -1,0 +1,14 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: Copy VueJS app source files
+      ansible.builtin.copy:
+        src: ../server/VueJS/
+        dest: /home/ubuntu/server/VueJS/
+    - name: Launch App
+      community.docker.docker_compose_v2:
+        project_src: ./server/
+        files: docker-compose.yml
+        build: always
+        remove_orphans: true

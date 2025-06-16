@@ -6,12 +6,12 @@
       ansible.builtin.copy:
         src: ../server/
         dest: /home/ubuntu/server/
-    - name: Rename init conf
+    - name: Rename nginx init conf
       ansible.builtin.copy:
         remote_src: true
         src: ./server/nginx/proxy-init.conf
         dest: ./server/nginx/proxy.conf
-    - name: Launch Nginx Server for init
+    - name: Launch Server for init
       community.docker.docker_compose_v2:
         project_src: ./server/
         files: docker-compose.yml
@@ -32,12 +32,12 @@
           - -d
           - apgolf.xyz
         cleanup: true
-    - name: Rename final conf
+    - name: Rename nginx final conf
       ansible.builtin.copy:
         remote_src: true
         src: ./server/nginx/proxy-final.conf
         dest: ./server/nginx/proxy.conf
-    - name: Restart app
+    - name: Restart app with new nginx conf
       community.docker.docker_compose_v2:
         project_src: ./server/
         files: docker-compose.yml
