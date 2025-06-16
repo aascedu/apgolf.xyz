@@ -2,14 +2,16 @@ import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
 import { createRouter, createWebHistory } from 'vue-router'
-import Charlotte from './views/Charlotte.vue'
 import Home from './views/Home.vue'
-import TerreurNocturne from './views/TerreurNocturne.vue'
+import Contact from './views/Contact.vue'
+import Stages from './views/Stages.vue'
+import Propos from './views/Propos.vue'
 
 const routes = [
   { path: '/', component: Home },
-  { path: '/charlotte', component: Charlotte },
-  { path: '/terreur', component: TerreurNocturne },
+  { path: '/stages', component: Stages },
+  { path: '/contact', component: Contact },
+  { path: '/propos', component: Propos },
 ]
 
 const router = createRouter({
