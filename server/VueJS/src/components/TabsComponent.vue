@@ -47,6 +47,7 @@ watch(route, (newRoute) => {
   background-color: #FFFBE6 !important;
 }
 .text-basil {
-  color: #356859 !important;
+  color: #000000 !important;
+  font-weight: bold !important;
 }
 </style>
