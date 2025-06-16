@@ -1,11 +1,18 @@
 import { createApp } from 'vue'
-import './style.css'
 import App from './App.vue'
 import { createRouter, createWebHistory } from 'vue-router'
+
 import Home from './views/Home.vue'
 import Contact from './views/Contact.vue'
 import Stages from './views/Stages.vue'
 import Propos from './views/Propos.vue'
+
+import 'vuetify/styles'
+import { createVuetify } from 'vuetify'
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
+
+import './style.css'
 
 const routes = [
   { path: '/', component: Home },
@@ -16,7 +23,15 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
 })
 
-createApp(App).use(router).mount('#app')
+const vuetify = createVuetify({
+  components,
+  directives,
+})
+
+createApp(App)
+  .use(router)
+  .use(vuetify)
+  .mount('#app')

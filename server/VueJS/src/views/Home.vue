@@ -1,22 +1,28 @@
+<script>
+import TabsComponent from '@/components/TabsComponent.vue';
+
+export default {
+  components: {
+    TabsComponent
+  }
+};
+</script>
+  
 <template>
-  <div class="banner"></div>
+  <!-- <div class="banner"></div>
 
   <nav class="nav1">
     <ul id="menu">
-      <li>
-        <RouterLink to="/stages">Stages</RouterLink>
-      </li>
-      <li>
-        <RouterLink to="/a-propos">A propos</RouterLink>
-      </li>
-      <li>
-        <RouterLink to="/contact">Contact</RouterLink>
-      </li>
+      <li><RouterLink to="/stages">Stages</RouterLink></li>
+      <li><RouterLink to="/propos">A propos</RouterLink></li>
+      <li><RouterLink to="/contact">Contact</RouterLink></li>
     </ul>
-  </nav>
+  </nav> -->
+  <h1>Home page</h1>
+  <!-- <TabsComponent /> -->
 </template>
 
-<style scoped>
+<!-- <style>
 .banner {
   width: 100%;
   height: 400px;
@@ -25,7 +31,7 @@
   background-position: top;
 }
 
-.nav1 {
+/* .nav1 {
   display: flex;
   justify-content: center;
   padding: 1rem 0;
@@ -58,5 +64,5 @@
 
 #menu li:hover a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-</style>
+} */
+</style> -->
