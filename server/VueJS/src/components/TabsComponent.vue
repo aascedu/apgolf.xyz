@@ -20,7 +20,7 @@ const router = useRouter()
 const route = useRoute()
 
 const items = [
-  { name: 'Home', path: '/' },
+  { name: 'AP GOLF', path: '/' },
   { name: 'Stages', path: '/stages' },
   { name: 'A Propos', path: '/propos' },
   { name: 'Contact', path: '/contact' },
@@ -44,7 +44,7 @@ watch(route, (newRoute) => {
 <style>
 /* Helper classes */
 .bg-basil {
-  background-color: #FFFBE6 !important;
+  background-color: #64914c !important;
 }
 .text-basil {
   color: #000000 !important;
