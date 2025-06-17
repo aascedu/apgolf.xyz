@@ -1,5 +1,8 @@
 <template>
-  <Menubar :model="items" />
+  <Menubar
+    :model="items"
+    class="w-full bg-gray-100 text-gray-800 rounded-md shadow-sm flex justify-center"
+  />
 </template>
 
 <script setup>
