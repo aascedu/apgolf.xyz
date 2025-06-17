@@ -32,6 +32,6 @@ const app = createApp(App)
 
 app.use(router)
 app.use(PrimeVue, {
-    unstyled: true
+    theme: 'none'
 })
 app.mount('#app')
