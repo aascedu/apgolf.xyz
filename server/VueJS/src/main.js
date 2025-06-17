@@ -8,7 +8,6 @@ import Stages from './views/Stages.vue'
 import Propos from './views/Propos.vue'
 
 import PrimeVue from 'primevue/config'
-import Button from 'primevue/button'
 
 import 'primevue/resources/themes/saga-blue/theme.css'   // PrimeVue theme
 import 'primevue/resources/primevue.min.css'             // PrimeVue core css
@@ -32,5 +31,7 @@ const router = createRouter({
 const app = createApp(App)
 
 app.use(router)
-app.use(PrimeVue)
+app.use(PrimeVue, {
+    unstyled: true
+})
 app.mount('#app')
