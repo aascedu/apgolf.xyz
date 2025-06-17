@@ -24,7 +24,8 @@ services:
       - frontend
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost"]
-      interval: 30s
+      start_period: 5s
+      interval: 5s
       timeout: 5s
       retries: 3
     restart: always

@@ -1,10 +1,8 @@
 <template>
-  <main>
-    <TabsComponent />
-    <RouterView />
-  </main>
+  <Menu />
+  <router-view />
 </template>
 
 <script setup>
-import TabsComponent from '@/components/TabsComponent.vue'
+import Menu from '@/components/Menu.vue'
 </script>
