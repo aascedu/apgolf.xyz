@@ -1,13 +1,13 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import { createRouter, createWebHistory } from 'vue-router'
-import './css/main.css'
 
 import Home from './views/Home.vue'
 import Contact from './views/Contact.vue'
 import Stages from './views/Stages.vue'
 import Propos from './views/Propos.vue'
 
+import './css/main.css'
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'

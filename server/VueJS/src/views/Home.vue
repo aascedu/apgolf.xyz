@@ -29,26 +29,7 @@
       </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="bg-gray-50 py-20 px-6">
-      <div class="max-w-6xl mx-auto">
-        <h2 class="text-2xl sm:text-3xl font-semibold text-center mb-12">Our Services</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
-            <h3 class="text-xl font-bold mb-2">Private Coaching</h3>
-            <p class="text-gray-600">One-on-one training with experienced golf coaches.</p>
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
-            <h3 class="text-xl font-bold mb-2">Golf Clinics</h3>
-            <p class="text-gray-600">Group sessions focused on technique and performance.</p>
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
-            <h3 class="text-xl font-bold mb-2">Corporate Events</h3>
-            <p class="text-gray-600">Custom golf events for businesses and teams.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <Carousel :items="services" />
 
     <!-- Footer -->
     <footer class="text-center text-sm text-gray-500 py-10">
@@ -59,12 +40,31 @@
 
 <script>
 import homeBanner from '@/assets/home_banner.jpeg'
+import Carousel from '@/components/Carousel.vue'
 
 export default {
   name: "HomePage",
+  components: { Carousel },
   data() {
     return {
-      homeBanner
+      homeBanner,
+      services: [
+        {
+          src: "https://cdn.vuetifyjs.com/images/cards/docks.jpg",
+          title: "Private Coaching",
+          description: "One-on-one training with experienced golf coaches."
+        },
+        {
+          src: "https://cdn.vuetifyjs.com/images/cards/hotel.jpg",
+          title: "Golf Clinics",
+          description: "Group sessions focused on technique and performance."
+        },
+        {
+          src: "https://cdn.vuetifyjs.com/images/cards/sunshine.jpg",
+          title: "Corporate Events",
+          description: "Custom golf events for businesses and teams."
+        }
+      ]
     }
   }
 }
