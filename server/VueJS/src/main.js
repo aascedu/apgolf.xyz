@@ -31,7 +31,7 @@ const router = createRouter({
 const app = createApp(App)
 
 app.use(router)
-app.use(PrimeVue, {
-    theme: 'none'
-})
+// app.use(PrimeVue, {
+//     theme: 'none'
+// })
 app.mount('#app')

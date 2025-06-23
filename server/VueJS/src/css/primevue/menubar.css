@@ -49,7 +49,7 @@
 }
 
 .p-menubar-item.p-focus > .p-menubar-item-content {
-    @apply bg-surface-100 dark:bg-surface-800 text-surface-800 dark:text-surface-0
+    @apply bg-transparent text-white; /* Transparent background and white text */
 }
 
 .p-menubar-item.p-focus > .p-menubar-item-content .p-menubar-item-icon {
@@ -61,7 +61,7 @@
 }
 
 .p-menubar-item:not(.p-disabled) > .p-menubar-item-content:hover {
-    @apply bg-surface-100 dark:bg-surface-800 text-surface-800 dark:text-surface-0
+    @apply bg-transparent text-white; /* Transparent background and white text */
 }
 
 .p-menubar-item:not(.p-disabled) > .p-menubar-item-content:hover .p-menubar-item-icon {
@@ -73,7 +73,7 @@
 }
 
 .p-menubar-item-active > .p-menubar-item-content {
-    @apply bg-surface-100 dark:bg-surface-800 text-surface-800 dark:text-surface-0
+    @apply bg-transparent text-white; /* Transparent background and white text */
 }
 
 .p-menubar-item-active > .p-menubar-item-content .p-menubar-item-icon {
@@ -91,6 +91,7 @@
         text-surface-700 dark:text-surface-0
         flex-col p-1 gap-[2px] rounded-md
         shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),0_2px_4px_-2px_rgba(0,0,0,0.1)]
+        bg-transparent text-white; /* Transparent submenu background and white text */
 }
 
 .p-menubar-submenu .p-menubar-separator {
