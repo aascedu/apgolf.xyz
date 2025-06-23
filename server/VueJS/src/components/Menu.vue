@@ -1,0 +1,90 @@
+<template>
+  <div class="relative">
+    <!-- Banner Section -->
+    <div>
+      <img
+        src="/src/assets/home_banner.jpeg"
+        alt="Banner"
+        class="w-full block"
+      />
+      <!-- Optional Overlay -->
+      <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav class="bg-transparent text-black absolute top-0 left-0 w-full">
+      <!-- Hamburger Menu Button for Mobile -->
+      <button
+        class="md:hidden block text-white focus:outline-none p-4"
+        @click="toggleMenu"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4 6h16M4 12h16m-7 6h7"
+          />
+        </svg>
+      </button>
+
+      <!-- Menu Items -->
+      <ul
+        :class="[
+          'flex flex-col md:flex-row justify-center gap-8 py-4',
+          isMenuOpen ? 'block' : 'hidden md:flex',
+        ]"
+        class="text-white"
+      >
+        <li v-for="item in menuItems" :key="item.label">
+          <a
+            :href="item.href"
+            class="uppercase text-lg font-matangi relative group"
+          >
+            {{ item.label }}
+            <span
+              class="absolute left-[-5%] bottom-[-4px] w-[110%] h-[3px] bg-green-700 transform scale-x-0 origin-center transition-transform duration-300 group-hover:scale-x-100"
+            ></span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</template>
+
+<script setup>
+import { reactive, ref } from 'vue'
+
+// Define the menu items dynamically
+const menuItems = reactive([
+  { label: 'Home', href: '/' },
+  { label: 'Stages', href: '/stages' },
+  { label: 'A propos', href: '/propos' },
+  { label: 'Contact', href: '/contact' },
+])
+
+// State to track if the menu is open on mobile
+const isMenuOpen = ref(false)
+
+// Toggle the menu visibility
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value
+}
+</script>
+
+<style>
+/* Import Matangi font */
+@import url('https://fonts.googleapis.com/css2?family=Matangi:wght@500;700&display=swap');
+
+/* Add a custom TailwindCSS class for the Matangi font */
+.font-matangi {
+  font-family: 'Matangi', sans-serif;
+  font-weight: 500;
+}
+</style>
