@@ -1,11 +1,11 @@
 <template>
   <div class="relative">
     <!-- Banner Section -->
-    <div class="w-full">
+    <div>
       <img
         src="/src/assets/home_banner.jpeg"
         alt="Banner"
-        class="w-full h-auto"
+        class="w-full block"
       />
       <!-- Optional Overlay -->
       <div class="absolute inset-0 bg-black bg-opacity-30"></div>
