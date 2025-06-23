@@ -67,33 +67,29 @@ const items = reactive([
 ::v-deep(.modern-hover) {
   position: relative;
   overflow: hidden;
-  transition: transform 0.3s ease, color 0.3s ease; /* Removed background-color transition */
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 ::v-deep(.modern-hover:hover) {
+  background-color: #b2dfdb; /* Subtle teal hover background */
   color: #004d40; /* Darker green text on hover */
   transform: scale(1.05); /* Slight scaling effect */
 }
 
-::v-deep(.modern-hover span) {
-  position: relative;
-  display: inline-block; /* Ensure underline is only under the text */
-}
-
-::v-deep(.modern-hover span::after) {
+::v-deep(.modern-hover::after) {
   content: '';
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 2px;
+  height: 3px;
   background-color: #004d40; /* Dark green underline */
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease;
 }
 
-::v-deep(.modern-hover:hover span::after) {
+::v-deep(.modern-hover:hover::after) {
   transform: scaleX(1); /* Animate underline on hover */
 }
 </style>
