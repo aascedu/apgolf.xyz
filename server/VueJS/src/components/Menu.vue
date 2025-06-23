@@ -7,6 +7,12 @@
         alt="Banner"
         class="w-full block"
       />
+      <!-- Large Bold Text -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <h1 class="font-matangi uppercase text-white text-2xl md:text-6xl font-bold drop-shadow-2xl brightness-125">
+          Une experience inoubliable
+        </h1>
+      </div>
       <!-- Optional Overlay -->
       <div class="absolute inset-0 bg-black bg-opacity-30"></div>
     </div>
@@ -86,5 +92,6 @@ const toggleMenu = () => {
 .font-matangi {
   font-family: 'Matangi', sans-serif;
   font-weight: 500;
+  filter: brightness(150%);
 }
 </style>
