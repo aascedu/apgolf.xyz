@@ -4,7 +4,7 @@
       <li v-for="item in menuItems" :key="item.label">
         <a
           :href="item.href"
-          class="uppercase font-bold text-lg relative group"
+          class="uppercase font-bold text-lg font-matangi relative group"
         >
           {{ item.label }}
           <span
@@ -29,5 +29,12 @@ const menuItems = reactive([
 </script>
 
 <style scoped>
-/* No additional styles needed, everything is handled by TailwindCSS */
+/* Import Matangi font */
+@import url('https://fonts.googleapis.com/css2?family=Matangi:wght@500;700&display=swap');
+
+/* Add a custom TailwindCSS class for the Matangi font */
+.font-matangi {
+  font-family: 'Matangi', sans-serif;
+  font-weight: 500;
+}
 </style>
