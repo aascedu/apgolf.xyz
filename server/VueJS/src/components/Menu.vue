@@ -2,14 +2,19 @@
   <div class="relative">
     <!-- Navigation Menu -->
     <!-- Mobile Menu -->
-    <nav class="bg-white text-black fixed top-0 left-0 w-full py-4 px-6 shadow-md z-50 md:hidden">
-      <div class="flex items-center justify-between">
+    <nav
+      :class="[
+        'bg-white text-black fixed top-0 left-0 w-full py-4 px-6 z-50 md:hidden',
+        isMenuOpen ? 'border-b-4 border-green-700' : ''
+      ]"
+    >
+      <div class="flex items-center justify-center">
         <!-- Logo Text -->
         <span class="text-lg font-bold font-matangi text-green-700">AP GOLF</span>
 
         <!-- Hamburger Menu Button -->
         <button
-          class="block text-green-700 focus:outline-none"
+          class="text-green-700 focus:outline-none absolute right-6"
           @click="toggleMenu"
         >
           <svg
@@ -29,26 +34,27 @@
         </button>
       </div>
 
-      <!-- Mobile Menu Items -->
-      <ul
+      <!-- Mobile Menu Items Wrapper -->
+      <div
         :class="[
-          'flex flex-col gap-4 mt-4',
-          isMenuOpen ? 'block' : 'hidden',
+          'overflow-hidden transition-all duration-300 ease-in-out',
+          isMenuOpen ? 'max-h-screen opacity-100 mt-8' : 'max-h-0 opacity-0 mt-0'
         ]"
-        class="text-black"
       >
-        <li v-for="item in menuItems" :key="item.label">
-          <a
-            :href="item.href"
-            class="uppercase text-lg font-matangi relative group"
-          >
-            {{ item.label }}
-            <span
-              class="absolute left-[-5%] bottom-[-4px] w-[110%] h-[3px] bg-green-500 transform scale-x-0 origin-center transition-transform duration-300 group-hover:scale-x-100"
-            ></span>
-          </a>
-        </li>
-      </ul>
+        <ul class="flex flex-col gap-4 items-center text-black">
+          <li v-for="item in menuItems" :key="item.label">
+            <a
+              :href="item.href"
+              class="uppercase text-lg font-matangi relative group"
+            >
+              {{ item.label }}
+              <span
+                class="absolute left-[-5%] bottom-[-4px] w-[110%] h-[3px] bg-green-500 transform scale-x-0 origin-center transition-transform duration-300 group-hover:scale-x-100"
+              ></span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Desktop Menu -->
