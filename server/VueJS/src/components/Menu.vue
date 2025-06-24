@@ -10,7 +10,9 @@
     >
       <div class="flex items-center">
         <!-- Logo Text -->
-        <span class="text-lg font-bold font-matangi text-green-700">AP GOLF</span>
+        <a href="/" class="text-lg font-bold font-matangi text-green-700">
+          AP GOLF
+        </a>
 
         <!-- Hamburger Menu Button -->
         <button
@@ -41,7 +43,7 @@
           isMenuOpen ? 'max-h-screen opacity-100 mt-8' : 'max-h-0 opacity-0 mt-0'
         ]"
       >
-        <ul class="flex flex-col gap-4 items-end text-black">
+        <ul class="flex flex-col gap-4 items-end text-black pb-4">
           <li v-for="item in menuItems" :key="item.label">
             <a
               :href="item.href"
@@ -75,19 +77,7 @@
     </nav>
 
     <!-- Banner Section -->
-    <div class="mt-[64px] md:mt-0">
-      <img
-        src="/src/assets/home_banner.jpeg"
-        alt="Banner"
-        class="w-full block brightness-90"
-      />
-      <!-- Large Bold Text -->
-      <div class="absolute inset-0 flex items-center justify-center">
-        <h1 class="font-matangi uppercase text-white text-2xl md:text-6xl font-bold drop-shadow-custom">
-          Une experience inoubliable
-        </h1>
-      </div>
-    </div>
+    
   </div>
 </template>
 
