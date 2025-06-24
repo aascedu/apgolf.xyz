@@ -8,13 +8,13 @@
         isMenuOpen ? 'border-b-4 border-green-700' : ''
       ]"
     >
-      <div class="flex items-center justify-center">
+      <div class="flex items-center">
         <!-- Logo Text -->
         <span class="text-lg font-bold font-matangi text-green-700">AP GOLF</span>
 
         <!-- Hamburger Menu Button -->
         <button
-          class="text-green-700 focus:outline-none absolute right-6"
+          class="text-green-700 focus:outline-none absolute right-5"
           @click="toggleMenu"
         >
           <svg
@@ -41,7 +41,7 @@
           isMenuOpen ? 'max-h-screen opacity-100 mt-8' : 'max-h-0 opacity-0 mt-0'
         ]"
       >
-        <ul class="flex flex-col gap-4 items-center text-black">
+        <ul class="flex flex-col gap-4 items-end text-black">
           <li v-for="item in menuItems" :key="item.label">
             <a
               :href="item.href"
