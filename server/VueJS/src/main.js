@@ -7,13 +7,6 @@ import Contact from './views/Contact.vue'
 import Stages from './views/Stages.vue'
 import Propos from './views/Propos.vue'
 
-import PrimeVue from 'primevue/config'
-
-import 'primevue/resources/themes/saga-blue/theme.css'   // PrimeVue theme
-import 'primevue/resources/primevue.min.css'             // PrimeVue core css
-import 'primeicons/primeicons.css'                        // PrimeIcons
-import 'primeflex/primeflex.css'                          // PrimeFlex utilities (optional)
-
 import './css/main.css'
 
 const routes = [
@@ -31,7 +24,4 @@ const router = createRouter({
 const app = createApp(App)
 
 app.use(router)
-// app.use(PrimeVue, {
-//     theme: 'none'
-// })
 app.mount('#app')

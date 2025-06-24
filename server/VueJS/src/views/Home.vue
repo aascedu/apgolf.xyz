@@ -8,7 +8,7 @@
     />
 
     <!-- Desktop -->
-    <div class="absolute inset-0 flex flex-col items-center justify-center">
+    <div class="absolute top-0 left-0 right-0 flex flex-col items-center justify-center z-10 h-[50%] md:h-full">
       <!-- Big Text -->
       <h1
         class="hidden md:block font-matangi uppercase text-white text-2xl md:text-6xl font-bold drop-shadow-custom"
@@ -17,16 +17,17 @@
       </h1>
 
       <!-- Button for Desktop -->
-      <a
-        href="/stages"
-        class="hidden md:block mt-4 px-6 py-3 bg-green-700 text-white text-lg font-bold uppercase rounded-md hover:bg-green-800 transition"
+      <button
+        class="hidden md:block shadow__btn mt-16"
+        role="button"
+        onclick="window.location.href='/stages'"
       >
-        Book a session
-      </a>
+        Réserver une session
+      </button>
     </div>
 
     <!-- Mobile -->
-    <div class="absolute inset-0 flex flex-col items-center top-16 md:hidden">
+    <div class="absolute top-0 left-0 right-0 h-[50%] flex flex-col items-center justify-center md:hidden z-10">
       <!-- Big Text -->
       <h1
         class="font-matangi uppercase text-white text-2xl md:text-6xl font-bold drop-shadow-custom"
@@ -36,16 +37,17 @@
     </div>
 
     <!-- Box with Description and Button for Mobile -->
-    <div class="flex flex-col items-center mt-4 md:hidden bg-gray-100 p-4 rounded-md shadow-md">
+    <div class="flex flex-col items-center mt-4 md:hidden bg-gray-100 p-4 rounded-md shadow-md z-20">
       <p class="text-black text-lg text-center">
         Découvrez nos stages de golf pour tous les niveaux et améliorez votre jeu.
       </p>
-      <a
-        href="/stages"
-        class="mt-4 px-6 py-3 bg-green-700 text-white text-lg font-bold uppercase rounded-md hover:bg-green-800 transition"
+      <button
+        class="shadow__btn mt-4"
+        role="button"
+        onclick="window.location.href='/stages'"
       >
-        Book a session
-      </a>
+        Réserver une session
+      </button>
     </div>
   </div>
 </template>
@@ -63,5 +65,30 @@
 /* Add a custom text shadow */
 .drop-shadow-custom {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: rgb(0,140,255);
+  box-shadow: 0 0 25px rgb(0,140,255);
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px rgb(0,140,255),
+              0 0 25px rgb(0,140,255),
+              0 0 50px rgb(0,140,255),
+              0 0 100px rgb(0,140,255);
 }
 </style>
