@@ -5,16 +5,14 @@
       <img
         src="/src/assets/home_banner.jpeg"
         alt="Banner"
-        class="w-full block"
+        class="w-full block brightness-90"
       />
       <!-- Large Bold Text -->
       <div class="absolute inset-0 flex items-center justify-center">
-        <h1 class="font-matangi uppercase text-white text-2xl md:text-6xl font-bold drop-shadow-2xl brightness-125">
+        <h1 class="font-matangi uppercase text-white text-2xl md:text-6xl font-bold drop-shadow-custom">
           Une experience inoubliable
         </h1>
       </div>
-      <!-- Optional Overlay -->
-      <div class="absolute inset-0 bg-black bg-opacity-30"></div>
     </div>
 
     <!-- Navigation Menu -->
@@ -51,11 +49,11 @@
         <li v-for="item in menuItems" :key="item.label">
           <a
             :href="item.href"
-            class="uppercase text-lg font-matangi relative group"
+            class="uppercase text-lg font-matangi relative group drop-shadow-custom"
           >
             {{ item.label }}
             <span
-              class="absolute left-[-5%] bottom-[-4px] w-[110%] h-[3px] bg-green-700 transform scale-x-0 origin-center transition-transform duration-300 group-hover:scale-x-100"
+              class="absolute left-[-5%] bottom-[-4px] w-[110%] h-[3px] bg-green-500 transform scale-x-0 origin-center transition-transform duration-300 group-hover:scale-x-100"
             ></span>
           </a>
         </li>
@@ -92,6 +90,10 @@ const toggleMenu = () => {
 .font-matangi {
   font-family: 'Matangi', sans-serif;
   font-weight: 500;
-  filter: brightness(150%);
+}
+
+/* Add a custom text shadow */
+.drop-shadow-custom {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 </style>
