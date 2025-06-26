@@ -76,4 +76,8 @@ export default {
 </script>
 
 <style scoped>
+p {
+  font-family: 'Matangi', sans-serif; /* Use a clean, readable font */
+  word-spacing: 0.05em; /* Add slight spacing between words */
+}
 </style>
