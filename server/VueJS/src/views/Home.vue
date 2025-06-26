@@ -1,6 +1,6 @@
 <template>
   <Banner />
-  <!-- <StagesHome /> -->
+  <StagesHome />
 </template>
 
 <script>
