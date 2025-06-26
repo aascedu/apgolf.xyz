@@ -23,7 +23,7 @@
       <!-- Horizontal Line After Text -->
       <div class="flex-1 h-[2px] bg-green-700"></div>
     </div>
-    <p class="mt-6 text-lg text-gray-700 leading-relaxed text-center max-w-[32rem]">
+    <p class="mt-6 text-base text-gray-700 leading-relaxed text-center max-w-[20rem] mx-auto">
       Stages de golf à Chamonix, encadrés par un coach expert de la haute performance. Que vous soyez débutant, amateur passionné ou joueur en quête d’excellence, ces stages s’adaptent à votre niveau : découverte, immersion nature ou perfectionnement intensif. Chaque session allie progression technique, travail mental et plaisir du jeu dans un cadre exceptionnel, au pied du Mont-Blanc.
     </p>
   </div>
