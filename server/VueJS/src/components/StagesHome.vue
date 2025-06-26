@@ -2,23 +2,23 @@
   <!-- Desktop -->
   <div class="hidden md:flex w-full justify-center px-[5vw] mt-[4vw] mb-[4vw]">
     <!-- Picture on the Left -->
-    <div class="flex-shrink-0 w-[30vw] h-[20vw]">
+    <div class="flex-shrink-0">
       <img
         src="/src/assets/home_banner.jpeg"
         alt="Golf Banner"
-        class="w-[30vw] h-[20vw] object-cover rounded-md"
+        class="w-[40vw] h-[30vw] object-cover rounded-md"
       />
     </div>
     <!-- Text and Button on the Right -->
     <div class="ml-[4vw] text-center">
-      <div class="flex items-center justify-center">
+      <div class="flex items-center justify-center mt-[2vw]">
         <div class="w-[10vw] mr-[1vw] h-[3px] bg-[#ffc107]"></div>
         <h2 class="text-[2.0vw] max-text-[48px] font-bold uppercase mx-4 text-green-700 whitespace-nowrap">
           Nos stages
         </h2>
         <div class="w-[10vw] ml-[1vw] h-[3px] bg-[#ffc107]"></div>
       </div>
-      <p class="text-[1.2vw] max-text-[20px] text-gray-700 leading-relaxed max-w-[40vw] mx-auto">
+      <p class="text-[1.2vw] max-text-[20px] text-gray-700 leading-relaxed max-w-[40vw] mt-[3vw] mb-[3vw] mx-auto">
         Stages de golf à Chamonix, encadrés par un coach expert de la haute performance. Que vous soyez débutant, amateur passionné ou joueur en quête d’excellence, ces stages s’adaptent à votre niveau : découverte, immersion nature ou perfectionnement intensif. Chaque session allie progression technique, travail mental et plaisir du jeu dans un cadre exceptionnel, au pied du Mont-Blanc.
       </p>
       <div class="flex justify-center">
