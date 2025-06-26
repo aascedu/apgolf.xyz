@@ -14,7 +14,7 @@
         class="hidden md:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10"
       >
         <h1
-          class="font-matangi uppercase text-white text-nowrap text-4xl font-bold drop-shadow-custom"
+          class="font-matangi md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl uppercase text-white text-nowrap font-bold drop-shadow-custom"
         >
           Une experience inoubliable
         </h1>
