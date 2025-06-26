@@ -1,6 +1,6 @@
 <template>
   <!-- Desktop -->
-  <div class="hidden md:flex w-full justify-center px-[5vw] mt-[4vw] mb-[4vw]">
+  <div class="hidden md:flex w-full justify-center px-[5vw] mt-[4vw]">
     <!-- Picture on the Left -->
     <div class="flex-shrink-0">
       <img
@@ -50,7 +50,7 @@
       <img
         src="/src/assets/home_banner.jpeg"
         alt="Golf Banner"
-        class="w-[400px] h-[300px] object-cover rounded-md mb-8"
+        class="w-[80vw] h-[70vw] object-cover rounded-md mb-8"
       />
     </div>
     <!-- Button -->
