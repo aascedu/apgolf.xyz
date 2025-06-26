@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full px-8 mt-[2vw] mb-[2vw]">
+  <div class="hidden md:block w-full px-8 mt-[4vw] mb-[2vw]">
     <!-- Title with Horizontal Line -->
-    <div class="flex items-center">
+    <div class="flex items-center mb-[2vw]">
       <div class="flex-1 max-w-[17vw] h-[3px] bg-[#ffc107] ml-[2vw] mr-[2vw]"></div>
       <!-- Title -->
       <h2 class="text-[2vw] font-bold uppercase text-green-700 whitespace-nowrap">
@@ -10,12 +10,55 @@
       <!-- Horizontal Line -->
       <div class="flex-1 h-[3px] bg-[#ffc107] ml-[2vw] mr-[2vw]"></div>
     </div>
+
+    <!-- Coach Presentation Section -->
+    <div class="flex items-center">
+      <!-- Text Section -->
+      <div class="w-1/2 text-center text-left">
+        <p class="mt-[2vw] ml-[4vw] text-[1.4vw] text-gray-700 leading-[1.8] tracking-wide">
+          Professionnel diplômé depuis plus de 30 ans, Pierre Ascedu enseigne au Golf de Chamonix avec passion et exigence.
+          Ancien entraîneur de l’équipe militaire française de ski, il possède une expertise unique du coaching en milieu de haute performance.
+          Sa pédagogie repose sur une approche personnalisée, technique et mentale, adaptée à tous les niveaux de jeu. Que vous soyez débutant ou joueur confirmé,
+          il vous accompagne dans votre progression avec précision, bienveillance et efficacité.
+          Grâce à des outils modernes (Trackman, AimPoint, TPI) et une grande expérience de terrain,
+          Pierre vous aide à atteindre vos objectifs, que ce soit pour le loisir ou la compétition.
+        </p>
+        <!-- Button -->
+        <div class="mt-[2vw]">
+          <button
+            class="px-[2vw] py-[1vw] text-[1vw] bg-green-700 text-white font-bold uppercase rounded-md border-2 border-[#ffc107] hover:bg-green-800 transition"
+            @click="navigateToCoach"
+          >
+            En savoir plus
+          </button>
+        </div>
+      </div>
+      <!-- Picture Section -->
+      <div class="w-1/2 flex justify-center">
+        <img
+          src="/src/assets/home_banner.jpeg"
+          alt="Coach Pierre ASCEDU"
+          class="w-[40vw] h-[30vw] object-cover rounded-md shadow-md"
+        />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    navigateToCoach() {
+      window.location.href = '/propos';
+    },
+  },
+};
 </script>
 
 <style scoped>
+/* Improved readability for the text */
+p {
+  font-family: 'Matangi', sans-serif; /* Use a clean, readable font */
+  word-spacing: 0.05em; /* Add slight spacing between words */
+}
 </style>
