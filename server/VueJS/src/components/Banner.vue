@@ -31,7 +31,7 @@
         </h1>
       </div>
       <!-- Golfer Overlay Mobile -->
-      <div class="md:hidden absolute invert brithness-0 bottom-0 left-1/2 transform -translate-x-1/2 z-20">
+      <div class="md:hidden absolute invert brithness-0 bottom-[-40%] left-0 z-20">
         <img
           src="/src/assets/golfer.png"
           alt="Golfer"
