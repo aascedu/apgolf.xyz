@@ -1,15 +1,15 @@
 <template>
   <Banner />
-  <Avis />
+  <!-- <StagesHome /> -->
 </template>
 
 <script>
-import Avis from '@/components/Avis.vue'
+import StagesHome from '@/components/StagesHome.vue'
 import Banner from '@/components/Banner.vue';
 
 export default {
   components: {
-    Avis,
+    StagesHome,
     Banner,
   },
 };

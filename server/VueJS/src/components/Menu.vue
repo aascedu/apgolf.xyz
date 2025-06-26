@@ -83,7 +83,7 @@ import { reactive, ref } from 'vue'
 
 // Define the menu items dynamically
 const menuItems = reactive([
-  { label: 'Home', href: '/' },
+  { label: 'Acceuil', href: '/' },
   { label: 'Stages', href: '/stages' },
   { label: 'A propos', href: '/propos' },
   { label: 'Contact', href: '/contact' },
