@@ -20,6 +20,13 @@
         </h1>
       </div>
 
+      <div class="hidden md:block absolute invert brithness-0 sm:bottom-[-1px] md:bottom-[-102px] lg:bottom-[-170px] xl:bottom-[-205px] 2xl:bottom-[-240px] left-0 z-20">
+        <img
+          src="/src/assets/golfer.png"
+          alt="Golfer"
+          class="w-[30%] lg:w-[50%] xl:w-[60%] 2xl:w-[70%]"
+        />
+      </div>
       <!-- Mobile Centered Text -->
       <div
         class="md:hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10"
