@@ -14,39 +14,41 @@
         class="hidden md:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10"
       >
         <h1
-          class="font-matangi md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl uppercase text-white text-nowrap font-bold drop-shadow-custom"
+          class="font-matangi text-[3vw] uppercase text-white text-nowrap font-bold drop-shadow-custom"
         >
           Une experience inoubliable
         </h1>
       </div>
 
-      <div class="hidden md:block absolute invert brithness-0 sm:bottom-[-1px] md:bottom-[-102px] lg:bottom-[-170px] xl:bottom-[-205px] 2xl:bottom-[-240px] left-0 z-20">
+      <!-- Golfer Overlay for Desktop -->
+      <div class="hidden md:block absolute invert brightness-0 bottom-[-14vw] left-0 z-20">
         <img
           src="/src/assets/golfer.png"
           alt="Golfer"
-          class="w-[30%] lg:w-[50%] xl:w-[60%] 2xl:w-[70%]"
+          class="w-[25vw]"
         />
       </div>
+
       <!-- Mobile Centered Text -->
       <div
         class="md:hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10"
       >
         <h1
-          class="font-matangi uppercase text-white text-nowrap text-xl md:text-6xl font-bold drop-shadow-custom"
+          class="font-matangi text-[6vw] uppercase text-white text-nowrap font-bold drop-shadow-custom"
         >
           Une experience inoubliable
         </h1>
       </div>
-      <!-- Golfer Overlay Mobile -->
-      <div class="md:hidden absolute invert brithness-0 bottom-[-47%] left-0 z-20">
+
+      <!-- Golfer Overlay for Mobile -->
+      <div class="md:hidden absolute invert brightness-0 bottom-[-17vw] left-0 z-20">
         <img
           src="/src/assets/golfer.png"
           alt="Golfer"
-          class="w-[30%]"
+          class="w-[30vw]"
         />
       </div>
     </div>
-
   </div>
 </template>
 
