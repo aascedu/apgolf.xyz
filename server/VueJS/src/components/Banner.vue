@@ -9,24 +9,15 @@
         class="w-full block brightness-90"
       />
 
-      <!-- Centered Text -->
+      <!-- Mobile Centered Text -->
       <div
         class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10"
       >
         <h1
-          class="font-matangi uppercase text-white text-nowrap text-xl md:text-6xl font-bold drop-shadow-custom"
+          class="md:hidden font-matangi uppercase text-white text-nowrap text-xl md:text-6xl font-bold drop-shadow-custom"
         >
           Une experience inoubliable
         </h1>
-
-        <!-- Button for Desktop -->
-        <button
-          class="hidden md:block shadow__btn mt-16 mx-auto"
-          role="button"
-          onclick="window.location.href='/stages'"
-        >
-          Réserver une session
-        </button>
       </div>
     </div>
 
