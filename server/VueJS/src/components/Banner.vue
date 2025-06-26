@@ -31,7 +31,7 @@
     </div>
 
     <!-- Box with Description and Button for Mobile -->
-    <div class="flex flex-col items-center mt-4 md:hidden bg-gray-100 p-4 rounded-md shadow-md z-20">
+    <div class="flex flex-col items-center mt-4 md:hidden">
       <p class="text-black text-lg text-center mb-4">
         Donnez un nouvel élan à vos performances, prenez rendez-vous pour une séance personnalisée.
       </p>
