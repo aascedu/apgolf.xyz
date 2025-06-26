@@ -1,5 +1,19 @@
 <template>
-  <div class="min-h-screen flex items-center justify-center">
-    <h1 class="text-4xl font-bold text-green-700">Welcome to AP Golf Coaching</h1>
-  </div>
+  <Banner />
+  <!-- <StagesHome /> -->
 </template>
+
+<script>
+import StagesHome from '@/components/StagesHome.vue'
+import Banner from '@/components/Banner.vue';
+
+export default {
+  components: {
+    StagesHome,
+    Banner,
+  },
+};
+</script>
+
+<style>
+</style>
