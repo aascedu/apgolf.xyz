@@ -1,7 +1,7 @@
 <template>
   <div class="relative mt-[64px] md:mt-0">
     <!-- Image Wrapper -->
-    <div class="relative">
+    <div class="relative overflow-hidden">
       <!-- Banner Image -->
       <img
         src="/src/assets/home_banner.jpeg"
@@ -9,31 +9,37 @@
         class="w-full block brightness-90"
       />
 
-      <!-- Mobile Centered Text -->
+      <!-- Desktop Centered Text -->
       <div
-        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10"
+        class="hidden md:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10"
       >
         <h1
-          class="md:hidden font-matangi uppercase text-white text-nowrap text-xl md:text-6xl font-bold drop-shadow-custom"
+          class="font-matangi uppercase text-white text-nowrap text-3xl md:text-6xl font-bold drop-shadow-custom"
         >
           Une experience inoubliable
         </h1>
       </div>
+
+      <!-- Mobile Centered Text -->
+      <div
+        class="md:hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10"
+      >
+        <h1
+          class="font-matangi uppercase text-white text-nowrap text-xl md:text-6xl font-bold drop-shadow-custom"
+        >
+          Une experience inoubliable
+        </h1>
+      </div>
+      <!-- Golfer Overlay Mobile -->
+      <div class="md:hidden absolute invert brithness-0 bottom-0 left-1/2 transform -translate-x-1/2 z-20">
+        <img
+          src="/src/assets/golfer.png"
+          alt="Golfer"
+          class="w-[30%]"
+        />
+      </div>
     </div>
 
-    <!-- Box with Description and Button for Mobile -->
-    <div class="flex flex-col items-center mt-4 md:hidden">
-      <p class="text-black text-lg text-center mb-4">
-        Donnez un nouvel élan à vos performances, prenez rendez-vous pour une séance personnalisée.
-      </p>
-      <button
-        class="shadow__btn mt-2 mb-2"
-        role="button"
-        @click="animateAndNavigate('/stages')"
-      >
-        Réserver une session
-      </button>
-    </div>
   </div>
 </template>
 
