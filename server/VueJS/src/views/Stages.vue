@@ -8,6 +8,7 @@
         <div class="w-[10vw] ml-[1vw] h-[3px] bg-[#ffc107]"></div>
       </div>
     </div>
+    <div class="mb-[4vw] text-center">Decouvrez l'ensemble de nos stages</div>
     <CarouselStage />
 </template>
 
