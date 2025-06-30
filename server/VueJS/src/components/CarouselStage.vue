@@ -13,7 +13,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold">Texte pour Slide 1</span>
+              <span class="text-white text-xl font-bold font-matangi">Texte pour Slide 1</span>
             </div>
           </a>
         </div>
@@ -27,7 +27,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold">Texte pour Slide 2</span>
+              <span class="text-white text-xl font-bold font-matangi">Texte pour Slide 2</span>
             </div>
           </a>
         </div>
@@ -41,7 +41,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold">Texte pour Slide 3</span>
+              <span class="text-white text-xl font-bold font-matangi">Texte pour Slide 3</span>
             </div>
           </a>
         </div>
@@ -55,7 +55,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold">Texte pour Slide 4</span>
+              <span class="text-white text-xl font-bold font-matangi">Texte pour Slide 4</span>
             </div>
           </a>
         </div>
@@ -69,7 +69,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold">Texte pour Slide 5</span>
+              <span class="text-white text-xl font-bold font-matangi">Texte pour Slide 5</span>
             </div>
           </a>
         </div>
@@ -83,7 +83,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold">Texte pour Slide 6</span>
+              <span class="text-white text-xl font-bold font-matangi">Texte pour Slide 6</span>
             </div>
           </a>
         </div>
@@ -131,6 +131,12 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Matangi&display=swap');
+
+.font-matangi {
+  font-family: 'Matangi', sans-serif;
+}
+
 .swiper-wrapper {
   width: 100%;
   height: max-content !important;
@@ -149,8 +155,8 @@ export default {
 .swiper-button-next {
   color: #ffc107;
   position: absolute;
-  top: 50%; /* Center vertically */
-  transform: translateY(-50%); /* Adjust for perfect centering */
+  top: 47%; /* Center vertically */
+  transform: translateY(-47%); /* Adjust for perfect centering */
   z-index: 10;
 }
 .swiper-button-prev {
