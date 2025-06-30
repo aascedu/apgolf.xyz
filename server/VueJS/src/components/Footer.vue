@@ -1,6 +1,7 @@
 <template>
-  <footer class="footer">
-    <!-- Add your footer content here -->
+    <footer class="footer">
+        <div class="flex-1 h-[3px] bg-[#ffc107]"></div>
+        HEYYYY
   </footer>
 </template>
 
