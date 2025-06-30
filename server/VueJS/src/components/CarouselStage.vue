@@ -1,42 +1,63 @@
 <template>
-  <div class="w-full relative">
+  <div class="hidden md:block w-full relative">
     <div class="swiper centered-slide-carousel swiper-container relative">
       <!-- Slides -->
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <div class="bg-indigo-50 rounded-2xl h-[32vw] flex justify-center items-center">
-            <span class="text-3xl font-semibold text-[#ffc107]">Slide 1</span>
+          <div class="h-[32vw] flex justify-center items-center">
+            <img
+              src="/src/assets/home_banner.jpeg"
+              alt="Slide 1"
+              class="w-full h-full object-cover rounded-2xl"
+            />
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="bg-indigo-50 rounded-2xl h-[32vw] flex justify-center items-center">
-            <span class="text-3xl font-semibold text-[#ffc107]">Slide 2</span>
+          <div class="h-[32vw] flex justify-center items-center">
+            <img
+              src="/src/assets/home_banner.jpeg"
+              alt="Slide 2"
+              class="w-full h-full object-cover rounded-2xl"
+            />
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="bg-indigo-50 rounded-2xl h-[32vw] flex justify-center items-center">
-            <span class="text-3xl font-semibold text-[#ffc107]">Slide 3</span>
+          <div class="h-[32vw] flex justify-center items-center">
+            <img
+              src="/src/assets/home_banner.jpeg"
+              alt="Slide 3"
+              class="w-full h-full object-cover rounded-2xl"
+            />
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="bg-indigo-50 rounded-2xl h-[32vw] flex justify-center items-center">
-            <span class="text-3xl font-semibold text-[#ffc107]">Slide 1</span>
+          <div class="h-[32vw] flex justify-center items-center">
+            <img
+              src="/src/assets/home_banner.jpeg"
+              alt="Slide 4"
+              class="w-full h-full object-cover rounded-2xl"
+            />
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="bg-indigo-50 rounded-2xl h-[32vw] flex justify-center items-center">
-            <span class="text-3xl font-semibold text-[#ffc107]">Slide 2</span>
+          <div class="h-[32vw] flex justify-center items-center">
+            <img
+              src="/src/assets/home_banner.jpeg"
+              alt="Slide 5"
+              class="w-full h-full object-cover rounded-2xl"
+            />
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="bg-indigo-50 rounded-2xl h-[32vw] flex justify-center items-center">
-            <span class="text-3xl font-semibold text-[#ffc107]">Slide 3</span>
+          <div class="h-[32vw] flex justify-center items-center">
+            <img
+              src="/src/assets/home_banner.jpeg"
+              alt="Slide 6"
+              class="w-full h-full object-cover rounded-2xl"
+            />
           </div>
         </div>
       </div>
-
-      <!-- Pagination -->
-      <!-- <div class="swiper-pagination"></div> -->
 
       <!-- Navigation Buttons -->
       <div class="swiper-button-prev"></div>
@@ -71,8 +92,7 @@ export default {
         },
         breakpoints: {
           1920: { slidesPerView: 2, spaceBetween: 60 },
-          1028: { slidesPerView: 2, spaceBetween: 10 },
-          770: { slidesPerView: 1, spaceBetween: 0 },
+          770: { slidesPerView: 2, spaceBetween: 10 },
         },
       });
     });
@@ -98,5 +118,15 @@ export default {
 .swiper-button-prev,
 .swiper-button-next {
   color: #ffc107;
+  position: absolute;
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust for perfect centering */
+  z-index: 10;
+}
+.swiper-button-prev {
+  left: 10px; /* Adjust spacing from the left */
+}
+.swiper-button-next {
+  right: 10px; /* Adjust spacing from the right */
 }
 </style>
