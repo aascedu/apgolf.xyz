@@ -1,4 +1,5 @@
 <template>
+  <!-- Desktop -->
   <div class="hidden md:block w-full relative">
     <div class="swiper centered-slide-carousel swiper-container relative">
       <!-- Slides -->
@@ -13,7 +14,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold font-matangi">Texte pour Slide 1</span>
+              <span class="text-white text-xl font-bold font-matangi uppercase">Stage Intensif</span>
             </div>
           </a>
         </div>
@@ -27,7 +28,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold font-matangi">Texte pour Slide 2</span>
+              <span class="text-white text-xl font-bold font-matangi uppercase">Stage decouverte</span>
             </div>
           </a>
         </div>
@@ -41,7 +42,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold font-matangi">Texte pour Slide 3</span>
+              <span class="text-white text-xl font-bold font-matangi uppercase">Stage entreprise</span>
             </div>
           </a>
         </div>
@@ -55,7 +56,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold font-matangi">Texte pour Slide 4</span>
+              <span class="text-white text-xl font-bold font-matangi uppercase">Stage intensif</span>
             </div>
           </a>
         </div>
@@ -69,7 +70,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold font-matangi">Texte pour Slide 5</span>
+              <span class="text-white text-xl font-bold font-matangi uppercase">Stage decouverte</span>
             </div>
           </a>
         </div>
@@ -83,15 +84,72 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold font-matangi">Texte pour Slide 6</span>
+              <span class="text-white text-xl font-bold font-matangi uppercase">Stage entreprise</span>
             </div>
           </a>
         </div>
       </div>
-
       <!-- Navigation Buttons -->
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
+    </div>
+  </div>
+
+  <!-- Mobile -->
+  <div class="md:hidden w-full relative bg-white">
+    <div class="swiper mobile-slide-carousel swiper-container relative">
+      <!-- Slides -->
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="/stage1" class="h-[50vw] flex justify-center items-center relative group px-4">
+            <img
+              src="/src/assets/home_banner.jpeg"
+              alt="Slide 1"
+              class="w-full h-full object-cover rounded-lg transition-all duration-300 brightness-[0.8] group-hover:brightness-[0.5]"
+            />
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-100 transition-opacity duration-300"
+            >
+              <span class="text-white text-sm font-bold font-matangi uppercase drop-shadow-md">
+                Stage Intensif
+              </span>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="/stage1" class="h-[50vw] flex justify-center items-center relative group px-4">
+            <img
+              src="/src/assets/home_banner.jpeg"
+              alt="Slide 2"
+              class="w-full h-full object-cover rounded-lg transition-all duration-300 brightness-[0.8] group-hover:brightness-[0.5]"
+            />
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-100 transition-opacity duration-300"
+            >
+              <span class="text-white text-sm font-bold font-matangi uppercase drop-shadow-md">
+                Stage Découverte
+              </span>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="/stage1" class="h-[50vw] flex justify-center items-center relative group px-4">
+            <img
+              src="/src/assets/home_banner.jpeg"
+              alt="Slide 3"
+              class="w-full h-full object-cover rounded-lg transition-all duration-300 brightness-[0.8] group-hover:brightness-[0.5]"
+            />
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-100 transition-opacity duration-300"
+            >
+              <span class="text-white text-sm font-bold font-matangi uppercase drop-shadow-md">
+                Stage Entreprise
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
     </div>
   </div>
 </template>
@@ -106,12 +164,13 @@ export default {
   name: "CarouselStage",
   setup() {
     onMounted(() => {
+      // Desktop Swiper
       new Swiper(".centered-slide-carousel", {
         modules: [Navigation, Pagination],
         centeredSlides: true,
         loop: true,
-        spaceBetween: 30,
-        slidesPerView: 1,
+        slidesPerView: 2,
+        slidesPerGroup: 1,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
@@ -123,6 +182,23 @@ export default {
         breakpoints: {
           1920: { slidesPerView: 2, spaceBetween: 60 },
           770: { slidesPerView: 2, spaceBetween: 10 },
+        },
+      });
+
+      // Mobile Swiper
+      new Swiper(".mobile-slide-carousel", {
+        modules: [Navigation, Pagination],
+        loop: true,
+        spaceBetween: 0,
+        slidesPerView: 1,
+        slidePerGroup: 1,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
       });
     });
