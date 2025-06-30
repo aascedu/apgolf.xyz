@@ -64,7 +64,9 @@
         class="w-[40vw] invert brightness-100" style="margin-left: 10vw;"
       />
       <!-- Text -->
-      <span class="text-white text-2xl text-center font-bold">AP GOLF</span>
+      <div class="flex flex-col justify-center items-center mt-6">
+        <span class="text-white text-3xl font-bold tracking-wide">AP GOLF</span>
+      </div>
     </div>
   </footer>
 </template>
