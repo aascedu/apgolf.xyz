@@ -4,58 +4,88 @@
       <!-- Slides -->
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <div class="h-[32vw] flex justify-center items-center">
+          <a href="/stage1" class="h-[32vw] flex justify-center items-center relative group">
             <img
               src="/src/assets/home_banner.jpeg"
               alt="Slide 1"
-              class="w-full h-full object-cover rounded-2xl"
+              class="w-full h-full object-cover rounded-2xl transition-all duration-300 group-hover:brightness-50"
             />
-          </div>
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            >
+              <span class="text-white text-xl font-bold">Texte pour Slide 1</span>
+            </div>
+          </a>
         </div>
         <div class="swiper-slide">
-          <div class="h-[32vw] flex justify-center items-center">
+          <a href="/stage1" class="h-[32vw] flex justify-center items-center relative group">
             <img
               src="/src/assets/home_banner.jpeg"
               alt="Slide 2"
-              class="w-full h-full object-cover rounded-2xl"
+              class="w-full h-full object-cover rounded-2xl transition-all duration-300 group-hover:brightness-50"
             />
-          </div>
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            >
+              <span class="text-white text-xl font-bold">Texte pour Slide 2</span>
+            </div>
+          </a>
         </div>
         <div class="swiper-slide">
-          <div class="h-[32vw] flex justify-center items-center">
+          <a href="/stage1" class="h-[32vw] flex justify-center items-center relative group">
             <img
               src="/src/assets/home_banner.jpeg"
               alt="Slide 3"
-              class="w-full h-full object-cover rounded-2xl"
+              class="w-full h-full object-cover rounded-2xl transition-all duration-300 group-hover:brightness-50"
             />
-          </div>
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            >
+              <span class="text-white text-xl font-bold">Texte pour Slide 3</span>
+            </div>
+          </a>
         </div>
         <div class="swiper-slide">
-          <div class="h-[32vw] flex justify-center items-center">
+          <a href="/stage1" class="h-[32vw] flex justify-center items-center relative group">
             <img
               src="/src/assets/home_banner.jpeg"
               alt="Slide 4"
-              class="w-full h-full object-cover rounded-2xl"
+              class="w-full h-full object-cover rounded-2xl transition-all duration-300 group-hover:brightness-50"
             />
-          </div>
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            >
+              <span class="text-white text-xl font-bold">Texte pour Slide 4</span>
+            </div>
+          </a>
         </div>
         <div class="swiper-slide">
-          <div class="h-[32vw] flex justify-center items-center">
+          <a href="/stage1" class="h-[32vw] flex justify-center items-center relative group">
             <img
               src="/src/assets/home_banner.jpeg"
               alt="Slide 5"
-              class="w-full h-full object-cover rounded-2xl"
+              class="w-full h-full object-cover rounded-2xl transition-all duration-300 group-hover:brightness-50"
             />
-          </div>
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            >
+              <span class="text-white text-xl font-bold">Texte pour Slide 5</span>
+            </div>
+          </a>
         </div>
         <div class="swiper-slide">
-          <div class="h-[32vw] flex justify-center items-center">
+          <a href="/stage1" class="h-[32vw] flex justify-center items-center relative group">
             <img
               src="/src/assets/home_banner.jpeg"
               alt="Slide 6"
-              class="w-full h-full object-cover rounded-2xl"
+              class="w-full h-full object-cover rounded-2xl transition-all duration-300 group-hover:brightness-50"
             />
-          </div>
+            <div
+              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            >
+              <span class="text-white text-xl font-bold">Texte pour Slide 6</span>
+            </div>
+          </a>
         </div>
       </div>
 
