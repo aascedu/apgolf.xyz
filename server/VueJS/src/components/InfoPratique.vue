@@ -14,12 +14,12 @@
         </div>
         <!-- Text -->
         <p class="text-[1.2vw] max-text-[20px] text-gray-700 leading-relaxed max-w-[40vw] mt-[3vw] mb-[3vw] mx-auto">
-          Contactez-nous ! <br />
-          Vous êtes intéressé par nos 
+          Contactez moi ! <br />
+          Vous êtes intéressé par mes 
           <a href="/stages" class="text-green-700 font-bold hover:underline">stages</a> ? <br />
-          <span class="block mt-[2vw]">Envoyez-nous un mail ou appelez-nous au :</span>
+          <span class="block mt-[2vw]">Envoyez moi un mail ou appelez moi au :</span>
           <br />Tél : +33 (0) 6 21 62 05 86<br />
-          Mail : <a href="mailto:pierreascedu@gmail.com" class="text-green-700 font-bold hover:underline">pierreascedu@gmail.com</a>
+          Mail : <a href="mailto:pierre.ascedu@zoho.com" class="text-green-700 font-bold hover:underline">pierre.ascedu@zoho.com</a>
         </p>
       </div>
     </div>
@@ -37,12 +37,12 @@
 
       <!-- Text Section -->
       <p class="mt-6 text-[4vw] text-gray-700 leading-relaxed text-center max-w-[90%] mx-auto">
-        Contactez-nous ! <br />
-        Vous êtes intéressé par nos 
+        Contactez moi ! <br />
+        Vous êtes intéressé par mes 
         <a href="/stages" class="text-green-700 font-bold hover:underline">stages</a> ? <br />
-        <span class="block mt-[8vw]">Envoyez-nous un mail ou appelez-nous au :</span> <br />
+        <span class="block mt-[8vw]">Envoyez moi un mail ou appelez moi au :</span> <br />
         Tél : +33 (0) 6 21 62 05 86 <br />
-        Mail : <a href="mailto:pierreascedu@gmail.com" class="text-green-700 font-bold hover:underline">pierreascedu@gmail.com</a>
+        Mail : <a href="mailto:pierre.ascedu@zoho.com" class="text-green-700 font-bold hover:underline">pierre.ascedu@zoho.com</a>
       </p>
     </div>
   </div>

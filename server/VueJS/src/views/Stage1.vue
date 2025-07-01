@@ -14,12 +14,16 @@
     </h1>
     Work in progress
     </div>
+    <DescriptionStage />
 </template>
 
 <script>
 
+import DescriptionStage from '@/components/DescriptionStage.vue';
+
 export default {
     components: {
+        DescriptionStage,
     },
 };
 </script>
