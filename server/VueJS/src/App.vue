@@ -1,6 +1,5 @@
 <template>
   <Menu />
-  <Banner />
   <router-view />
   <Footer />
 </template>

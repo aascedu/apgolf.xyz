@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="md:pt-0 pt-16">
+    <BannerStage image="/assets/home_banner.jpeg" />
     <DescriptionStage
       title="Stage de Golf Haute Performance"
       description="Ce stage intensif est conçu pour les golfeurs souhaitant améliorer leur jeu à un niveau supérieur. Encadré par Pierre ASCEDU, coach professionnel avec plus de 30 ans d'expérience, ce programme allie technique, stratégie et préparation mentale pour optimiser vos performances sur le parcours."
@@ -25,10 +26,12 @@
 
 <script>
 import DescriptionStage from "@/components/DescriptionStage.vue";
+import BannerStage from "@/components/BannerStage.vue";
 
 export default {
   components: {
     DescriptionStage,
+    BannerStage,
   },
 };
 </script>

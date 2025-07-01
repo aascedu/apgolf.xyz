@@ -1,4 +1,9 @@
 <template>
+    <Banner
+        image="/assets/home_banner.jpeg"
+        text="Préparez votre jeu, vivez l’expérience"
+    
+    />
     <!-- Desktop Div -->
     <div class="hidden md:block">
         <div class="flex w-full mt-[2vw] justify-center">
@@ -36,42 +41,42 @@
     <CarouselStage
       :slides="[
         {
-          image: '/src/assets/home_banner.jpeg',
+          image: '/assets/home_banner.jpeg',
           title: 'Stage Haute Performance',
           link: '/stage-haute-performance',
         },
         {
-          image: '/src/assets/home_banner.jpeg',
+          image: '/assets/home_banner.jpeg',
           title: 'Stage Découverte',
           link: '/stage-decouverte',
         },
         {
-          image: '/src/assets/home_banner.jpeg',
+          image: '/assets/home_banner.jpeg',
           title: 'Stage Entreprise',
           link: '/stage-entreprise',
         },
         {
-          image: '/src/assets/home_banner.jpeg',
+          image: '/assets/home_banner.jpeg',
           title: 'Stage Intensif',
           link: '/stage-intensif',
         },
         {
-          image: '/src/assets/home_banner.jpeg',
+          image: '/assets/home_banner.jpeg',
           title: 'Stage Haute Performance',
           link: '/stage-haute-performance',
         },
         {
-          image: '/src/assets/home_banner.jpeg',
+          image: '/assets/home_banner.jpeg',
           title: 'Stage Découverte',
           link: '/stage-decouverte',
         },
         {
-          image: '/src/assets/home_banner.jpeg',
+          image: '/assets/home_banner.jpeg',
           title: 'Stage Entreprise',
           link: '/stage-entreprise',
         },
         {
-          image: '/src/assets/home_banner.jpeg',
+          image: '/assets/home_banner.jpeg',
           title: 'Stage Intensif',
           link: '/stage-intensif',
         },
@@ -84,11 +89,13 @@
 <script>
 import CarouselStage from "@/components/CarouselStage.vue";
 import StageCustom from "@/components/StageCustom.vue";
+import Banner from "@/components/Banner.vue";
 
 export default {
   components: {
     CarouselStage,
     StageCustom,
+    Banner,
   },
 };
 </script>

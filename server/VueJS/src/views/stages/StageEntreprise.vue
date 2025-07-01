@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="md:pt-0 pt-16">
+    <BannerStage image="/assets/home_banner.jpeg"/>
     <DescriptionStage
       title="Stage de Golf Entreprise"
       description="Ce stage de golf pour entreprises est conçu pour renforcer la cohésion d'équipe et offrir une expérience unique à vos collaborateurs. Encadré par Pierre ASCEDU, coach professionnel, ce programme allie initiation au golf, activités ludiques et moments de partage dans un cadre exceptionnel."
@@ -22,10 +23,12 @@
 
 <script>
 import DescriptionStage from "@/components/DescriptionStage.vue";
+import BannerStage from "@/components/BannerStage.vue";
 
 export default {
   components: {
     DescriptionStage,
+    BannerStage,
   },
 };
 </script>
