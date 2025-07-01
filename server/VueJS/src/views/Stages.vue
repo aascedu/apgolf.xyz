@@ -1,4 +1,9 @@
 <template>
+    <Banner
+        image="/src/assets/home_banner.jpeg"
+        text="Préparez votre jeu, vivez l’expérience"
+    
+    />
     <!-- Desktop Div -->
     <div class="hidden md:block">
         <div class="flex w-full mt-[2vw] justify-center">
@@ -84,11 +89,13 @@
 <script>
 import CarouselStage from "@/components/CarouselStage.vue";
 import StageCustom from "@/components/StageCustom.vue";
+import Banner from "@/components/Banner.vue";
 
 export default {
   components: {
     CarouselStage,
     StageCustom,
+    Banner,
   },
 };
 </script>

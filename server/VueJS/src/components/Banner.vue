@@ -4,7 +4,7 @@
     <div class="relative overflow-hidden">
       <!-- Banner Image -->
       <img
-        src="/src/assets/home_banner.jpeg"
+        :src="image"
         alt="Banner"
         class="w-full block brightness-75"
       />
@@ -16,7 +16,7 @@
         <h1
           class="text-[3vw] uppercase text-white text-nowrap font-bold drop-shadow-custom"
         >
-          Une experience inoubliable
+          {{ text }}
         </h1>
       </div>
 
@@ -34,9 +34,9 @@
         class="md:hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10"
       >
         <h1
-          class="text-[6vw] uppercase text-white text-nowrap font-bold drop-shadow-custom"
+          class="text-[4vw] uppercase text-white text-nowrap font-bold drop-shadow-custom"
         >
-          Une experience inoubliable
+          {{ text }}
         </h1>
       </div>
 
@@ -54,13 +54,15 @@
 
 <script>
 export default {
-  methods: {
-    animateAndNavigate(url) {
-      const button = event.target;
-      button.classList.add('active');
-      setTimeout(() => {
-        window.location.href = url;
-      }, 300);
+  name: "Banner",
+  props: {
+    image: {
+      type: String,
+      required: true,
+    },
+    text: {
+      type: String,
+      required: true,
     },
   },
 };
