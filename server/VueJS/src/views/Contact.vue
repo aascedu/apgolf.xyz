@@ -1,5 +1,14 @@
 <template>
-    <h1>
-        Contact
-    </h1>
+    <InfoPratique />
 </template>
+
+<script>
+
+import InfoPratique from '@/components/InfoPratique.vue';
+
+export default {
+    components: {
+        InfoPratique
+    },
+};
+</script>

@@ -10,7 +10,7 @@
     >
       <div class="flex items-center">
         <!-- Logo Text -->
-        <a href="/" class="text-lg font-bold font-matangi text-green-700">
+        <a href="/" class="text-lg font-bold  text-green-700">
           AP GOLF
         </a>
 
@@ -47,7 +47,7 @@
           <li v-for="item in menuItems" :key="item.label">
             <a
               :href="item.href"
-              class="uppercase text-lg font-matangi relative group"
+              class="uppercase text-lg  relative group"
             >
               {{ item.label }}
               <span
@@ -65,7 +65,7 @@
         <li v-for="item in menuItems" :key="item.label">
           <a
             :href="item.href"
-            class="uppercase text-lg font-matangi relative group drop-shadow-custom"
+            class="uppercase text-lg  relative group drop-shadow-custom"
           >
             {{ item.label }}
             <span
@@ -99,16 +99,6 @@ const toggleMenu = () => {
 </script>
 
 <style>
-/* Import Matangi font */
-@import url('https://fonts.googleapis.com/css2?family=Matangi:wght@500;700&display=swap');
-
-/* Add a custom TailwindCSS class for the Matangi font */
-.font-matangi {
-  font-family: 'Matangi', sans-serif;
-  font-weight: 500;
-}
-
-/* Add a custom text shadow */
 .drop-shadow-custom {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }

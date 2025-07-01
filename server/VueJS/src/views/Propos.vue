@@ -1,5 +1,14 @@
 <template>
-    <h1>
-        Pierre ASCEDU description blabla
-    </h1>
+    <Presentation />
 </template>
+
+<script>
+
+import Presentation from '@/components/Presentation.vue';
+
+export default {
+    components: {
+        Presentation,
+    },
+};
+</script>
