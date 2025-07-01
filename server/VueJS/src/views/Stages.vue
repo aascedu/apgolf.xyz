@@ -32,7 +32,52 @@
         Stages de golf à Chamonix, encadrés par un coach expert de la haute performance. Que vous soyez débutant, amateur passionné ou joueur en quête d’excellence, ces stages s’adaptent à votre niveau : découverte, immersion nature ou perfectionnement intensif. Chaque session allie progression technique, travail mental et plaisir du jeu dans un cadre exceptionnel, au pied du Mont-Blanc.
         </p>
     </div>
-    <CarouselStage />
+    <div>
+    <CarouselStage
+      :slides="[
+        {
+          image: '/src/assets/home_banner.jpeg',
+          title: 'Stage Haute Performance',
+          link: '/stage-haute-performance',
+        },
+        {
+          image: '/src/assets/home_banner.jpeg',
+          title: 'Stage Découverte',
+          link: '/stage-decouverte',
+        },
+        {
+          image: '/src/assets/home_banner.jpeg',
+          title: 'Stage Entreprise',
+          link: '/stage-entreprise',
+        },
+        {
+          image: '/src/assets/home_banner.jpeg',
+          title: 'Stage Intensif',
+          link: '/stage-intensif',
+        },
+        {
+          image: '/src/assets/home_banner.jpeg',
+          title: 'Stage Haute Performance',
+          link: '/stage-haute-performance',
+        },
+        {
+          image: '/src/assets/home_banner.jpeg',
+          title: 'Stage Découverte',
+          link: '/stage-decouverte',
+        },
+        {
+          image: '/src/assets/home_banner.jpeg',
+          title: 'Stage Entreprise',
+          link: '/stage-entreprise',
+        },
+        {
+          image: '/src/assets/home_banner.jpeg',
+          title: 'Stage Intensif',
+          link: '/stage-intensif',
+        },
+      ]"
+    />
+  </div>
     <StageCustom />
 </template>
 

@@ -4,87 +4,26 @@
     <div class="swiper centered-slide-carousel swiper-container relative">
       <!-- Slides -->
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <a href="/stage1" class="h-[32vw] flex justify-center items-center relative group">
+        <div
+          v-for="(slide, index) in slides"
+          :key="index"
+          class="swiper-slide"
+        >
+          <a
+            :href="slide.link"
+            class="h-[32vw] flex justify-center items-center relative group"
+          >
             <img
-              src="/src/assets/home_banner.jpeg"
-              alt="Slide 1"
+              :src="slide.image"
+              :alt="slide.title"
               class="w-full h-full object-cover rounded-2xl transition-all duration-300 group-hover:brightness-50"
             />
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold  uppercase">Stage Intensif</span>
-            </div>
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a href="/stage1" class="h-[32vw] flex justify-center items-center relative group">
-            <img
-              src="/src/assets/home_banner.jpeg"
-              alt="Slide 2"
-              class="w-full h-full object-cover rounded-2xl transition-all duration-300 group-hover:brightness-50"
-            />
-            <div
-              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-              <span class="text-white text-xl font-bold  uppercase">Stage decouverte</span>
-            </div>
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a href="/stage1" class="h-[32vw] flex justify-center items-center relative group">
-            <img
-              src="/src/assets/home_banner.jpeg"
-              alt="Slide 3"
-              class="w-full h-full object-cover rounded-2xl transition-all duration-300 group-hover:brightness-50"
-            />
-            <div
-              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-              <span class="text-white text-xl font-bold  uppercase">Stage entreprise</span>
-            </div>
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a href="/stage1" class="h-[32vw] flex justify-center items-center relative group">
-            <img
-              src="/src/assets/home_banner.jpeg"
-              alt="Slide 4"
-              class="w-full h-full object-cover rounded-2xl transition-all duration-300 group-hover:brightness-50"
-            />
-            <div
-              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-              <span class="text-white text-xl font-bold  uppercase">Stage intensif</span>
-            </div>
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a href="/stage1" class="h-[32vw] flex justify-center items-center relative group">
-            <img
-              src="/src/assets/home_banner.jpeg"
-              alt="Slide 5"
-              class="w-full h-full object-cover rounded-2xl transition-all duration-300 group-hover:brightness-50"
-            />
-            <div
-              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-              <span class="text-white text-xl font-bold  uppercase">Stage decouverte</span>
-            </div>
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a href="/stage1" class="h-[32vw] flex justify-center items-center relative group">
-            <img
-              src="/src/assets/home_banner.jpeg"
-              alt="Slide 6"
-              class="w-full h-full object-cover rounded-2xl transition-all duration-300 group-hover:brightness-50"
-            />
-            <div
-              class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-              <span class="text-white text-xl font-bold  uppercase">Stage entreprise</span>
+              <span class="text-white text-xl font-bold uppercase">
+                {{ slide.title }}
+              </span>
             </div>
           </a>
         </div>
@@ -100,55 +39,31 @@
     <div class="swiper mobile-slide-carousel swiper-container relative">
       <!-- Slides -->
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <a href="/stage1" class="h-[50vw] flex justify-center items-center relative group px-4">
+        <div
+          v-for="(slide, index) in slides"
+          :key="index"
+          class="swiper-slide"
+        >
+          <a
+            :href="slide.link"
+            class="h-[50vw] flex justify-center items-center relative group px-4"
+          >
             <img
-              src="/src/assets/home_banner.jpeg"
-              alt="Slide 1"
+              :src="slide.image"
+              :alt="slide.title"
               class="w-full h-full object-cover rounded-lg transition-all duration-300 brightness-[0.8] group-hover:brightness-[0.5]"
             />
             <div
               class="absolute inset-0 flex items-center justify-center opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-sm font-bold  uppercase drop-shadow-md">
-                Stage Intensif
-              </span>
-            </div>
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a href="/stage1" class="h-[50vw] flex justify-center items-center relative group px-4">
-            <img
-              src="/src/assets/home_banner.jpeg"
-              alt="Slide 2"
-              class="w-full h-full object-cover rounded-lg transition-all duration-300 brightness-[0.8] group-hover:brightness-[0.5]"
-            />
-            <div
-              class="absolute inset-0 flex items-center justify-center opacity-100 transition-opacity duration-300"
-            >
-              <span class="text-white text-sm font-bold  uppercase drop-shadow-md">
-                Stage Découverte
-              </span>
-            </div>
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a href="/stage1" class="h-[50vw] flex justify-center items-center relative group px-4">
-            <img
-              src="/src/assets/home_banner.jpeg"
-              alt="Slide 3"
-              class="w-full h-full object-cover rounded-lg transition-all duration-300 brightness-[0.8] group-hover:brightness-[0.5]"
-            />
-            <div
-              class="absolute inset-0 flex items-center justify-center opacity-100 transition-opacity duration-300"
-            >
-              <span class="text-white text-sm font-bold  uppercase drop-shadow-md">
-                Stage Entreprise
+              <span class="text-white text-sm font-bold uppercase drop-shadow-md">
+                {{ slide.title }}
               </span>
             </div>
           </a>
         </div>
       </div>
+      <!-- Pagination -->
       <div class="swiper-pagination"></div>
     </div>
   </div>
@@ -162,6 +77,13 @@ import "swiper/swiper-bundle.css";
 
 export default {
   name: "CarouselStage",
+  props: {
+    slides: {
+      type: Array,
+      required: true,
+      default: () => [],
+    },
+  },
   setup() {
     onMounted(() => {
       // Desktop Swiper
@@ -195,10 +117,6 @@ export default {
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
         },
       });
     });
