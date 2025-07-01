@@ -7,7 +7,7 @@
       <a href="/propos" class="hover:underline">A propos</a>
       <a href="/contact" class="hover:underline">Contact</a>
     </div>
-    <div class="flex justify-center items-center mt-[4vw]">
+    <div class="flex justify-center items-center mt-[4vw] flex-wrap">
       <!-- Text on the Left -->
       <span class="text-white text-[1.5vw] font-bold mr-[2vw]">AP GOLF</span>
       
@@ -33,7 +33,7 @@
         </a>
       </div>
     </div>
-      </footer>
+  </footer>
   <footer class="md:hidden footer_mobile">
     <!-- Mobile Footer -->
     <div class="flex flex-col items-center text-white space-y-4">
@@ -83,7 +83,12 @@ export default {
   word-spacing: 0.05em;
   margin-top: 8vw;
   background-color: oklch(52.7% 0.154 150.069);
-  height: 25vw;
+  /* height: 20vh; Fixed height of 20% of the viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden; /* Prevent content overflow */
 }
 
 .footer_mobile {
