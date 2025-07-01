@@ -1,5 +1,5 @@
 <template>
-    <!-- Desktop Div -->
+        <!-- Desktop Div -->
     <div class="hidden md:block">
         <div class="flex w-full justify-center">
             <div class="flex items-center justify-center mt-[2vw] mb-[2vw]">
@@ -12,18 +12,18 @@
         </div>
         <div class="mb-[4vw] text-center px-[5vw]">
             <p class="text-[1.2vw] max-text-[20px] leading-relaxed text-gray-700 ">
-                Découvrez nos stages de golf adaptés à tous les niveaux, que vous soyez débutant ou joueur confirmé. Profitez d’un encadrement professionnel et d’un cadre exceptionnel pour perfectionner votre technique, améliorer votre jeu et vivre une expérience unique. Rejoignez-nous pour des moments d’apprentissage, de partage et de passion autour du golf.
+                Vous avez un besoin precis ou un projet spécifique en tête ? Notre équipe est là pour vous accompagner dans la création d’un stage de golf sur mesure, adapté à vos attentes et à votre niveau. Que ce soit pour un groupe, une entreprise ou un événement particulier, nous mettons tout en œuvre pour vous offrir une expérience unique et personnalisée. Contactez-nous pour discuter de votre projet et découvrir comment nous pouvons le réaliser ensemble.
             </p>
         </div>
     </div>
 
     <!-- Mobile Div -->
-    <div class="md:hidden w-full px-8 mt-8 mb-8">
+    <div class="md:hidden w-full px-8 mt-8">
         <div class="flex items-center justify-center">
         <!-- Horizontal Line Before Text -->
         <div class="flex-1 h-[2px] bg-[#ffc107]"></div>
-        <h2 class="text-2xl font-bold uppercase text-green-700 text-center mx-4 whitespace-nowrap">
-            Nos Stages
+        <h2 class="text-[4.5vw] font-bold uppercase text-green-700 text-center mx-4 whitespace-nowrap">
+            Stages personnalisés
         </h2>
         <!-- Horizontal Line After Text -->
         <div class="flex-1 h-[2px] bg-[#ffc107]"></div>
@@ -31,19 +31,32 @@
         <p class="mt-6 text-base text-gray-700 leading-relaxed text-center max-w-[20rem] mx-auto">
         Stages de golf à Chamonix, encadrés par un coach expert de la haute performance. Que vous soyez débutant, amateur passionné ou joueur en quête d’excellence, ces stages s’adaptent à votre niveau : découverte, immersion nature ou perfectionnement intensif. Chaque session allie progression technique, travail mental et plaisir du jeu dans un cadre exceptionnel, au pied du Mont-Blanc.
         </p>
+        <!-- Square Image -->
+        <div class="mt-6 flex justify-center">
+        <img
+            src="/src/assets/home_banner.jpeg"
+            alt="Golf Banner"
+            class="w-[80vw] h-[70vw] object-cover rounded-md mb-8"
+        />
+        </div>
+        <!-- Button -->
+        <div class="flex justify-center mb-8">
+        <button
+            class="px-6 py-2 bg-green-700 text-white  font-bold uppercase rounded-md border-2 border-[#ffc107] hover:bg-green-800 transition"
+            @click="navigateToStages"
+        >
+            Contactez-nous
+        </button>
+        </div>
     </div>
-    <CarouselStage />
-    <StageCustom />
 </template>
 
 <script>
-import CarouselStage from "@/components/CarouselStage.vue";
-import StageCustom from "@/components/StageCustom.vue";
-
 export default {
-  components: {
-    CarouselStage,
-    StageCustom,
+  methods: {
+    navigateToStages() {
+      window.location.href = '/contact';
+    },
   },
 };
 </script>
