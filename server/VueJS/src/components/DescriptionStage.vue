@@ -43,6 +43,13 @@
           <li><strong>Nombre de personnes:</strong> {{ additionalInfo.nombrePersonnes }}</li>
           <li><strong>Niveau:</strong> {{ additionalInfo.niveau }}</li>
         </ul>
+        <div class="flex mt-[2vw] justify-end">
+        <button
+          class="mt-[1vw] px-[2vw] py-[1vw] text-[1.2vw] bg-green-700 text-white font-bold uppercase rounded-md border-2 border-[#ffc107] hover:bg-green-800 transition"
+          @click="navigateToStages"
+        >Nous contacter / Reserver
+        </button>
+      </div>
       </div>
     </div>
   </div>
@@ -90,6 +97,14 @@
           <li><strong>Niveau:</strong> {{ additionalInfo.niveau }}</li>
         </ul>
       </div>
+    </div>
+    <div class="flex justify-center mt-8 mb-8">
+      <button
+        class="px-6 py-2 bg-green-700 text-white font-bold uppercase rounded-md border-2 border-[#ffc107] hover:bg-green-800 transition"
+        @click="navigateToContact"
+      >
+        Nous contacter / Reserver
+      </button>
     </div>
   </div>
 </template>
