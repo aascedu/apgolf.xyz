@@ -75,9 +75,28 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 p {
-  font-family: 'Matangi', sans-serif; /* Use a clean, readable font */
-  word-spacing: 0.05em; /* Add slight spacing between words */
-}
+    font-family: 'Matangi', sans-serif;
+  }
+
+h2 {
+    font-family: 'Matangi', sans-serif;
+    word-spacing: 0.05em; /* Add slight spacing between words */
+  }
+
+button {
+    font-family: 'Matangi', sans-serif;
+    word-spacing: 0.05em;
+  }
+
+div {
+    font-family: 'Matangi', sans-serif;
+    word-spacing: 0.05em;
+  }
+
+h1 {
+    font-family: 'Matangi', sans-serif;
+    word-spacing: 0.05em;
+  }
 </style>

@@ -14,7 +14,7 @@
         class="hidden md:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10"
       >
         <h1
-          class="font-matangi text-[3vw] uppercase text-white text-nowrap font-bold drop-shadow-custom"
+          class="text-[3vw] uppercase text-white text-nowrap font-bold drop-shadow-custom"
         >
           Une experience inoubliable
         </h1>
@@ -34,7 +34,7 @@
         class="md:hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10"
       >
         <h1
-          class="font-matangi text-[6vw] uppercase text-white text-nowrap font-bold drop-shadow-custom"
+          class="text-[6vw] uppercase text-white text-nowrap font-bold drop-shadow-custom"
         >
           Une experience inoubliable
         </h1>
@@ -67,14 +67,6 @@ export default {
 </script>
 
 <style scoped>
-/* Import Matangi font */
-@import url('https://fonts.googleapis.com/css2?family=Matangi:wght@500;700&display=swap');
-
-.font-matangi {
-  font-family: 'Matangi', sans-serif;
-  font-weight: 500;
-}
-
 .drop-shadow-custom {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }

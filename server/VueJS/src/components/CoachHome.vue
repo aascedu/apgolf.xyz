@@ -93,11 +93,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/* Improved readability for the text */
-p {
-  font-family: 'Matangi', sans-serif;
-  word-spacing: 0.05em;
-}
-</style>

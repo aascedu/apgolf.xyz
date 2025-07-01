@@ -14,7 +14,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold font-matangi uppercase">Stage Intensif</span>
+              <span class="text-white text-xl font-bold  uppercase">Stage Intensif</span>
             </div>
           </a>
         </div>
@@ -28,7 +28,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold font-matangi uppercase">Stage decouverte</span>
+              <span class="text-white text-xl font-bold  uppercase">Stage decouverte</span>
             </div>
           </a>
         </div>
@@ -42,7 +42,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold font-matangi uppercase">Stage entreprise</span>
+              <span class="text-white text-xl font-bold  uppercase">Stage entreprise</span>
             </div>
           </a>
         </div>
@@ -56,7 +56,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold font-matangi uppercase">Stage intensif</span>
+              <span class="text-white text-xl font-bold  uppercase">Stage intensif</span>
             </div>
           </a>
         </div>
@@ -70,7 +70,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold font-matangi uppercase">Stage decouverte</span>
+              <span class="text-white text-xl font-bold  uppercase">Stage decouverte</span>
             </div>
           </a>
         </div>
@@ -84,7 +84,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-xl font-bold font-matangi uppercase">Stage entreprise</span>
+              <span class="text-white text-xl font-bold  uppercase">Stage entreprise</span>
             </div>
           </a>
         </div>
@@ -110,7 +110,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-sm font-bold font-matangi uppercase drop-shadow-md">
+              <span class="text-white text-sm font-bold  uppercase drop-shadow-md">
                 Stage Intensif
               </span>
             </div>
@@ -126,7 +126,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-sm font-bold font-matangi uppercase drop-shadow-md">
+              <span class="text-white text-sm font-bold  uppercase drop-shadow-md">
                 Stage Découverte
               </span>
             </div>
@@ -142,7 +142,7 @@
             <div
               class="absolute inset-0 flex items-center justify-center opacity-100 transition-opacity duration-300"
             >
-              <span class="text-white text-sm font-bold font-matangi uppercase drop-shadow-md">
+              <span class="text-white text-sm font-bold  uppercase drop-shadow-md">
                 Stage Entreprise
               </span>
             </div>
@@ -207,12 +207,6 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Matangi&display=swap');
-
-.font-matangi {
-  font-family: 'Matangi', sans-serif;
-}
-
 .swiper-wrapper {
   width: 100%;
   height: max-content !important;
