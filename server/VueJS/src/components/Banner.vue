@@ -23,7 +23,7 @@
       <!-- Golfer Overlay for Desktop -->
       <div class="hidden md:block absolute invert brightness-0 bottom-[-14vw] left-0 z-20">
         <img
-          src="/src/assets/golfer.png"
+          src="/assets/golfer.png"
           alt="Golfer"
           class="w-[25vw]"
         />
@@ -43,7 +43,7 @@
       <!-- Golfer Overlay for Mobile -->
       <div class="md:hidden absolute invert brightness-0 bottom-[-17vw] left-0 z-20">
         <img
-          src="/src/assets/golfer.png"
+          src="/assets/golfer.png"
           alt="Golfer"
           class="w-[30vw]"
         />

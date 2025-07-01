@@ -37,7 +37,7 @@
       <!-- Picture Section -->
       <div class="w-1/2 flex justify-center">
         <img
-          src="/src/assets/home_banner.jpeg"
+          src="/assets/home_banner.jpeg"
           alt="Coach Pierre ASCEDU"
           class="w-[40vw] h-[30vw] object-cover rounded-md shadow-md"
         />
@@ -67,7 +67,7 @@
     <!-- Square Image -->
     <div class="mt-6 flex justify-center">
       <img
-        src="/src/assets/home_banner.jpeg"
+        src="/assets/home_banner.jpeg"
         alt="Coach Pierre ASCEDU"
         class="w-[80vw] h-[70vw] object-cover rounded-md mb-8"
       />

@@ -25,7 +25,7 @@
       <!-- Picture Section -->
       <div class="w-1/2 flex justify-center">
         <img
-          src="/src/assets/home_banner.jpeg"
+          src="/assets/home_banner.jpeg"
           alt="Golfer"
           class="w-[30vw] h-auto object-cover rounded-md shadow-md"
         />
@@ -55,7 +55,7 @@
       <!-- Picture Section -->
       <div class="mt-6 flex justify-center">
         <img
-          src="/src/assets/home_banner.jpeg"
+          src="/assets/home_banner.jpeg"
           alt="Golfer"
           class="w-[90vw] h-auto object-cover rounded-md shadow-md"
         />

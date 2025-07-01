@@ -1,6 +1,6 @@
 <template>
     <Banner
-        image="/src/assets/home_banner.jpeg"
+        image="/assets/home_banner.jpeg"
         text="De l’expérience naît la méthode"
     
     />

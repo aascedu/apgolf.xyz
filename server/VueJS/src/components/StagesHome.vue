@@ -4,7 +4,7 @@
     <!-- Picture on the Left -->
     <div class="flex-shrink-0">
       <img
-        src="/src/assets/home_banner.jpeg"
+        src="/assets/home_banner.jpeg"
         alt="Golf Banner"
         class="w-[40vw] h-[30vw] object-cover rounded-md"
       />
@@ -48,7 +48,7 @@
     <!-- Square Image -->
     <div class="mt-6 flex justify-center">
       <img
-        src="/src/assets/home_banner.jpeg"
+        src="/assets/home_banner.jpeg"
         alt="Golf Banner"
         class="w-[80vw] h-[70vw] object-cover rounded-md mb-8"
       />

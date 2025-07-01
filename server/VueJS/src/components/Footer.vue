@@ -13,7 +13,7 @@
       
       <!-- Centered Image -->
       <img
-        src="/src/assets/golfer.png"
+        src="/assets/golfer.png"
         alt="Golfer"
         class="w-[16vw] invert brightness-100"
       />
@@ -71,7 +71,7 @@
       </div>
       <!-- Image -->
       <img
-        src="/src/assets/golfer.png"
+        src="/assets/golfer.png"
         alt="Golfer"
         class="w-[40vw] invert brightness-100" style="margin-left: 10vw;"
       />

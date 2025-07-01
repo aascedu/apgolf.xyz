@@ -1,6 +1,6 @@
 <template>
   <div class="md:pt-0 pt-16">
-    <BannerStage image="/src/assets/home_banner.jpeg"/>
+    <BannerStage image="/assets/home_banner.jpeg"/>
     <DescriptionStage
       title="Stage de Golf Découverte"
       description="Ce stage découverte est idéal pour les golfeurs débutants ou ceux souhaitant découvrir les bases du golf dans un cadre convivial. Encadré par Pierre ASCEDU, coach professionnel, ce programme vous initiera aux fondamentaux techniques et stratégiques du golf tout en vous permettant de profiter d'une expérience ludique et enrichissante."

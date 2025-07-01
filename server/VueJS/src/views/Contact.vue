@@ -1,6 +1,6 @@
 <template>
     <Banner
-        image="src/assets/home_banner.jpeg"
+        image="/assets/home_banner.jpeg"
         text="Un échange, un premier pas"/>
     <InfoPratique />
 </template>
