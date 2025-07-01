@@ -1,25 +1,14 @@
 <template>
-    <div class="relative mt-[64px] md:mt-0">
-        <h1>
-        Contact
-    </h1>
-    <h1>
-        Contact
-    </h1>
-    <h1>
-        Contact
-    </h1>
-    <h1>
-        Contact
-    </h1>
-    Work in progress
-    </div>
+    <InfoPratique />
 </template>
 
 <script>
 
+import InfoPratique from '@/components/InfoPratique.vue';
+
 export default {
     components: {
+        InfoPratique
     },
 };
 </script>
