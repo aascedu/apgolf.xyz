@@ -84,6 +84,7 @@ const hideDropdown = () => {
 const changeLanguage = (langCode) => {
   locale.value = langCode;
   showDropdown.value = false; // Close dropdown after selection
+  localStorage.setItem('locale', langCode);
 };
 </script>
 

@@ -16,7 +16,7 @@
         <h1
           class="text-[3vw] uppercase text-white text-nowrap font-bold drop-shadow-custom"
         >
-          {{ text }}
+          {{ $t(text) }}
         </h1>
       </div>
 
@@ -36,7 +36,7 @@
         <h1
           class="text-[4vw] uppercase text-white text-nowrap font-bold drop-shadow-custom"
         >
-          {{ text }}
+          {{ $t(text) }}
         </h1>
       </div>
 

@@ -1,7 +1,7 @@
 <template>
     <Banner
         image="/assets/home_banner.jpeg"
-        text="De l’expérience naît la méthode"
+        text='banner.about'
     
     />
     <Presentation />
