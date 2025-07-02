@@ -2,23 +2,23 @@
   <div class="md:pt-0 pt-16">
     <BannerStage image="/assets/home_banner.jpeg" />
     <DescriptionStage
-      title="Stage de Golf Haute Performance"
-      description="Ce stage intensif est conçu pour les golfeurs souhaitant améliorer leur jeu à un niveau supérieur. Encadré par Pierre ASCEDU, coach professionnel avec plus de 30 ans d'expérience, ce programme allie technique, stratégie et préparation mentale pour optimiser vos performances sur le parcours."
+      :title="$t('stageHautePerf.title')"
+      :description="$t('stageHautePerf.description')"
       :program="[
-        '<strong>Jour 1 : Analyse technique et mise en place des objectifs</strong><br>Analyse vidéo de votre swing, évaluation de votre jeu court et long. Définition des objectifs personnalisés pour le stage.',
-        '<strong>Jour 2 : Perfectionnement du swing</strong><br>Travail sur la posture, le grip et le mouvement. Exercices spécifiques pour gagner en puissance et en précision.',
-        '<strong>Jour 3 : Stratégie sur le parcours</strong><br>Session sur le parcours pour apprendre à gérer les différentes situations de jeu. Focus sur la prise de décision et la gestion des risques.',
-        '<strong>Jour 4 : Approche mentale et gestion du stress</strong><br>Techniques de concentration et de relaxation pour améliorer votre mental. Préparation à la compétition.',
-        '<strong>Jour 5 : Jeu court et putting</strong><br>Exercices intensifs sur le chipping, le pitching et le putting. Amélioration de la précision et de la régularité.',
-        '<strong>Jour 6 : Parcours complet et bilan</strong><br>Parcours complet avec mise en pratique des acquis. Bilan personnalisé et recommandations pour continuer à progresser.'
+        $t('stageHautePerf.program.day1'),
+        $t('stageHautePerf.program.day2'),
+        $t('stageHautePerf.program.day3'),
+        $t('stageHautePerf.program.day4'),
+        $t('stageHautePerf.program.day5'),
+        $t('stageHautePerf.program.day6')
       ]"
       :additionalInfo="{
-        duree: '6 jours',
-        dates: 'Du 10 au 15 juillet 2025',
-        lieu: 'Golf de Chamonix',
-        tarif: '420 € par personne',
-        nombrePersonnes: '3 à 5 personnes',
-        niveau: 'Confirmé'
+        duree: $t('stageHautePerf.additionalInfo.duration'),
+        dates: $t('stageHautePerf.additionalInfo.dates'),
+        lieu: $t('stageHautePerf.additionalInfo.location'),
+        tarif: $t('stageHautePerf.additionalInfo.price'),
+        nombrePersonnes: $t('stageHautePerf.additionalInfo.participants'),
+        niveau: $t('stageHautePerf.additionalInfo.level')
       }"
     />
   </div>

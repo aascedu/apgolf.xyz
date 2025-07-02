@@ -1,7 +1,7 @@
 <template>
   <Banner
     image="/assets/home_banner.jpeg"
-    text="Une expérience inoubliable"
+    text='banner.home'
   />
   <StagesHome />
   <CoachHome />

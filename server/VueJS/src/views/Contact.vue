@@ -1,7 +1,8 @@
 <template>
     <Banner
         image="/assets/home_banner.jpeg"
-        text="Un échange, un premier pas"/>
+        text='banner.contact'
+    />
     <InfoPratique />
 </template>
 

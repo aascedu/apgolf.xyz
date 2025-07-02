@@ -22,7 +22,7 @@
         <!-- Program Section -->
         <div v-if="program && program.length" class="mt-8">
           <h3 class="text-[3.5vw] md:text-[1.5vw] font-bold uppercase text-green-700 text-left mb-4">
-            Le programme en détails
+            {{ $t('descriptionStage.programDetails') }}
           </h3>
           <ul class="space-y-6">
             <li v-for="(day, index) in program" :key="index" class="text-[3.5vw] md:text-[1.2vw] text-gray-700 leading-relaxed">
@@ -34,26 +34,31 @@
 
       <!-- Additional Information -->
       <div class="flex-1 md:p-6 text-left md:text-right">
-        <h3 class="text-[3.5vw] md:text-[1.5vw] font-bold uppercase text-green-700 mb-4">Informations</h3>
+        <h3 class="text-[3.5vw] md:text-[1.5vw] font-bold uppercase text-green-700 mb-4">
+          {{ $t('descriptionStage.information') }}
+        </h3>
         <ul class="text-[3.5vw] md:text-[1.2vw] text-gray-700 leading-relaxed space-y-4">
-          <li><strong>Durée:</strong> {{ additionalInfo.duree }}</li>
-          <li><strong>Dates:</strong> {{ additionalInfo.dates }}</li>
-          <li><strong>Lieu / Accueil:</strong> {{ additionalInfo.lieu }}</li>
-          <li><strong>Tarif participant:</strong> {{ additionalInfo.tarif }}</li>
-          <li><strong>Nombre de personnes:</strong> {{ additionalInfo.nombrePersonnes }}</li>
-          <li><strong>Niveau:</strong> {{ additionalInfo.niveau }}</li>
+          <li><strong>{{ $t('descriptionStage.duration') }}:</strong> {{ additionalInfo.duree }}</li>
+          <li><strong>{{ $t('descriptionStage.dates') }}:</strong> {{ additionalInfo.dates }}</li>
+          <li><strong>{{ $t('descriptionStage.location') }}:</strong> {{ additionalInfo.lieu }}</li>
+          <li><strong>{{ $t('descriptionStage.price') }}:</strong> {{ additionalInfo.tarif }}</li>
+          <li><strong>{{ $t('descriptionStage.participants') }}:</strong> {{ additionalInfo.nombrePersonnes }}</li>
+          <li><strong>{{ $t('descriptionStage.level') }}:</strong> {{ additionalInfo.niveau }}</li>
         </ul>
         <div class="flex mt-[2vw] justify-end">
-        <button
-          class="mt-[1vw] px-[2vw] py-[1vw] text-[1.2vw] bg-green-700 text-white font-bold uppercase rounded-md border-2 border-[#ffc107] hover:bg-green-800 transition"
-          @click="navigateToStages"
-        >Nous contacter / Reserver
-        </button>
-      </div>
+          <button
+            class="mt-[1vw] px-[2vw] py-[1vw] text-[1.2vw] bg-green-700 text-white font-bold uppercase rounded-md border-2 border-[#ffc107] hover:bg-green-800 transition"
+            @click="navigateToContact"
+          >
+            {{ $t('descriptionStage.contactReserve') }}
+          </button>
+        </div>
       </div>
     </div>
   </div>
-  <div class=" md:hidden w-full px-8 mt-8">
+
+  <!-- Mobile Div -->
+  <div class="md:hidden w-full px-8 mt-8">
     <!-- Title with Horizontal Lines -->
     <div class="flex items-center justify-center">
       <div class="flex-1 h-[2px] bg-[#ffc107]"></div>
@@ -75,7 +80,7 @@
         <!-- Program Section -->
         <div v-if="program && program.length" class="mt-8">
           <h3 class="text-[3.5vw] font-bold uppercase text-green-700 text-left mb-4">
-            Le programme en détails
+            {{ $t('descriptionStage.programDetails') }}
           </h3>
           <ul class="space-y-6">
             <li v-for="(day, index) in program" :key="index" class="text-[3.5vw] text-gray-700 leading-relaxed">
@@ -86,15 +91,17 @@
       </div>
 
       <!-- Additional Information -->
-      <div class="flex-1 text-left ">
-        <h3 class="text-[3.5vw] font-bold uppercase text-green-700 mb-4">Informations</h3>
+      <div class="flex-1 text-left">
+        <h3 class="text-[3.5vw] font-bold uppercase text-green-700 mb-4">
+          {{ $t('descriptionStage.information') }}
+        </h3>
         <ul class="text-[3.5vw] text-gray-700 leading-relaxed space-y-4">
-          <li><strong>Durée:</strong> {{ additionalInfo.duree }}</li>
-          <li><strong>Dates:</strong> {{ additionalInfo.dates }}</li>
-          <li><strong>Lieu / Accueil:</strong> {{ additionalInfo.lieu }}</li>
-          <li><strong>Tarif participant:</strong> {{ additionalInfo.tarif }}</li>
-          <li><strong>Nombre de personnes:</strong> {{ additionalInfo.nombrePersonnes }}</li>
-          <li><strong>Niveau:</strong> {{ additionalInfo.niveau }}</li>
+          <li><strong>{{ $t('descriptionStage.duration') }}:</strong> {{ additionalInfo.duree }}</li>
+          <li><strong>{{ $t('descriptionStage.dates') }}:</strong> {{ additionalInfo.dates }}</li>
+          <li><strong>{{ $t('descriptionStage.location') }}:</strong> {{ additionalInfo.lieu }}</li>
+          <li><strong>{{ $t('descriptionStage.price') }}:</strong> {{ additionalInfo.tarif }}</li>
+          <li><strong>{{ $t('descriptionStage.participants') }}:</strong> {{ additionalInfo.nombrePersonnes }}</li>
+          <li><strong>{{ $t('descriptionStage.level') }}:</strong> {{ additionalInfo.niveau }}</li>
         </ul>
       </div>
     </div>
@@ -103,7 +110,7 @@
         class="px-6 py-2 bg-green-700 text-white font-bold uppercase rounded-md border-2 border-[#ffc107] hover:bg-green-800 transition"
         @click="navigateToContact"
       >
-        Nous contacter / Reserver
+        {{ $t('descriptionStage.contactReserve') }}
       </button>
     </div>
   </div>

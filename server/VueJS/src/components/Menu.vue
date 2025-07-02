@@ -10,7 +10,7 @@
     >
       <div class="flex items-center">
         <!-- Logo Text -->
-        <a href="/" class="text-lg font-bold  text-green-700">
+        <a href="/" class="text-lg font-bold text-green-700">
           AP GOLF
         </a>
 
@@ -44,16 +44,19 @@
         ]"
       >
         <ul class="flex flex-col gap-4 items-end text-black pb-4">
-          <li v-for="item in menuItems" :key="item.label">
+          <li v-for="item in menuItems" :key="item.href">
             <a
               :href="item.href"
-              class="uppercase text-lg  relative group"
+              class="uppercase text-lg relative group"
             >
-              {{ item.label }}
+              {{ $t(item.label) }}
               <span
                 class="absolute left-[-5%] bottom-[-4px] w-[110%] h-[3px] bg-green-700 transform scale-x-0 origin-center transition-transform duration-300 group-hover:scale-x-100"
               ></span>
             </a>
+          </li>
+          <li>
+            <LanguageSwitcher />
           </li>
         </ul>
       </div>
@@ -61,17 +64,20 @@
 
     <!-- Desktop Menu -->
     <nav class="bg-transparent text-white absolute top-0 left-0 w-full py-4 px-6 z-50 hidden md:block">
-      <ul class="flex flex-row justify-center gap-8">
-        <li v-for="item in menuItems" :key="item.label">
+      <ul class="flex flex-row justify-center items-center gap-8">
+        <li v-for="item in menuItems" :key="item.href">
           <a
             :href="item.href"
-            class="uppercase text-lg  relative group drop-shadow-custom"
+            class="uppercase text-lg relative group drop-shadow-custom"
           >
-            {{ item.label }}
+            {{ $t(item.label) }}
             <span
               class="absolute left-[-5%] bottom-[-4px] w-[110%] h-[3px] bg-[#ffc107] transform scale-x-0 origin-center transition-transform duration-300 group-hover:scale-x-100"
             ></span>
           </a>
+        </li>
+        <li>
+          <LanguageSwitcher />
         </li>
       </ul>
     </nav>
@@ -79,23 +85,24 @@
 </template>
 
 <script setup>
-import { reactive, ref } from 'vue'
+import { reactive, ref } from 'vue';
+import LanguageSwitcher from '@/components/LanguageSwitcher.vue';
 
-// Define the menu items dynamically
+// Define the menu items dynamically with translation keys
 const menuItems = reactive([
-  { label: 'Acceuil', href: '/' },
-  { label: 'Stages', href: '/stages' },
-  { label: 'A propos', href: '/propos' },
-  { label: 'Contact', href: '/contact' },
-])
+  { label: 'menu.home', href: '/' },
+  { label: 'menu.stages', href: '/stages' },
+  { label: 'menu.about', href: '/propos' },
+  { label: 'menu.contact', href: '/contact' },
+]);
 
 // State to track if the mobile menu is open
-const isMenuOpen = ref(false)
+const isMenuOpen = ref(false);
 
 // Toggle the mobile menu visibility
 const toggleMenu = () => {
-  isMenuOpen.value = !isMenuOpen.value
-}
+  isMenuOpen.value = !isMenuOpen.value;
+};
 </script>
 
 <style>
