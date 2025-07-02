@@ -3,7 +3,7 @@
   <div class="hidden md:block w-full px-8 mb-[2vw]">
     <!-- Title with Horizontal Line -->
     <div class="flex items-center mb-[2vw]">
-      <div class="flex-1 max-w-[9vw] h-[3px] bg-[#ffc107] ml-[2vw] mr-[2vw]"></div>
+      <div class="flex-1 max-w-[10vw] h-[3px] bg-[#ffc107] ml-[2vw] mr-[2vw]"></div>
       <!-- Title -->
       <h2 class="text-[2vw] font-bold uppercase text-green-700 whitespace-nowrap">
         {{ $t('stageCustom.title') }}
@@ -22,7 +22,7 @@
         <!-- Button -->
         <div class="mt-[2vw]">
           <button
-            class="px-[2vw] py-[1vw] text-[1vw] bg-green-700 text-white font-bold uppercase rounded-md border-2 border-[#ffc107] hover:bg-green-800 transition"
+            class="px-[2vw] ml-[2vw] py-[1vw] text-[1vw] bg-green-700 text-white font-bold uppercase rounded-md border-2 border-[#ffc107] hover:bg-green-800 transition"
             @click="navigateToContact"
           >
             {{ $t('stageCustom.buttonText') }}

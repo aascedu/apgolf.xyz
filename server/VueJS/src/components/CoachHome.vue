@@ -3,7 +3,7 @@
   <div class="hidden md:block w-full px-8 mt-[4vw] mb-[2vw]">
     <!-- Title with Horizontal Line -->
     <div class="flex items-center mb-[2vw]">
-      <div class="flex-1 max-w-[17vw] h-[3px] bg-[#ffc107] ml-[2vw] mr-[2vw]"></div>
+      <div class="flex-1 max-w-[14vw] h-[3px] bg-[#ffc107] ml-[2vw] mr-[2vw]"></div>
       <!-- Title -->
       <h2 class="text-[2vw] font-bold uppercase text-green-700 whitespace-nowrap">
         {{ $t('coachHome.title') }}
