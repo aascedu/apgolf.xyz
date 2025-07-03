@@ -2,12 +2,14 @@
   <!-- Desktop Div -->
   <div class="hidden md:block w-full px-8 mt-8">
     <!-- Title with Horizontal Lines -->
-    <div class="flex items-center justify-center">
-      <div class="flex-1 h-[2px] bg-[#ffc107]"></div>
-      <h2 class="text-[3.5vw] md:text-[2vw] font-bold uppercase text-green-700 text-center mx-4 whitespace-nowrap">
+    <div class="flex items-center justify-center px-8">
+      <div class="flex-1 h-[2px] bg-[#ffc107] mr-[2vw]"></div>
+
+      <h2 class="text-[3.5vw] md:text-[2vw] font-bold uppercase text-green-700 text-center whitespace-nowrap">
         {{ title }}
       </h2>
-      <div class="flex-1 h-[2px] bg-[#ffc107]"></div>
+      <div class="flex-1 h-[2px] bg-[#ffc107] ml-[2vw] mr-[2vw]"></div>
+
     </div>
 
     <!-- Content Section -->

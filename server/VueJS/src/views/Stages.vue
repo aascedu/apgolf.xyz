@@ -59,6 +59,11 @@
                     title: $t('stages.carousel.intensive'),
                     link: '/stage-intensif',
                 },
+                {
+                    image: '/assets/home_banner.jpeg',
+                    title: $t('stages.carousel.swinghouse'),
+                    link: '/stage-swing-house',
+                }
             ]"
         />
     </div>

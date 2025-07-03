@@ -11,6 +11,7 @@ import StageHautePerf from './views/stages/StageHautePerf.vue';
 import StageDecouverte from './views/stages/StageDecouverte.vue';
 import StageIntensif from './views/stages/StageIntensif.vue';
 import StageEntreprise from './views/stages/StageEntreprise.vue';
+import StageSwingHouse from './views/stages/StageSwingHouse.vue';
 
 import './css/main.css';
 
@@ -23,6 +24,7 @@ const routes = [
   { path: '/stage-decouverte', component: StageDecouverte },
   { path: '/stage-entreprise', component: StageEntreprise },
   { path: '/stage-intensif', component: StageIntensif },
+  { path: '/stage-swing-house', component: StageSwingHouse },
 ];
 
 const router = createRouter({

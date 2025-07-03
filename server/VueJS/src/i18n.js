@@ -24,6 +24,7 @@ const messages = {
         discovery: 'Discovery Course',
         corporate: 'Corporate Course',
         intensive: 'Intensive Course',
+        swinghouse: 'Swing House Course',
       },
     },
     stagesHome: {
@@ -155,6 +156,29 @@ const messages = {
         level: 'Beginner',
       },
     },
+    stageSwingHouse: {
+      title: 'Swing House Course',
+      description:
+        'The Swing House course is a unique experience designed for golf enthusiasts who want to improve their game in a relaxed and friendly atmosphere. Led by Pierre ASCEDU, this course combines technical training.',
+      program: {
+        day1: '<strong>Day 1: Introduction to Swing House</strong><br>Welcome and introduction to the Swing House concept. Overview of the facilities and equipment. Initial assessment of each participant’s level.',
+        day2: '<strong>Day 2: Technical training</strong><br>Focus on swing mechanics and body positioning. Individualized drills to improve technique. Video analysis of swings for personalized feedback.',
+        day3: '<strong>Day 3: Course play and strategy</strong><br>On-course session to apply learned techniques. Emphasis on course management and shot selection. Group discussions on strategies for different course situations.',
+      },
+      additionalInfo: {
+        duration: '3 days',
+        dates: 'From August 10 to August 12, 2025',
+        location: 'Swing House, Chamonix',
+        price: '€300 per person',
+        participants: '4 to 6 people',
+        level: 'All levels',
+      },
+    },
+    swingHouse: {
+      title: 'Our partner',
+      description:
+        'Swing House is a dedicated space for golfers to refine their skills and enjoy a unique experience. Equipped with state-of-the-art technology and a welcoming atmosphere, it is the perfect place to practice, learn, and connect with fellow golf enthusiasts.',
+    },
   },
   fr: {
     menu: {
@@ -178,6 +202,7 @@ const messages = {
         discovery: 'Stage Découverte',
         corporate: 'Stage Entreprise',
         intensive: 'Stage Intensif',
+        swinghouse: 'Stage Swing House',
       },
     },
     stagesHome: {
@@ -308,6 +333,29 @@ const messages = {
         participants: '6 à 8 personnes',
         level: 'Débutant',
       },
+    },
+    stageSwingHouse: {
+      title: 'Stage Swing House',
+      description:
+        'Le stage Swing House est une expérience unique conçue pour les passionnés de golf souhaitant améliorer leur jeu dans une ambiance détendue et conviviale. Encadré par Pierre ASCEDU, ce stage allie entraînement technique et moments de partage.',
+      program: {
+        day1: '<strong>Jour 1 : Introduction au Swing House</strong><br>Accueil et présentation du concept Swing House. Découverte des installations et du matériel. Évaluation initiale du niveau de chaque participant.',
+        day2: '<strong>Jour 2 : Entraînement technique</strong><br>Focus sur la mécanique du swing et le positionnement du corps. Exercices individualisés pour améliorer la technique. Analyse vidéo des swings pour un retour personnalisé.',
+        day3: '<strong>Jour 3 : Jeu sur le parcours et stratégie</strong><br>Session sur le parcours pour appliquer les techniques apprises. Accent mis sur la gestion du parcours et le choix des coups. Discussions en groupe sur les stratégies à adopter dans différentes situations de jeu.',
+      },
+      additionalInfo: {
+        duration: '3 jours',
+        dates: 'Du 10 au 12 août 2025',
+        location: 'Swing House, Chamonix',
+        price: '300 € par personne',
+        participants: '4 à 6 personnes',
+        level: 'Tous niveaux',
+      },
+    },
+    swingHouse: {
+      title: 'Notre partenaire',
+      description:
+        'Swing House est un espace dédié aux golfeurs pour perfectionner leurs compétences et vivre une expérience unique. Équipée de technologies de pointe et d’une ambiance conviviale, c’est l’endroit idéal pour pratiquer, apprendre et échanger avec d’autres passionnés de golf.',
     },
   },
 };
