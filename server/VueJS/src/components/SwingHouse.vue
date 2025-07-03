@@ -79,7 +79,7 @@
         <img
           src="/assets/swinghouse-logo-black.png"
           alt="Swing House Logo"
-          class="w-[50vw] h-auto object-contain"
+          class="w-[70vw] h-auto object-contain"
         />
       </a>
 
