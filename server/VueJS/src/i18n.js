@@ -176,6 +176,7 @@ const messages = {
     },
     swingHouse: {
       title: 'Our partner',
+      buttonText: 'Swing House Website',
       description:
         'Swing House is a dedicated space for golfers to refine their skills and enjoy a unique experience. Equipped with state-of-the-art technology and a welcoming atmosphere, it is the perfect place to practice, learn, and connect with fellow golf enthusiasts.',
     },
@@ -354,6 +355,7 @@ const messages = {
     },
     swingHouse: {
       title: 'Notre partenaire',
+      buttonText: 'Le site de Swing House',
       description:
         'Swing House est un espace dédié aux golfeurs pour perfectionner leurs compétences et vivre une expérience unique. Équipée de technologies de pointe et d’une ambiance conviviale, c’est l’endroit idéal pour pratiquer, apprendre et échanger avec d’autres passionnés de golf.',
     },
