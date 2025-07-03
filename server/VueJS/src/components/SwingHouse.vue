@@ -18,7 +18,7 @@
           {{ $t('swingHouse.description') }}
         </p>
         <!-- Button with Image -->
-        <div class="mt-[2vw] flex flex-col items-center">
+        <div class="flex flex-col items-center">
             <span class="mt-2 mb-2 text-[1vw] font-bold text-green-700 uppercase">
               {{ $t('swingHouse.buttonText') }} :
             </span>
