@@ -7,6 +7,8 @@ import Home from './views/Home.vue';
 import Contact from './views/Contact.vue';
 import Stages from './views/Stages.vue';
 import Propos from './views/Propos.vue';
+import Sejours from './views/Sejours.vue';
+import Competitions from './views/Competitions.vue';
 import StageHautePerf from './views/stages/StageHautePerf.vue';
 import StageDecouverte from './views/stages/StageDecouverte.vue';
 import StageIntensif from './views/stages/StageIntensif.vue';
@@ -20,6 +22,8 @@ const routes = [
   { path: '/stages', component: Stages },
   { path: '/contact', component: Contact },
   { path: '/propos', component: Propos },
+  { path: '/sejours', component: Sejours },
+  { path: '/competitions', component: Competitions },
   { path: '/stage-haute-performance', component: StageHautePerf },
   { path: '/stage-decouverte', component: StageDecouverte },
   { path: '/stage-entreprise', component: StageEntreprise },

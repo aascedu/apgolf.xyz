@@ -8,12 +8,16 @@ const messages = {
       stages: 'Courses',
       about: 'About Us',
       contact: 'Contact',
+      sejours: 'stays',
+      competitions: 'Competitions',
     },
     banner: {
       home: 'An unforgettable experience',
       stages: 'Prepare your game, live the experience',
-      about: 'From experience comes the method',
+      about: 'RIGOR WITHOUT RIGIDITY',
       contact: 'An exchange, a first step',
+      sejours: 'Discover our stays',
+      competitions: 'Prepare your competitions',
     },
     stages: {
       title: 'Our Courses',
@@ -44,7 +48,7 @@ const messages = {
     presentation: {
       title: 'The Coach',
       description:
-        'Pierre ASCEDU, a certified professional for over 30 years, teaches golf with passion and precision. A former coach of the French military ski team, he has unique expertise in high-performance coaching. His teaching is based on a personalized, technical, and mental approach, adapted to all levels of play. Whether you are a beginner or an experienced player, he guides you in your progress with accuracy, care, and efficiency.',
+        'Qualified professional, I teach golf with passion and rigor. Former coach of the French military ski team, I possess a unique expertise in coaching up to high performance. My teaching methodology is based on a personalized, technical, and mental approach, tailored to all levels of play. Whether you are a beginner or an advanced player, I will accompany you in your progress with kindness, precision, and efficiency.',
     },
     infoPratique: {
       title: 'Practical Information',
@@ -187,12 +191,16 @@ const messages = {
       stages: 'Stages',
       about: 'À propos',
       contact: 'Contact',
+      sejours: 'Séjours',
+      competitions: 'Compétitions',
     },
     banner: {
       home: 'Une expérience inoubliable',
       stages: 'Préparez votre jeu, vivez l’expérience',
-      about: 'De l’expérience naît la méthode',
+      about: 'rigueur sans rigidité',
       contact: 'Un échange, un premier pas',
+      sejours: 'Découvrez nos séjours',
+      competitions: 'Préparez vos compétitions',
     },
     stages: {
       title: 'Nos Stages',
@@ -221,9 +229,9 @@ const messages = {
       buttonText: 'Nous contacter',
     },
     presentation: {
-      title: 'Le coach',
+      title: 'Pierre ASCEDU',
       description:
-        'Pierre ASCEDU, professionnel diplômé depuis plus de 30 ans, enseigne le golf avec passion et exigence. Ancien entraîneur de l’équipe militaire française de ski, il possède une expertise unique dans le coaching en milieu de haute performance. Sa pédagogie repose sur une approche personnalisée, technique et mentale, adaptée à tous les niveaux de jeu. Que vous soyez débutant ou joueur confirmé, il vous accompagne dans votre progression avec précision, bienveillance et efficacité.',
+        'Professionnel diplômé, j’enseigne le golf avec passion et exigence. Ancien entraîneur de l’équipe de France militaire de ski, je possède une expertise unique dans le coaching jusqu’à la haute performance. Ma pédagogie repose sur une approche personnalisée, technique et mentale, adaptée à tous les niveaux de jeu. Que vous soyez débutant ou joueur confirmé, je vous accompagnerai dans votre progression avec bienveillance, précision et efficacité.',
     },
     infoPratique: {
       title: 'Infos Pratiques',
