@@ -47,7 +47,7 @@
       {{ description }}
     </p>
     <button
-      class="mt-4 bg-green-700 text-white font-bold rounded-full hover:bg-green-800 transition"
+      class="mt-2 bg-green-700 text-white font-bold rounded-full hover:bg-green-800 transition"
       @click="navigateTo"
     >
       {{ buttonText }}
