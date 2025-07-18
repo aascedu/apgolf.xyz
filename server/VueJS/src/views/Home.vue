@@ -11,7 +11,7 @@
       :buttonText="$t('home.stages.buttonText')"
       href="/stages"
     />
-    <div class="flex flex-row gap-8">
+    <div class="md:flex flex-row gap-8">
       <div class="flex-1">
         <HomeElement 
           image="/assets/home_banner.jpeg"

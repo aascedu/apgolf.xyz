@@ -14,7 +14,7 @@
         class="hidden md:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10"
       >
         <h1
-          class=" text-white text-nowrap drop-shadow-custom"
+          class="text-white text-nowrap drop-shadow-custom"
         >
           {{ $t(text) }}
         </h1>
@@ -34,7 +34,7 @@
         class="md:hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10"
       >
         <h1
-          class="text-[4vw] uppercase text-white text-nowrap font-bold drop-shadow-custom"
+          class="text-white text-nowrap drop-shadow-custom"
         >
           {{ $t(text) }}
         </h1>
