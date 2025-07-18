@@ -1,84 +1,72 @@
 <template>
-  <!-- Desktop Div -->
-  <div class="hidden md:block w-full px-8 mb-[2vw]">
-    <!-- Title with Horizontal Line -->
-    <div class="flex items-center mb-[2vw]">
-      <div class="flex-1 max-w-[10vw] h-[3px] bg-[#ffc107] ml-[2vw] mr-[2vw]"></div>
-      <!-- Title -->
-      <h2 class="text-[2vw] font-bold uppercase text-green-700 whitespace-nowrap">
-        {{ $t('stageCustom.title') }}
-      </h2>
-      <!-- Horizontal Line -->
-      <div class="flex-1 h-[3px] bg-[#ffc107] ml-[2vw] mr-[2vw]"></div>
+  <!-- Desktop -->
+  <div class="hidden md:flex flex-row flex-wrap mt-32">
+    <!-- Picture on the Left -->
+    <div class="flex-shrink-0 w-[35%]">
+      <img
+        :src="image"
+        :alt="title"
+        class="aspect-[4/3] object-cover"
+      />
     </div>
-
-    <!-- Coach Presentation Section -->
-    <div class="flex items-center">
-      <!-- Text Section -->
-      <div class="w-1/2 text-center text-left">
-        <p class="mt-[2vw] ml-[4vw] text-[1.4vw] text-gray-700 leading-[1.8] tracking-wide">
-          {{ $t('stageCustom.description') }}
-        </p>
-        <!-- Button -->
-        <div class="mt-[2vw]">
-          <button
-            class="px-[2vw] ml-[2vw] py-[1vw] text-[1vw] bg-green-700 text-white font-bold uppercase rounded-md border-2 border-[#ffc107] hover:bg-green-800 transition"
-            @click="navigateToContact"
-          >
-            {{ $t('stageCustom.buttonText') }}
-          </button>
-        </div>
+    <!-- Text and Button on the Right -->
+    <div class="flex-1 ml-12">
+      <div class="flex items-center">
+        <h2 class="text-green-700 whitespace-nowrap">
+          {{ title }}
+        </h2>
+        <div class="line"></div>
       </div>
-      <!-- Picture Section -->
-      <div class="w-1/2 flex justify-center">
-        <img
-          src="/assets/home_banner.jpeg"
-          alt="Coach Pierre ASCEDU"
-          class="w-[40vw] h-[30vw] object-cover rounded-md shadow-md"
-        />
+      <p class="text-gray-500 leading-relaxed">
+        {{ description }}
+      </p>
+      <div class="mt-8">
+        <button
+          class="bg-green-700 text-white font-bold rounded-full hover:bg-green-800 transition"
+          @click="navigateTo"
+        >
+          {{ buttonText }}
+        </button>
       </div>
     </div>
   </div>
-
-  <!-- Mobile Div -->
-  <div class="md:hidden w-full px-8 mt-8">
-    <div class="flex items-center justify-center">
-      <!-- Horizontal Line Before Text -->
-      <div class="flex-1 h-[2px] bg-[#ffc107]"></div>
-      <h2 class="text-[4.5vw] font-bold uppercase text-green-700 text-center mx-4 whitespace-nowrap">
-        {{ $t('stageCustom.title') }}
+  <!-- Mobile -->
+  <div class="md:hidden flex flex-col mt-16">
+    <img
+      :src="image"
+      :alt="title"
+      class="w-full aspect-[4/3] object-cover"
+    />
+    <div class="flex items-center w-full gap-2 mt-2">
+      <h2 class="text-green-700 text-left whitespace-nowrap">
+        {{ title }}
       </h2>
-      <!-- Horizontal Line After Text -->
-      <div class="flex-1 h-[2px] bg-[#ffc107]"></div>
+      <div class="line_mobile flex-1"></div>
     </div>
-    <p class="mt-6 text-base text-gray-700 leading-relaxed text-center max-w-[20rem] mx-auto">
-      {{ $t('stageCustom.descriptionMobile') }}
+    <p class="text-gray-500 text-left mt-1">
+      {{ description }}
     </p>
-    <!-- Square Image -->
-    <div class="mt-6 flex justify-center">
-      <img
-        src="/assets/home_banner.jpeg"
-        alt="Golf Banner"
-        class="w-[80vw] h-[70vw] object-cover rounded-md mb-8"
-      />
-    </div>
-    <!-- Button -->
-    <div class="flex justify-center mb-8">
-      <button
-        class="px-6 py-2 bg-green-700 text-white font-bold uppercase rounded-md border-2 border-[#ffc107] hover:bg-green-800 transition"
-        @click="navigateToContact"
-      >
-        {{ $t('stageCustom.buttonText') }}
-      </button>
-    </div>
+    <button
+      class="mt-2 bg-green-700 text-white font-bold rounded-full hover:bg-green-800 transition"
+      @click="navigateTo"
+    >
+      {{ buttonText }}
+    </button>
   </div>
 </template>
 
 <script>
 export default {
+  props: {
+    image: { type: String, required: true },
+    title: { type: String, required: true },
+    description: { type: String, required: true },
+    buttonText: { type: String, required: true },
+    href: { type: String, required: true }
+  },
   methods: {
-    navigateToContact() {
-      window.location.href = '/contact';
+    navigateTo() {
+      window.location.href = this.href;
     },
   },
 };

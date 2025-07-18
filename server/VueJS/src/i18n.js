@@ -20,9 +20,11 @@ const messages = {
       competitions: 'Prepare your competitions',
     },
     stages: {
-      title: 'Our Courses',
-      description:
-        'Golf courses in Chamonix, led by a high-performance expert coach. Whether you are a beginner, passionate amateur, or a player seeking excellence, these courses adapt to your level: discovery, nature immersion, or intensive improvement. Each session combines technical progress, mental work, and the joy of the game in an exceptional setting at the foot of Mont-Blanc.',
+      intro: {
+        main: 'Our Courses',
+        second:
+          'Golf courses in Chamonix, led by a high-performance expert coach. Whether you are a beginner, passionate amateur, or a player seeking excellence, these courses adapt to your level: discovery, nature immersion, or intensive improvement. Each session combines technical progress, mental work, and the joy of the game in an exceptional setting at the foot of Mont-Blanc.',
+      },  
       carousel: {
         highPerformance: 'High-Performance Course',
         discovery: 'Discovery Course',
@@ -217,9 +219,11 @@ const messages = {
       competitions: 'Préparez vos compétitions',
     },
     stages: {
-      title: 'Nos Stages',
-      description:
-        'Stages de golf à Chamonix, encadrés par un coach expert de la haute performance. Que vous soyez débutant, amateur passionné ou joueur en quête d’excellence, ces stages s’adaptent à votre niveau : découverte, immersion nature ou perfectionnement intensif. Chaque session allie progression technique, travail mental et plaisir du jeu dans un cadre exceptionnel, au pied du Mont-Blanc.',
+      intro: {
+        main: 'Nos Stages',
+        second:
+          'Stages de golf à Chamonix, encadrés par un coach expert de la haute performance. Que vous soyez débutant, amateur passionné ou joueur en quête d’excellence, ces stages s’adaptent à votre niveau : découverte, immersion nature ou perfectionnement intensif. Chaque session allie progression technique, travail mental et plaisir du jeu dans un cadre exceptionnel, au pied du Mont-Blanc.',
+      },
       carousel: {
         highPerformance: 'Stage Haute Performance',
         discovery: 'Stage Découverte',
