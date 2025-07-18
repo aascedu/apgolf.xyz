@@ -16,7 +16,7 @@
 
         <!-- Hamburger Menu Button -->
         <button
-          class="text-green-700 focus:outline-none absolute right-5"
+          class="text-green-700 focus:outline-none absolute right-1"
           @click="toggleMenu"
         >
           <svg
