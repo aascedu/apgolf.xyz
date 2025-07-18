@@ -31,7 +31,7 @@
     </div>
   </div>
   <!-- Mobile -->
-  <div class="md:hidden flex flex-col mt-8">
+  <div class="md:hidden flex flex-col mt-16">
     <img
       :src="image"
       :alt="title"
