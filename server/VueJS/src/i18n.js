@@ -9,7 +9,7 @@ const messages = {
       about: 'About Us',
       contact: 'Contact',
       sejours: 'stays',
-      competitions: 'Competitions',
+      competitions: 'Pro-Am',
     },
     banner: {
       home: 'An unforgettable experience',
@@ -31,11 +31,25 @@ const messages = {
         swinghouse: 'Swing House Course',
       },
     },
-    stagesHome: {
-      title: 'Our Courses',
-      description:
-        'Golf courses in Chamonix, led by a high-performance expert coach. Whether you are a beginner, passionate amateur, or a player seeking excellence, these courses adapt to your level: discovery, nature immersion, or intensive improvement. Each session combines technical progress, mental work, and the joy of the game in an exceptional setting at the foot of Mont-Blanc.',
-      buttonText: 'View Courses',
+    home: {
+      stages: {
+        title: 'Our Courses',
+        description:
+          'Golf courses in Chamonix, led by a high-performance expert coach. Whether you are a beginner, passionate amateur, or a player seeking excellence, these courses adapt to your level: discovery, nature immersion, or intensive improvement. Each session combines technical progress, mental work, and the joy of the game in an exceptional setting at the foot of Mont-Blanc.',
+        buttonText: 'View Courses',
+      },
+      sejours: {
+        title: 'Our Stays',
+        description:
+          'Experience golf more intensely with our stays, tailored to all levels. Discover all our options!',
+        buttonText: 'View Stays',
+      },
+      competitions: {
+        title: 'Pro-Am',
+        description:
+          'Join our Pro-Am competitions for an unforgettable golfing experience. Push your potential to the fullest.',
+        buttonText: 'View Competitions',
+      },
     },
     stageCustom: {
       title: 'Custom Courses',
@@ -192,7 +206,7 @@ const messages = {
       about: 'À propos',
       contact: 'Contact',
       sejours: 'Séjours',
-      competitions: 'Compétitions',
+      competitions: 'Pro-Am',
     },
     banner: {
       home: 'Une expérience inoubliable',
@@ -214,11 +228,25 @@ const messages = {
         swinghouse: 'Stage Swing House',
       },
     },
-    stagesHome: {
-      title: 'Nos Stages',
-      description:
-        'Stages de golf à Chamonix, encadrés par un coach expert de la haute performance. Que vous soyez débutant, amateur passionné ou joueur en quête d’excellence, ces stages s’adaptent à votre niveau : découverte, immersion nature ou perfectionnement intensif. Chaque session allie progression technique, travail mental et plaisir du jeu dans un cadre exceptionnel, au pied du Mont-Blanc.',
-      buttonText: 'Voir les stages',
+    home: {
+      stages: {
+        title: 'Nos Stages',
+        description:
+          'Vivez le golf plus intensement avec nos stages, adaptés à tous les niveaux. Découvrez toutes nos options !',
+        buttonText: 'Voir les stages',
+      },
+      sejours: {
+        title: 'Nos Séjours',
+        description:
+          'Vivez le golf plus intensément avec nos séjours, adaptés à tous les niveaux.',
+        buttonText: 'Voir les séjours',
+      },
+      competitions: {
+        title: 'Pro-Am',
+        description:
+          'Participez à nos compétitions Pro-Am pour une expérience de golf inoubliable.',
+        buttonText: 'Voir les compétitions',
+      },
     },
     stageCustom: {
       title: 'Stages personnalisés',

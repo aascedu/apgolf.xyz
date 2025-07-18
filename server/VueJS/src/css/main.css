@@ -4,26 +4,37 @@
 @import "tailwindcss/utilities";
 @import url('https://fonts.googleapis.com/css2?family=Matangi:wght@500;700&display=swap');
 
-p {
-    font-family: 'Matangi', sans-serif;
-  }
+/* Font family for all text elements */
+body, p, h1, h2, h3, h4, h5, h6, button, div {
+  font-family: 'Matangi', sans-serif;
+  word-spacing: 0.05em;
+}
 
-h2 {
-    font-family: 'Matangi', sans-serif;
-    word-spacing: 0.05em; /* Add slight spacing between words */
-  }
+/* Uniform font sizes */
+h1 { font-size: 2.25vw;}
+h2 { font-size: 1.5vw; }
+h3 { font-size: 1.25vw;}
+p, button, div, button { font-size: 1.5rem; /* 16px */ }
 
+/* Uniform padding for main containers */
+.container, .main-content, main {
+}
+
+/* Uniform button style */
 button {
-    font-family: 'Matangi', sans-serif;
-    word-spacing: 0.05em;
-  }
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+}
 
-div {
-    font-family: 'Matangi', sans-serif;
-    word-spacing: 0.05em;
-  }
+.padded-div {
+  padding-left: 8vw;         /* Rectangle width: 25% of viewport width */
+  padding-right: 8vw;         /* Rectangle width: 25% of viewport width */
+}
 
-h1 {
-    font-family: 'Matangi', sans-serif;
-    word-spacing: 0.05em;
-  }
+.line {
+  width: 100%;
+  margin-left: 1vw;
+  height: 3px;
+  background-color: #ffc107;
+}

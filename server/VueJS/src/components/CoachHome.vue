@@ -1,41 +1,32 @@
 <template>
   <!-- Desktop -->
-  <div class="hidden md:block w-full px-8 mt-[4vw] mb-[2vw]">
-    <!-- Title with Horizontal Line -->
-    <div class="flex items-center mb-[2vw]">
-      <div class="flex-1 max-w-[14vw] h-[3px] bg-[#ffc107] ml-[2vw] mr-[2vw]"></div>
-      <!-- Title -->
-      <h2 class="text-[2vw] font-bold uppercase text-green-700 whitespace-nowrap">
-        {{ $t('coachHome.title') }}
-      </h2>
-      <!-- Horizontal Line -->
-      <div class="flex-1 h-[3px] bg-[#ffc107] ml-[2vw] mr-[2vw]"></div>
+  <div class="hidden md:flex flex-row flex-wrap mt-[4vw]">
+    <!-- Picture on the Left -->
+    <div class="flex-shrink-0 w-[35%]">
+      <img
+        src="/assets/home_banner.jpeg"
+        alt="Golf Banner"
+        class="aspect-[4/3] object-cover"
+      />
     </div>
-
-    <!-- Coach Presentation Section -->
-    <div class="flex items-center">
-      <!-- Text Section -->
-      <div class="w-1/2 text-center text-left">
-        <p class="mt-[2vw] ml-[4vw] text-[1.4vw] text-gray-700 leading-[1.8] tracking-wide">
-          {{ $t('coachHome.description') }}
-        </p>
-        <!-- Button -->
-        <div class="mt-[2vw]">
-          <button
-            class="px-[2vw] py-[1vw] text-[1vw] bg-green-700 text-white font-bold uppercase rounded-md border-2 border-[#ffc107] hover:bg-green-800 transition"
-            @click="navigateToCoach"
-          >
-            {{ $t('coachHome.buttonText') }}
-          </button>
-        </div>
+    <!-- Text and Button on the Right -->
+    <div class="flex-1 ml-[2vw]">
+      <div class="flex items-center">
+        <h2 class="font-bold uppercase text-green-700 whitespace-nowrap">
+          {{ $t('stagesHome.title') }}
+        </h2>
+        <div class="line"></div>
       </div>
-      <!-- Picture Section -->
-      <div class="w-1/2 flex justify-center">
-        <img
-          src="/assets/home_banner.jpeg"
-          alt="Coach Pierre ASCEDU"
-          class="w-[40vw] h-[30vw] object-cover rounded-md shadow-md"
-        />
+      <p class="text-gray-700 text-[0.70vw] leading-relaxed">
+        {{ $t('stagesHome.description') }}
+      </p>
+      <div class="mt-[1vw]">
+        <button
+          class="bg-green-700 text-white font-bold text-[0.7vw] rounded-full border-2 border-[#ffc107] hover:bg-green-800 transition"
+          @click="navigateToStages"
+        >
+          {{ $t('stagesHome.buttonText') }}
+        </button>
       </div>
     </div>
   </div>
