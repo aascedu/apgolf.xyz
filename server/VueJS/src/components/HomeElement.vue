@@ -17,12 +17,12 @@
         </h2>
         <div class="line"></div>
       </div>
-      <p class="text-gray-700 leading-relaxed">
+      <p class="text-gray-500 leading-relaxed">
         {{ description }}
       </p>
       <div class="mt-8">
         <button
-          class="bg-green-700 text-white font-bold rounded-full border-2 border-[#ffc107] hover:bg-green-800 transition"
+          class="bg-green-700 text-white font-bold rounded-full hover:bg-green-800 transition"
           @click="navigateTo"
         >
           {{ buttonText }}
@@ -31,36 +31,27 @@
     </div>
   </div>
   <!-- Mobile -->
-  <div class="md:hidden w-full px-8 mt-8">
-    <div class="flex items-center gap-4">
-      <!-- Horizontal Line Before Text -->
-      <div class="line_mobile"></div>
-      <h2 class="text-green-700 text-center whitespace-nowrap">
+  <div class="md:hidden flex flex-col mt-8">
+    <img
+      :src="image"
+      :alt="title"
+      class="w-full aspect-[4/3] object-cover"
+    />
+    <div class="flex items-center w-full gap-2 mt-2">
+      <h2 class="text-green-700 text-left whitespace-nowrap">
         {{ title }}
       </h2>
-      <!-- Horizontal Line After Text -->
-      <div class="line_mobile"></div>
+      <div class="line_mobile flex-1"></div>
     </div>
-    <p class="text-gray-700 leading-relaxed text-center max-w-[20rem]">
+    <p class="text-gray-500 text-left mt-1">
       {{ description }}
     </p>
-    <!-- Square Image -->
-    <div class="flex justify-center">
-      <img
-        src="/assets/home_banner.jpeg"
-        alt="Golf Banner"
-        class="w-[80vw] h-[70vw] object-cover rounded-md mb-8"
-      />
-    </div>
-    <!-- Button -->
-    <div class="flex justify-center mb-8">
-      <button
-        class="px-6 py-2 bg-green-700 text-white font-bold uppercase rounded-md border-2 border-[#ffc107] hover:bg-green-800 transition"
-        @click="navigateTo"
-      >
-        {{ buttonText }}
-      </button>
-    </div>
+    <button
+      class="mt-4 bg-green-700 text-white font-bold rounded-full hover:bg-green-800 transition"
+      @click="navigateTo"
+    >
+      {{ buttonText }}
+    </button>
   </div>
 </template>
 
