@@ -1,8 +1,7 @@
 <template>
   <div class="md:pt-0 pt-16">
     <BannerStage image="/assets/home_banner.jpeg" />
-    <div class="padded-div">
-      <DescriptionStage
+      <DescriptionElement
         :title="$t('stageDecouverte.title')"
         :description="$t('stageDecouverte.description')"
         :program="[
@@ -20,16 +19,15 @@
         }"
       />
     </div>
-  </div>
 </template>
 
 <script>
-import DescriptionStage from "@/components/DescriptionStage.vue";
+import DescriptionElement from "@/components/DescriptionElement.vue";
 import BannerStage from "@/components/BannerStage.vue";
 
 export default {
   components: {
-    DescriptionStage,
+    DescriptionElement,
     BannerStage,
   },
 };

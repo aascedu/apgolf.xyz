@@ -1,19 +1,19 @@
 <template>
   <!-- Desktop Div -->
-  <div class="hidden md:block w-full px-8 mt-8">
+  <div class="hidden md:block w-full padded-div mt-32">
     <!-- Title with Horizontal Lines -->
-    <div class="flex items-center justify-center px-8">
-      <div class="flex-1 h-[2px] bg-[#ffc107] mr-[2vw]"></div>
+    <div class="flex items-center justify-center gap-4">
+      <div class="flex-1 h-[2px] bg-[#ffc107]"></div>
 
       <h2 class="text-[3.5vw] md:text-[2vw] font-bold uppercase text-green-700 text-center whitespace-nowrap">
         {{ title }}
       </h2>
-      <div class="flex-1 h-[2px] bg-[#ffc107] ml-[2vw] mr-[2vw]"></div>
+      <div class="flex-1 h-[2px] bg-[#ffc107]"></div>
 
     </div>
 
     <!-- Content Section -->
-    <div class="flex flex-col md:flex-row mt-8 space-y-8 md:space-y-0 md:space-x-8 px-8">
+    <div class="flex flex-col md:flex-row mt-8">
       <!-- Short Description and Program -->
       <div class="flex-1">
         <!-- Short Description -->
@@ -49,7 +49,7 @@
         </ul>
         <div class="flex mt-[2vw] justify-end">
           <button
-            class="mt-[1vw] px-[2vw] py-[1vw] text-[1.2vw] bg-green-700 text-white font-bold uppercase rounded-md border-2 border-[#ffc107] hover:bg-green-800 transition"
+            class="mt-[1vw] px-[2vw] py-[1vw] text-[1.2vw] bg-green-700 text-white font-bold uppercase rounded-full hover:bg-green-800 transition"
             @click="navigateToContact"
           >
             {{ $t('descriptionStage.contactReserve') }}
@@ -60,18 +60,14 @@
   </div>
 
   <!-- Mobile Div -->
-  <div class="md:hidden w-full px-8 mt-8">
+  <div class="md:hidden w-full padded-div mt-16">
     <!-- Title with Horizontal Lines -->
-    <div class="flex items-center justify-center">
-      <div class="flex-1 h-[2px] bg-[#ffc107]"></div>
-      <h2 class="text-[3.5vw] font-bold uppercase text-green-700 text-center mx-4 whitespace-nowrap">
-        {{ title }}
-      </h2>
-      <div class="flex-1 h-[2px] bg-[#ffc107]"></div>
-    </div>
+    <h2 class="text-[3.5vw] font-bold uppercase text-green-700 text-left whitespace-nowrap">
+      {{ title }}
+    </h2>
 
     <!-- Content Section -->
-    <div class="flex flex-col mt-8 space-y-8 px-8">
+    <div class="flex flex-col mt-8">
       <!-- Short Description and Program -->
       <div class="flex-1">
         <!-- Short Description -->
@@ -109,7 +105,7 @@
     </div>
     <div class="flex justify-center mt-8 mb-8">
       <button
-        class="px-6 py-2 bg-green-700 text-white font-bold uppercase rounded-md border-2 border-[#ffc107] hover:bg-green-800 transition"
+        class="px-6 py-2 bg-green-700 text-white font-bold uppercase rounded-full hover:bg-green-800 transition"
         @click="navigateToContact"
       >
         {{ $t('descriptionStage.contactReserve') }}
@@ -120,7 +116,7 @@
 
 <script>
 export default {
-  name: "DescriptionStage",
+  name: "DescriptionElement",
   props: {
     title: {
       type: String,
@@ -150,7 +146,6 @@ export default {
   },
   methods: {
     navigateToContact() {
-      // Replace '/contact' with your actual contact route if different
       this.$router.push('/contact');
     }
   }

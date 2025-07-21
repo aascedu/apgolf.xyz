@@ -15,19 +15,6 @@
     "sejours": "Discover our stays",
     "competitions": "Prepare your competitions"
   },
-  "stages": {
-    "intro": {
-      "main": "Discover our selection of golf courses",
-      "second": "Golf courses in Chamonix, led by a high-performance expert coach. Whether you are a beginner, passionate amateur, or a player seeking excellence, these courses adapt to your level: discovery, nature immersion, or intensive improvement. Each session combines technical progress, mental work, and the joy of the game in an exceptional setting at the foot of Mont-Blanc."
-    },
-    "carousel": {
-      "highPerformance": "High-Performance Course",
-      "discovery": "Discovery Course",
-      "corporate": "Corporate Course",
-      "intensive": "Intensive Course",
-      "swinghouse": "Swing House Course"
-    }
-  },
   "home": {
     "stages": {
       "title": "Our Courses",
@@ -45,12 +32,18 @@
       "buttonText": "View Competitions"
     }
   },
+  "stages": {
+    "intro": {
+      "main": "Discover our selection of golf courses",
+      "second": "Golf courses in Chamonix, led by a high-performance expert coach. Whether you are a beginner, passionate amateur, or a player seeking excellence, these courses adapt to your level: discovery, nature immersion, or intensive improvement. Each session combines technical progress, mental work, and the joy of the game in an exceptional setting at the foot of Mont-Blanc."
+    }
+  },
   "stageCustom": {
     "title": "Custom Courses",
     "description": "Do you have a specific need? A precise goal? Our golf courses in Chamonix are designed to adapt to your level and expectations. Each course combines technical progress, mental work, and the joy of the game in an exceptional setting at the foot of Mont-Blanc. Supervised by a high-performance expert coach, these courses allow you to progress quickly while enjoying a unique natural environment. Contact us to learn more.",
     "descriptionMobile": "Golf courses in Chamonix, supervised by a high-performance expert coach. Whether you are a beginner, passionate amateur, or a player seeking excellence, these courses adapt to your level: discovery, nature immersion, or intensive improvement. Each session combines technical progress, mental work, and the joy of the game in an exceptional setting at the foot of Mont-Blanc.",
     "buttonText": "Contact Us"
-  },
+  },  
   "presentation": {
     "title": "The Coach",
     "description": "Qualified professional, I teach golf with passion and rigor. Former coach of the French military ski team, I possess a unique expertise in coaching up to high performance. My teaching methodology is based on a personalized, technical, and mental approach, tailored to all levels of play. Whether you are a beginner or an advanced player, I will accompany you in your progress with kindness, precision, and efficiency.",
@@ -182,5 +175,17 @@
     "title": "Our partner",
     "buttonText": "Swing House Website",
     "description": "Swing House is a dedicated space for golfers to refine their skills and enjoy a unique experience. Equipped with state-of-the-art technology and a welcoming atmosphere, it is the perfect place to practice, learn, and connect with fellow golf enthusiasts."
+  },
+  "sejours": {
+    "intro": {
+      "main": "Discover our vacation packages",
+      "second": "Experience golf more intensely with our stays, tailored to all levels. Discover all our options!"
+    }
+  },
+  "proam": {
+    "intro": {
+      "main": "Join our Pro-Am competitions",
+      "second": "Join our Pro-Am competitions for an unforgettable golfing experience. Push your potential to the fullest."
+    }
   }
 }

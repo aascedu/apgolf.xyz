@@ -1,7 +1,7 @@
 <template>
   <div class="md:pt-0 pt-16">
     <BannerStage image="/assets/home_banner.jpeg" />
-    <DescriptionStage
+    <DescriptionElement
       :title="$t('stageHautePerf.title')"
       :description="$t('stageHautePerf.description')"
       :program="[
@@ -25,12 +25,12 @@
 </template>
 
 <script>
-import DescriptionStage from "@/components/DescriptionStage.vue";
+import DescriptionElement from "@/components/DescriptionElement.vue";
 import BannerStage from "@/components/BannerStage.vue";
 
 export default {
   components: {
-    DescriptionStage,
+    DescriptionElement,
     BannerStage,
   },
 };

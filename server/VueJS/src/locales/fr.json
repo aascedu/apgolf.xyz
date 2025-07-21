@@ -195,5 +195,17 @@
       "buttonText": "Le site de Swing House",
       "description":
         "Swing House est un espace dédié aux golfeurs pour perfectionner leurs compétences et vivre une expérience unique. Équipée de technologies de pointe et d’une ambiance conviviale, c’est l’endroit idéal pour pratiquer, apprendre et échanger avec d’autres passionnés de golf."
-    }
+    },
+    "sejours": {
+      "intro": {
+        "main": "Découvrez nos séjours de golf",
+        "second": "Vivez le golf plus intensément avec nos séjours, adaptés à tous les niveaux. Découvrez toutes nos options !"
+      }
+    },
+    "proam": {
+      "intro": {
+        "main": "Participez à nos compétitions Pro-Am",
+        "second": "Vivez une expérience de golf inoubliable en participant à nos compétitions Pro-Am. Rejoignez-nous pour des moments de partage et de compétition dans un cadre exceptionnel."
+      }
   }
+}

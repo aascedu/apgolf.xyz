@@ -2,7 +2,7 @@
   <!-- Desktop -->
   <a
     :href="link"
-    class="hidden md:flex flex-col items-center w-72 transition duration-300 group"
+    class="hidden md:flex mt-10 flex-col items-center w-72 transition duration-300 group"
   >
     <div class="relative w-72 h-72">
       <img
