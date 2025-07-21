@@ -1,7 +1,8 @@
 <template>
+  <!-- Desktop -->
   <a
     :href="link"
-    class="flex flex-col items-center w-72 transition duration-300 group"
+    class="hidden md:flex flex-col items-center w-72 transition duration-300 group"
   >
     <div class="relative w-72 h-72">
       <img
@@ -18,6 +19,23 @@
         {{ description }}
       </p>
     </div>
+  </a>
+  <!-- Mobile -->
+  <a
+    :href="link"
+    class="flex flex-col items-center w-full mt-4 transition duration-300 group md:hidden"
+  >
+    <img
+        :src="image"
+        :alt="title"
+        class="w-full aspect-[4/3] object-cover"
+      />
+    <p class="text-gray-700 text-sm font-bold text-center mt-2 group-hover:text-green-700 transition duration-300">
+      {{ title }}
+    </p>
+    <p class="text-gray-500 text-xs text-center">
+      {{ description }}
+    </p>
   </a>
 </template>
 

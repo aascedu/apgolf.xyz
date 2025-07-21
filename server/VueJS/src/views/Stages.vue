@@ -3,7 +3,7 @@
         image="/assets/home_banner.jpeg"
         text='banner.stages'
     />
-    <div class="padded-div mt-32">
+    <div class="padded-div ">
         <StagesIntro />
         <div class="flex flex-row flex-wrap gap-10 justify-center">
             <StageElement 
