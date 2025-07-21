@@ -3,9 +3,59 @@
         image="/assets/home_banner.jpeg"
         text='banner.stages'
     />
-    <div class="padded-div">
+    <div class="padded-div mt-32">
         <StagesIntro />
-        <CarouselStage
+        <div class="flex flex-row flex-wrap gap-10 justify-center">
+            <StageElement 
+                image="/assets/home_banner.jpeg"
+                title="Golf à Chamonix"
+                description="10-12 mai 2025"
+                link="/stage-haute-performance"
+            />
+            <StageElement 
+                image="/assets/home_banner.jpeg"
+                title="Golf à Évian"
+                description="24-26 mai 2025"
+                link="/stage-decouverte"
+            />
+            <StageElement 
+                image="/assets/home_banner.jpeg"
+                title="Golf à Megève"
+                description="7-9 juin 2025"
+                link="/stage-entreprise"
+            />
+            <StageElement 
+                image="/assets/home_banner.jpeg"
+                title="Golf à Paris"
+                description="21-23 juin 2025"
+                link="/stage-intensif"
+            />
+            <StageElement 
+                image="/assets/home_banner.jpeg"
+                title="Golf à Chamonix - Initiation"
+                description="5-7 juillet 2025"
+                link="/stage-swing-house"
+            />
+            <StageElement 
+                image="/assets/home_banner.jpeg"
+                title="Golf à Évian - Junior"
+                description="12-14 juillet 2025"
+                link="/stage-entreprise"
+            />
+            <StageElement 
+                image="/assets/home_banner.jpeg"
+                title="Golf à Megève - Famille"
+                description="19-21 juillet 2025"
+                link="/stage-intensif"
+            />
+            <StageElement 
+                image="/assets/home_banner.jpeg"
+                title="Golf à Paris - Compétition"
+                description="26-28 juillet 2025"
+                link="/stage-swing-house"
+            />
+        </div>
+        <!-- <CarouselStage
             :slides="[
                 {
                     image: '/assets/home_banner.jpeg',
@@ -33,7 +83,7 @@
                     link: '/stage-swing-house',
                 }
             ]"
-        />
+        /> -->
         <StageCustom 
             image="/assets/home_banner.jpeg"
             :title="$t('stageCustom.title')"
@@ -46,6 +96,7 @@
 
 <script>
 import CarouselStage from "@/components/CarouselStage.vue";
+import StageElement from "@/components/StageElement.vue";
 import StageCustom from "@/components/StageCustom.vue";
 import Banner from "@/components/Banner.vue";
 import StagesIntro from "@/components/StagesIntro.vue";
@@ -56,6 +107,7 @@ export default {
     StageCustom,
     Banner,
     StagesIntro,
+    StageElement,
   },
 };
 </script>

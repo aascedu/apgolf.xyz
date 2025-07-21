@@ -1,14 +1,14 @@
 <template>
   <!-- Desktop Div -->
-  <div class="relative hidden md:block">
+  <div class="hidden md:inline-block relative">
     <!-- Current Language Button -->
-    <button class="flex items-center py-1" @mouseenter="showDropdown = true" @mouseleave="hideDropdown">
+    <button class="" @mouseenter="showDropdown = true" @mouseleave="hideDropdown">
       <img :src="currentLanguage.flag" :alt="currentLanguage.name" class="w-6 h-4" />
     </button>
 
     <!-- Dropdown Menu -->
     <div
-      class="absolute text-black"
+      class="absolute left-0 text-black z-10 min-w-[2.5rem]"
       v-if="showDropdown"
       @mouseenter="showDropdown = true"
       @mouseleave="hideDropdown"
@@ -18,9 +18,9 @@
           v-for="lang in filteredLanguages"
           :key="lang.code"
           @click="changeLanguage(lang.code)"
-          class="py-2 cursor-pointer flex items-center"
+          class="py-2 px-5 cursor-pointer flex items-center"
         >
-          <img :src="lang.flag" :alt="lang.name" class="w-6 h-4 mr-2" />
+          <img :src="lang.flag" :alt="lang.name" class="w-6 h-4 align-middle block" />
         </li>
       </ul>
     </div>
@@ -33,9 +33,9 @@
         v-for="lang in languages"
         :key="lang.code"
         @click="changeLanguage(lang.code)"
-        class="flex items-center cursor-pointer"
+        class="flex items-center cursor-pointer p-0 m-0"
       >
-        <img :src="lang.flag" :alt="lang.name" class="w-6 h-4" />
+        <img :src="lang.flag" :alt="lang.name" class="w-6 h-4 align-middle block" />
       </button>
     </div>
   </div>

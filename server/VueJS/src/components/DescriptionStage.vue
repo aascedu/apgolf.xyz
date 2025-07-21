@@ -148,5 +148,11 @@ export default {
       }),
     },
   },
+  methods: {
+    navigateToContact() {
+      // Replace '/contact' with your actual contact route if different
+      this.$router.push('/contact');
+    }
+  }
 };
 </script>

@@ -1,23 +1,25 @@
 <template>
   <div class="md:pt-0 pt-16">
     <BannerStage image="/assets/home_banner.jpeg" />
-    <DescriptionStage
-      :title="$t('stageDecouverte.title')"
-      :description="$t('stageDecouverte.description')"
-      :program="[
-        $t('stageDecouverte.program.day1'),
-        $t('stageDecouverte.program.day2'),
-        $t('stageDecouverte.program.day3')
-      ]"
-      :additionalInfo="{
-        duree: $t('stageDecouverte.additionalInfo.duration'),
-        dates: $t('stageDecouverte.additionalInfo.dates'),
-        lieu: $t('stageDecouverte.additionalInfo.location'),
-        tarif: $t('stageDecouverte.additionalInfo.price'),
-        nombrePersonnes: $t('stageDecouverte.additionalInfo.participants'),
-        niveau: $t('stageDecouverte.additionalInfo.level')
-      }"
-    />
+    <div class="padded-div">
+      <DescriptionStage
+        :title="$t('stageDecouverte.title')"
+        :description="$t('stageDecouverte.description')"
+        :program="[
+          $t('stageDecouverte.program.day1'),
+          $t('stageDecouverte.program.day2'),
+          $t('stageDecouverte.program.day3')
+        ]"
+        :additionalInfo="{
+          duree: $t('stageDecouverte.additionalInfo.duration'),
+          dates: $t('stageDecouverte.additionalInfo.dates'),
+          lieu: $t('stageDecouverte.additionalInfo.location'),
+          tarif: $t('stageDecouverte.additionalInfo.price'),
+          nombrePersonnes: $t('stageDecouverte.additionalInfo.participants'),
+          niveau: $t('stageDecouverte.additionalInfo.level')
+        }"
+      />
+    </div>
   </div>
 </template>
 

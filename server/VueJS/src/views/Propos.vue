@@ -4,18 +4,29 @@
         text='banner.about'
     
     />
-    <Presentation />
+    <div class="padded-div">
+        <!-- <Presentation /> -->
+        <HomeElement 
+            image="/assets/home_banner.jpeg"
+            title="Pierre ASCEDU"
+            :description="$t('presentation.description')"
+            href="/contact"
+            :buttonText="$t('presentation.buttonText')"
+        />
+    </div>
 </template>
 
 <script>
 
 import Presentation from '@/components/Presentation.vue';
 import Banner from '@/components/Banner.vue';
+import HomeElement from '@/components/HomeElement.vue';
 
 export default {
     components: {
         Presentation,
         Banner,
+        HomeElement,
     },
 };
 </script>

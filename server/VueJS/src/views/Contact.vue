@@ -3,7 +3,9 @@
         image="/assets/home_banner.jpeg"
         text='banner.contact'
     />
-    <InfoPratique />
+    <div class="padded-div">
+        <InfoPratique />
+    </div>
 </template>
 
 <script>

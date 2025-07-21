@@ -63,7 +63,7 @@
     </nav>
 
     <!-- Desktop Menu -->
-    <nav class="bg-transparent text-white absolute top-0 left-0 w-full py-4 px-6 z-50 hidden md:block">
+    <nav class="bg-transparent text-white absolute top-0 left-0 w-full py-4  z-50 hidden md:block">
       <ul class="flex flex-row justify-center items-center gap-8">
         <li v-for="item in menuItems" :key="item.href">
           <a
