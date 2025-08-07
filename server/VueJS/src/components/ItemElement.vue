@@ -2,13 +2,17 @@
   <!-- Desktop -->
   <a
     :href="link"
-    class="hidden md:flex mt-16 flex-col items-center w-72 transition duration-300 group"
+    class="hidden md:flex mt-8 flex-col items-center
+           w-44 h-44 
+           sm:w-56 sm:h-56 
+           md:w-64 md:h-64 
+           transition duration-300 group"
   >
-    <div class="relative w-72 h-72">
+    <div class="relative w-full h-full">
       <img
         :src="image"
         :alt="title"
-        class="w-72 h-72 object-cover transition duration-300 brightness-[100%] group-hover:brightness-50"
+        class="w-full h-full object-cover transition duration-300 brightness-[100%] group-hover:brightness-50"
       />
     </div>
     <div class="w-full">

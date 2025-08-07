@@ -6,7 +6,7 @@
     <div class="padded-div ">
         <StagesIntro />
         <div class="flex flex-row flex-wrap gap-10 justify-center">
-            <ItemElement 
+            <ItemElement
                 image="/assets/home_banner.jpeg"
                 title="Golf à Chamonix"
                 description="10-12 mai 2025"
