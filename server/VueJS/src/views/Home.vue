@@ -5,7 +5,7 @@
   />
   <div class="padded-div">
     <HomeElement 
-      image="/assets/home_banner.jpeg"
+      image="/assets/Accueil-Stages.jpg"
       :title="$t('home.stages.title')"
       :description="$t('home.stages.description')"
       :buttonText="$t('home.stages.buttonText')"
@@ -14,7 +14,7 @@
     <div class="md:flex flex-row gap-8">
       <div class="flex-1">
         <HomeElement 
-          image="/assets/home_banner.jpeg"
+          image="/assets/Accueil-Sejours.jpg"
           :title="$t('home.sejours.title')"
           :description="$t('home.sejours.description')"
           :buttonText="$t('home.sejours.buttonText')"
@@ -23,7 +23,7 @@
       </div>
       <div class="flex-1">
         <HomeElement 
-          image="/assets/home_banner.jpeg"
+          image="/assets/Acceuil-ProAm.jpg"
           :title="$t('home.competitions.title')"
           :description="$t('home.competitions.description')"
           :buttonText="$t('home.competitions.buttonText')"
