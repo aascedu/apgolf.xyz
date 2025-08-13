@@ -1,6 +1,6 @@
 <template>
     <Banner
-        image="/assets/home_banner.jpeg"
+        image="/assets/Accueil-SejoursBanner.jpg"
         text='banner.sejours'
     />
     <div class="padded-div">

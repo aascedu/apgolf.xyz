@@ -44,6 +44,7 @@ export default {
   height: 100%;
   object-fit: contain; /* Ensures the whole image is always visible, no cropping or zooming */
   display: block;
+  filter: brightness(0.8);
 }
 
 .golfer-overlay {

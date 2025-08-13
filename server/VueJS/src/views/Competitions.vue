@@ -1,6 +1,6 @@
 <template>
     <Banner
-        image="/assets/home_banner.jpeg"
+        image="/assets/Accueil-ProAmBanner.jpg"
         text='banner.competitions'
     />
     <div class="padded-div">
