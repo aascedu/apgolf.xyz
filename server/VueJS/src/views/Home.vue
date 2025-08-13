@@ -1,18 +1,19 @@
 <template>
   <Banner
-  image="/assets/home_banner.jpeg"
-  text='banner.home'
+    image="/assets/home_banner.jpeg"
+    text='banner.home'
   />
   <div class="padded-div">
-    <HomeElement 
-      image="/assets/Accueil-Stages.jpg"
-      :title="$t('home.stages.title')"
-      :description="$t('home.stages.description')"
-      :buttonText="$t('home.stages.buttonText')"
-      href="/stages"
-    />
-    <div class="md:flex flex-row gap-8">
-      <div class="flex-1">
+    <div class="home-elements">
+      <HomeElement 
+        image="/assets/Accueil-Stages.jpg"
+        :title="$t('home.stages.title')"
+        :description="$t('home.stages.description')"
+        :buttonText="$t('home.stages.buttonText')"
+        href="/stages"
+        class="primary-element"
+      />
+      <div class="secondary-row">
         <HomeElement 
           image="/assets/Accueil-Sejours.jpg"
           :title="$t('home.sejours.title')"
@@ -20,8 +21,6 @@
           :buttonText="$t('home.sejours.buttonText')"
           href="/sejours"
         />
-      </div>
-      <div class="flex-1">
         <HomeElement 
           image="/assets/Acceuil-ProAm.jpg"
           :title="$t('home.competitions.title')"
@@ -45,3 +44,31 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.home-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.secondary-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 1300px) {
+  .home-elements {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .primary-element {
+    margin-bottom: 2rem;
+  }
+  .secondary-row {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+</style>

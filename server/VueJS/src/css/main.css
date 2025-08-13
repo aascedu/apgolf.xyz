@@ -24,19 +24,35 @@ p, button, div {
   font-size: 0.9rem;
 }
 
-/* Medium and up (tablet/desktop) */
-@media (min-width: 768px) {
+/* Tablet/small desktop: 768px to 1299px */
+@media (min-width: 768px) and (max-width: 1299px) {
   h1 {
-    font-size: clamp(2.8rem, 6vw, 5rem);
+    font-size: clamp(2rem, 5vw, 3rem);
   }
   h2 {
-    font-size: clamp(2.1rem, 4.5vw, 3.2rem);
+    font-size: clamp(1.5rem, 3.5vw, 2.2rem);
   }
   h3 {
-    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    font-size: clamp(1.1rem, 2vw, 1.5rem);
   }
   p, button, div {
-    font-size: clamp(1.2rem, 2vw, 1.6rem);
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+  }
+}
+
+/* Large desktop: 1300px and up */
+@media (min-width: 1300px) {
+  h1 {
+    font-size: clamp(2.8rem, 4vw, 4rem);
+  }
+  h2 {
+    font-size: clamp(2.1rem, 3vw, 2.8rem);
+  }
+  h3 {
+    font-size: clamp(1.5rem, 2vw, 2rem);
+  }
+  p, button, div {
+    font-size: clamp(1.2rem, 1.5vw, 1.4rem);
   }
 }
 
@@ -52,10 +68,17 @@ button {
   padding-right: 2em;         /* Rectangle width: 25% of viewport width */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1300px) {
   .padded-div {
-    padding-left: 10em;         /* Rectangle width: 25% of viewport width */
-    padding-right: 10em;         /* Rectangle width: 25% of viewport width */
+    padding-left: 7em;         /* Rectangle width: 25% of viewport width */
+    padding-right: 7em;         /* Rectangle width: 25% of viewport width */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1299px) {
+  .padded-div {
+    padding-left: 3em;         /* Rectangle width: 25% of viewport width */
+    padding-right: 3em;         /* Rectangle width: 25% of viewport width */
   }
 }
 
