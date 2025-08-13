@@ -1,17 +1,15 @@
 <template>
   <!-- Desktop Div -->
-  <div class="hidden md:block w-full px-8 mt-[4vw] mb-[2vw]">
+  <div class="hidden md:block w-full padded-div">
     <!-- Title with Horizontal Line -->
-    <div class="flex items-center mb-[2vw] px-8">
-      <div class="flex-1 h-[2px] bg-[#ffc107] mr-[2vw]"></div>
+    <div class="flex items-center mb-[2vw]">
       <h2 class="text-[2vw] font-bold uppercase text-green-700 whitespace-nowrap">
         {{ $t('swingHouse.title') }}
       </h2>
-      <div class="flex-1 h-[2px] bg-[#ffc107] ml-[2vw] mr-[2vw]"></div>
     </div>
 
     <!-- Content Section -->
-    <div class="flex px-8">
+    <div class="flex">
       <!-- Text Section -->
       <div class="w-1/2 text-center mt-[2vw]">
         <p class="text-[1.4vw] text-gray-700 leading-[1.8] tracking-wide max-w-[60vw] mx-auto">
@@ -50,25 +48,21 @@
   </div>
 
   <!-- Mobile Div -->
-  <div class="md:hidden w-full px-4 mt-8">
+  <div class="md:hidden w-full padded-div mt-8">
     <!-- Title with Horizontal Line -->
-    <div class="flex items-center justify-center mb-4">
-      <div class="flex-1 h-[2px] bg-[#ffc107]"></div>
-      <h2 class="text-xl font-bold uppercase text-green-700 text-center mx-4">
+      <h2 class="text-xl font-bold uppercase text-green-700 text-left">
         {{ $t('swingHouse.title') }}
       </h2>
-      <div class="flex-1 h-[2px] bg-[#ffc107]"></div>
-    </div>
 
     <!-- Content Section -->
-    <div class="flex flex-col items-center space-y-6">
+    <div class="flex flex-col mt-4">
       <!-- Text Section -->
-      <p class="text-base text-gray-700 leading-relaxed text-center max-w-[90%]">
+      <p class="text-base text-gray-700 leading-relaxed text-left max-w-[90%]">
         {{ $t('swingHouse.description') }}
       </p>
 
       <!-- Button with Image -->
-      <span class="text-sm font-bold text-green-700 uppercase">
+      <span class="text-sm font-bold text-green-700 uppercase text-center">
         {{ $t('swingHouse.buttonText') }} :
       </span>
       <a

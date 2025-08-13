@@ -1,6 +1,6 @@
 <template>
   <!-- Desktop Div -->
-  <div class="hidden md:block w-full padded-div mt-32">
+  <div class="hidden md:block w-full padded-div mt-16">
     <!-- Title with Horizontal Lines -->
     <div class="flex items-center justify-center gap-4">
       <div class="flex-1 h-[2px] bg-[#ffc107]"></div>
@@ -60,7 +60,7 @@
   </div>
 
   <!-- Mobile Div -->
-  <div class="md:hidden w-full padded-div mt-16">
+  <div class="md:hidden w-full padded-div mt-8">
     <!-- Title with Horizontal Lines -->
     <h2 class="text-[3.5vw] font-bold uppercase text-green-700 text-left whitespace-nowrap">
       {{ title }}

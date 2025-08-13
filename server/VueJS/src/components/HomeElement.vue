@@ -1,8 +1,8 @@
 <template>
   <!-- Desktop -->
-  <div class="hidden md:flex flex-row flex-wrap mt-32">
+  <div class="hidden md:flex flex-row flex-wrap mt-20">
     <!-- Picture on the Left -->
-    <div class="flex-shrink-0 w-[35%]">
+    <div class="flex-shrink-0 w-[30%]">
       <img
         :src="image"
         :alt="title"

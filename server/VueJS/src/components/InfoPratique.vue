@@ -1,6 +1,6 @@
 <template>
     <!-- Desktop Version -->
-    <div class="hidden md:flex w-full justify-center mt-32">
+    <div class="hidden md:block w-full justify-center mt-16">
       <!-- Text Section -->
       <div class="text-center">
         <!-- Title with Horizontal Lines -->
