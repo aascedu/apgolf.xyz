@@ -4,9 +4,23 @@
     <!-- Mobile Menu -->
     <nav
       :class="[
-        'backdrop-blur bg-white/40 text-black fixed top-0 left-0 w-full py-4 px-6 z-50 md:hidden',
-        isMenuOpen ? 'border-b-4 border-green-700' : ''
+        'backdrop-blur bg-white/40 text-black fixed top-0 left-0 w-full py-4 px-6 z-50 md:hidden'
       ]"
+      style="
+        mask-image: linear-gradient(
+          to bottom,
+          black 0%,
+          black 85%,
+          transparent 100%
+        );
+        -webkit-mask-image: linear-gradient(
+          to bottom,
+          black 0%,
+          black 85%,
+          transparent 100%
+        );
+        backdrop-filter: blur(8px);
+      "
     >
       <div class="flex items-center">
         <!-- Logo Text -->
@@ -60,7 +74,12 @@
           </li>
         </ul>
       </div>
+      <div
+        :class="[
+          isMenuOpen ? 'h-10' : 'h-0'
+        ]"></div>
     </nav>
+
 
     <!-- Desktop Menu -->
     <nav class="bg-transparent text-white absolute top-0 left-0 w-full py-4  z-50 hidden md:block">
