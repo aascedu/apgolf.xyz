@@ -1,7 +1,7 @@
 <template>
     <Banner
         image="/assets/Accueil-SejoursBanner.jpg"
-        text='banner.sejours'
+        :text="$t('banner.sejours')"
     />
     <div class="padded-div">
         <SejoursIntro />

@@ -1,7 +1,7 @@
 <template>
     <Banner
         image="/assets/home_banner.jpeg"
-        text='banner.contact'
+        :text="$t('banner.contact')"
     />
     <div class="padded-div">
         <InfoPratique />

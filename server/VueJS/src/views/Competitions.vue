@@ -1,7 +1,7 @@
 <template>
     <Banner
         image="/assets/Accueil-ProAmBanner.jpg"
-        text='banner.competitions'
+        :text="$t('banner.competitions')"
     />
     <div class="padded-div">
         <ProAmIntro />

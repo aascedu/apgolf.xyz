@@ -1,8 +1,7 @@
 <template>
     <Banner
         image="/assets/home_banner.jpeg"
-        text='banner.about'
-    
+        :text="$t('banner.about')"
     />
     <div class="padded-div">
         <!-- <Presentation /> -->

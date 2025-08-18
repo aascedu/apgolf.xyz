@@ -1,7 +1,7 @@
 <template>
   <Banner
     image="/assets/home_banner.jpeg"
-    text='banner.home'
+    :text="$t('banner.home')"
   />
   <div class="padded-div">
     <div class="home-elements">
