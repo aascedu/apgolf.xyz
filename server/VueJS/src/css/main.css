@@ -2,11 +2,11 @@
 @import "tailwindcss/components";
 /* @import "./primevue/tailwind.css"; */
 @import "tailwindcss/utilities";
-@import url('https://fonts.googleapis.com/css2?family=Matangi:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Font family for all text elements */
 body, p, h1, h2, h3, h4, h5, h6, button, div {
-  font-family: 'Matangi', sans-serif;
+  font-family: 'Overpass', sans-serif;
   word-spacing: 0.05em;
 }
 

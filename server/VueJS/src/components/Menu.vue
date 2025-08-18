@@ -4,7 +4,7 @@
     <!-- Mobile Menu -->
     <nav
       :class="[
-        'bg-white text-black fixed top-0 left-0 w-full py-4 px-6 z-50 md:hidden',
+        'backdrop-blur bg-white/40 text-black fixed top-0 left-0 w-full py-4 px-6 z-50 md:hidden',
         isMenuOpen ? 'border-b-4 border-green-700' : ''
       ]"
     >

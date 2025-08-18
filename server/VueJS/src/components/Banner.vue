@@ -23,26 +23,20 @@ export default {
 
 <style scoped>
 .banner-container {
-  width: 100%;
-  height: 40%; /* Adjust this percentage as needed */
+  height: 65vh; /* 35% of the viewport height */
+  max-width: 100%;
   overflow: hidden;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 0;
-  position: relative; /* Needed for overlay positioning */
-}
-
-@media (max-width: 768px) {
-  .banner-container {
-    margin-top: 61px;
-  }
 }
 
 .banner-image {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Ensures the whole image is always visible, no cropping or zooming */
+  object-fit: cover; /* Fill container, crop if needed */
   display: block;
   filter: brightness(0.8);
 }
@@ -50,18 +44,24 @@ export default {
 .golfer-overlay {
   position: absolute;
   left: 0;
-  bottom: -35%;
-  width: 25%;
+  bottom: 0; /* Stick to the bottom */
+  width: 300px; /* Fixed width, adjust as needed */
   height: auto;
   z-index: 2;
   pointer-events: none;
-  filter: invert(1) brightness(2); /* Makes the overlay image white */
+  filter: invert(1) brightness(2);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .golfer-overlay {
-    width: 30%; /* Adjust size for small screens */
-    bottom: -43%; /* Adjust position if needed */
+    width: 180px; /* Smaller width for tablets */
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-container {
+    height: 35vh; /* Still 35% of viewport height on mobile */
+    margin-top: 61px;
   }
 }
 </style>
