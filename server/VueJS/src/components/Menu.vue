@@ -24,13 +24,13 @@
     >
       <div class="flex items-center">
         <!-- Logo Text -->
-        <a href="/" class="text-lg font-bold text-green-700">
+        <a href="/" class="text-lg font-bold text-black-700">
           AP GOLF
         </a>
 
         <!-- Hamburger Menu Button -->
         <button
-          class="text-green-700 focus:outline-none absolute right-1"
+          class="text-black-700 focus:outline-none absolute right-1"
           @click="toggleMenu"
         >
           <svg
