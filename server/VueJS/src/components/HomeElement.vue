@@ -2,7 +2,7 @@
   <!-- Desktop -->
   <div class="hidden md:flex flex-row mt-24 w-full">
     <!-- Picture on the Left -->
-    <div class="w-[30%]">
+    <div class="w-[50%]">
       <img
         :src="image"
         :alt="title"
