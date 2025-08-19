@@ -56,6 +56,21 @@ p, button, div {
   }
 }
 
+@media (min-width: 4000px) {
+  h1 {
+    font-size: clamp(6rem, 10vw, 10rem);
+  }
+  h2 {
+    font-size: clamp(5rem, 4.7vw, 6.8rem);
+  }
+  h3 {
+    font-size: clamp(3rem, 3vw, 5rem);
+  }
+  p, button, div {
+    font-size: clamp(1.6rem, 1.9vw, 3rem);
+  }
+}
+
 /* Uniform button style */
 button {
   padding: 0.5rem 1.25rem;
@@ -68,17 +83,17 @@ button {
   padding-right: 2em;         /* Rectangle width: 25% of viewport width */
 }
 
-@media (min-width: 1300px) {
-  .padded-div {
-    padding-left: 7em;         /* Rectangle width: 25% of viewport width */
-    padding-right: 7em;         /* Rectangle width: 25% of viewport width */
-  }
-}
-
 @media (min-width: 768px) and (max-width: 1299px) {
   .padded-div {
     padding-left: 3em;         /* Rectangle width: 25% of viewport width */
     padding-right: 3em;         /* Rectangle width: 25% of viewport width */
+  }
+}
+
+@media (min-width: 1300px) {
+  .padded-div {
+    padding-left: 9%;         /* Rectangle width: 25% of viewport width */
+    padding-right: 9%;         /* Rectangle width: 25% of viewport width */
   }
 }
 

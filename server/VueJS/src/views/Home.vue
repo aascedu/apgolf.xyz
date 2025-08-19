@@ -11,9 +11,8 @@
         :description="$t('home.stages.description')"
         :buttonText="$t('home.stages.buttonText')"
         href="/stages"
-        class="primary-element"
       />
-      <div class="secondary-row">
+      <div class="secondary-row justify-between">
         <HomeElement 
           image="/assets/Accueil-Sejours.jpg"
           :title="$t('home.sejours.title')"
@@ -68,7 +67,7 @@ export default {
   }
   .secondary-row {
     flex-direction: row;
-    gap: 2rem;
+    gap: 0rem; 
   }
 }
 </style>

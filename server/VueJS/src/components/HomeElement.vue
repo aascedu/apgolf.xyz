@@ -1,16 +1,16 @@
 <template>
   <!-- Desktop -->
-  <div class="hidden md:flex flex-row flex-wrap mt-20">
+  <div class="hidden md:flex flex-row mt-24 w-full">
     <!-- Picture on the Left -->
-    <div class="flex-shrink-0 w-[30%]">
+    <div class="w-[30%]">
       <img
         :src="image"
         :alt="title"
-        class="aspect-[4/3] object-cover"
+        class="object-cover"
       />
     </div>
     <!-- Text and Button on the Right -->
-    <div class="flex-1 ml-12">
+    <div class="w-full pl-[3%] pr-[3%]">
       <div class="flex items-center">
         <h2 class="text-green-700 whitespace-nowrap">
           {{ title }}
