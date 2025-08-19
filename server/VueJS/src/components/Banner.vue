@@ -21,7 +21,7 @@ export default {
     },
     text: {
       type: String,
-      required: true,
+      required: false,
     },
   },
 };
@@ -57,21 +57,19 @@ export default {
   pointer-events: none;
 }
 
+.banner-text-overlay h1 {
+  text-shadow: 2px 4px 16px rgba(0, 0, 0, 0.85);
+}
+
 .golfer-overlay {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 30%;
   height: auto;
   z-index: 2;
   pointer-events: none;
   filter: invert(1) brightness(2);
-}
-
-@media (max-width: 1024px) {
-  .golfer-overlay {
-    width: 180px;
-  }
 }
 
 @media (max-width: 767px) {

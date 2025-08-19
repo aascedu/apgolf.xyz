@@ -1,6 +1,6 @@
 <template>
   <div class="md:pt-0 pt-16">
-    <BannerStage image="/assets/home_banner.jpeg" />
+    <Banner image="/assets/home_banner.jpeg" />
     <DescriptionElement
       :title="$t('stageEntreprise.title')"
       :description="$t('stageEntreprise.description')"
@@ -23,12 +23,12 @@
 
 <script>
 import DescriptionElement from "@/components/DescriptionElement.vue";
-import BannerStage from "@/components/BannerStage.vue";
+import Banner from "@/components/Banner.vue";
 
 export default {
   components: {
     DescriptionElement,
-    BannerStage,
+    Banner,
   },
 };
 </script>
