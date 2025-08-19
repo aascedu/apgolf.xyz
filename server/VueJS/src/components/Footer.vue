@@ -4,6 +4,8 @@
     <div class="flex justify-center space-x-[64px] mt-[2vw] text-white uppercase text-lg">
       <a href="/" class="hover:underline">{{ $t('footer.home') }}</a>
       <a href="/stages" class="hover:underline">{{ $t('footer.stages') }}</a>
+      <a href="/sejours" class="hover:underline">{{ $t('footer.sejours') }}</a>
+      <a href="/competitions" class="hover:underline">{{ $t('footer.competitions') }}</a>
       <a href="/propos" class="hover:underline">{{ $t('footer.about') }}</a>
       <a href="/contact" class="hover:underline">{{ $t('footer.contact') }}</a>
     </div>

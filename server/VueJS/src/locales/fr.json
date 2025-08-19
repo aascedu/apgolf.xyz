@@ -17,35 +17,28 @@
     },
     "stages": {
       "intro": {
-        "main": "Decouvrez notre selection de stages de golf",
+        "main": "Decouvrez nos stages de golf",
         "second": "Stages de golf à Chamonix, encadrés par un coach expert de la haute performance. Que vous soyez débutant, amateur passionné ou joueur en quête d’excellence, ces stages s’adaptent à votre niveau : découverte, immersion nature ou perfectionnement intensif. Chaque session allie progression technique, travail mental et plaisir du jeu dans un cadre exceptionnel, au pied du Mont-Blanc."
-      },
-      "carousel": {
-        "highPerformance": "Stage Haute Performance",
-        "discovery": "Stage Découverte",
-        "corporate": "Stage Entreprise",
-        "intensive": "Stage Intensif",
-        "swinghouse": "Stage Swing House"
       }
     },
     "home": {
       "stages": {
         "title": "Nos Stages",
         "description":
-          "Vivez le golf plus intensement avec nos stages, adaptés à tous les niveaux. Découvrez toutes nos options !",
+          "Progresser ? Quel que soit votre niveau, participez à un de nos différents stages, dans des lieux mythiques.",
         "buttonText": "Voir les stages"
       },
       "sejours": {
         "title": "Nos Séjours",
         "description":
-          "Vivez le golf plus intensément avec nos séjours, adaptés à tous les niveaux.",
+          "Parce que le golf, c’est une histoire de passion et de partage. AP Golf vous propose des séjours clés en main. Progression, découverte, convivialité, confort, découvrez tous nos séjours",
         "buttonText": "Voir les séjours"
       },
       "competitions": {
         "title": "Pro-Am",
         "description":
-          "Participez à nos compétitions Pro-Am pour une expérience de golf inoubliable.",
-        "buttonText": "Voir les compétitions"
+          "Vivez une expérience unique en partageant parcours et conseils avec votre coach lors d’une compétition privée, alliant sport, prestige et convivialité.",
+        "buttonText": "Voir les Pro-Am"
       }
     },
     "stageCustom": {
@@ -74,6 +67,8 @@
     "footer": {
       "home": "Accueil",
       "stages": "Stages",
+      "sejours": "Séjours",
+      "competitions": "Pro-Am",
       "about": "À propos",
       "contact": "Contact",
       "brand": "AP GOLF"

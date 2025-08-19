@@ -8,28 +8,28 @@
     "competitions": "Pro-Am"
   },
   "banner": {
-    "home": "An unforgettable experience",
-    "stages": "Prepare your game, live the experience",
-    "about": "Rigor without rigidity",
-    "contact": "An exchange, a first step",
-    "sejours": "Discover our stays",
-    "competitions": "Prepare your competitions"
+    "home": "AP GOLF",
+    "stages": "OUR COURSES",
+    "sejours": "OUR STAYS",
+    "competitions": "PRO-AM",
+    "about": "ABOUT US",
+    "contact": "OUR CONTACT"
   },
   "home": {
     "stages": {
       "title": "Our Courses",
-      "description": "Golf courses in Chamonix, led by a high-performance expert coach. Whether you are a beginner, passionate amateur, or a player seeking excellence, these courses adapt to your level: discovery, nature immersion, or intensive improvement. Each session combines technical progress, mental work, and the joy of the game in an exceptional setting at the foot of Mont-Blanc.",
+      "description": "Want to improve? No matter your level, take part in one of our various courses, in iconic locations.",
       "buttonText": "View Courses"
     },
     "sejours": {
       "title": "Our Stays",
-      "description": "Experience golf more intensely with our stays, tailored to all levels. Discover all our options!",
+      "description": "Because golf is all about passion and sharing. AP Golf offers you packaged golf trips. Progress, discovery, conviviality, comfort—discover all our trips.",
       "buttonText": "View Stays"
     },
     "competitions": {
       "title": "Pro-Am",
-      "description": "Join our Pro-Am competitions for an unforgettable golfing experience. Push your potential to the fullest.",
-      "buttonText": "View Competitions"
+      "description": "Enjoy a unique experience by sharing your course with a coach during a private competition, combining sport, prestige, and conviviality.",
+      "buttonText": "View Pro-Am"
     }
   },
   "stages": {
@@ -61,6 +61,8 @@
   "footer": {
     "home": "Home",
     "stages": "Courses",
+    "sejours": "Stays",
+    "competitions": "Pro-Am",
     "about": "About Us",
     "contact": "Contact",
     "brand": "AP GOLF"

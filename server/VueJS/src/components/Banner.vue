@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
 .banner-container {
-  height: 65vh;
+  height: 45vh;
   max-width: 100%;
   overflow: hidden;
   position: relative;
