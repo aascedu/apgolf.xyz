@@ -20,7 +20,7 @@
       <p class="text-gray-500 leading-relaxed">
         {{ description }}
       </p>
-      <div class="mt-8">
+      <div class="mt-4">
         <button
           class="bg-green-700 text-white font-bold rounded-full hover:bg-green-800 transition"
           @click="navigateTo"

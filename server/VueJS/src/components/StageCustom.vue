@@ -1,6 +1,6 @@
 <template>
   <!-- Desktop -->
-  <div class="hidden md:flex flex-row flex-wrap mt-16">
+  <div class="hidden md:flex flex-row flex-wrap mt-16 2xl:mt-32">
     <!-- Picture on the Left -->
     <div class="flex-shrink-0 w-[35%]">
       <img

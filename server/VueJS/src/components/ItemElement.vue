@@ -2,24 +2,20 @@
   <!-- Desktop -->
   <a
     :href="link"
-    class="hidden md:flex mt-8 flex-col items-center
-           w-44 h-44 
-           sm:w-56 sm:h-56 
-           md:w-64 md:h-64 
-           transition duration-300 group"
+    class="hidden md:flex mt-8 flex-col items-center transition duration-300 w-[25%] p-[1.25em] group"
   >
-    <div class="relative w-full h-full">
+    <div class="w-full aspect-square">
       <img
         :src="image"
         :alt="title"
-        class="w-full h-full object-cover transition duration-300 brightness-[100%] group-hover:brightness-50"
+        class="object-cover aspect-square transition duration-300 brightness-[100%] group-hover:brightness-50"
       />
     </div>
-    <div class="w-full">
-      <p class="text-gray-700 text-sm font-bold text-center mt-2 group-hover:text-green-700 transition duration-300">
+    <div>
+      <p class="text-gray-700 under-pic font-bold text-center text-pretty mt-2 group-hover:text-green-700 transition duration-300">
         {{ title }}
       </p>
-      <p class="text-gray-500 text-xs text-center">
+      <p class="text-gray-500 text-center text-pretty">
         {{ description }}
       </p>
     </div>
@@ -55,4 +51,11 @@ export default {
 </script>
 
 <style scoped>
+p.under-pic {
+  font-size: clamp(0.5em, 1em, 50em) !important;
+}
+
+p.desc-pic {
+  font-size: clamp(0.85em, 0.85em, 50em) !important;
+}
 </style>

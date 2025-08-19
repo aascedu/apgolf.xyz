@@ -93,7 +93,7 @@ export default {
 .footer {
   font-family: 'Matangi', sans-serif;
   word-spacing: 0.05em;
-  margin-top: 8vw;
+  margin-top: 4vw;
   background-color: oklch(52.7% 0.154 150.069);
   display: flex;
   flex-direction: column;

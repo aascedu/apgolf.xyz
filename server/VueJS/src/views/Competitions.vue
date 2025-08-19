@@ -5,7 +5,7 @@
     />
     <div class="padded-div">
         <ProAmIntro />
-        <div class="flex flex-row flex-wrap gap-10 justify-center">
+        <div class="flex flex-row flex-wrap justify-start">
             <ItemElement 
                     image="/assets/home_banner.jpeg"
                     title="Pro Am d'Evian"

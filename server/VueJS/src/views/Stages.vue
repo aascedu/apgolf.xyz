@@ -5,7 +5,7 @@
     />
     <div class="padded-div ">
         <StagesIntro />
-        <div class="flex flex-row flex-wrap gap-10 justify-center">
+        <div class="flex flex-row flex-wrap justify-between">
             <ItemElement
                 image="/assets/home_banner.jpeg"
                 title="Golf à Chamonix"
