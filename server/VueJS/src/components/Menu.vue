@@ -82,12 +82,12 @@
 
 
     <!-- Desktop Menu -->
-    <nav class="bg-transparent text-white absolute top-0 left-0 w-full py-4  z-50 hidden md:block">
-      <ul class="flex flex-row justify-center items-center gap-8">
+    <nav class="bg-transparent text-white absolute top-0 left-0 w-full h-[7rem] z-50 hidden md:block">
+      <ul class="flex flex-row justify-center items-start gap-8 mt-4">
         <li v-for="item in menuItems" :key="item.href">
           <a
             :href="item.href"
-            class="uppercase text-lg relative group drop-shadow-custom"
+            class="uppercase text-lg text-bold relative group drop-shadow-custom"
           >
             {{ $t(item.label) }}
             <span

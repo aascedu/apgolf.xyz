@@ -6,7 +6,7 @@
     <div class="padded-div">
         <!-- <Presentation /> -->
         <HomeElement 
-            image="/assets/home_banner.jpeg"
+            image="/assets/APropos.jpg"
             title="Pierre ASCEDU"
             :description="$t('presentation.description')"
             href="/contact"

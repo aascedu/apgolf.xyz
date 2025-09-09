@@ -8,28 +8,28 @@
         <div class="flex flex-row flex-wrap justify-start">
 
             <ItemElement 
-                    image="/assets/home_banner.jpeg"
-                    title="Voyage a Agadir"
-                    description="10-12 mai 2025"
-                    link="/test-sejour"
+                    image="/assets/sejours/MontBlancExperience.jpg"
+                    title="Mont Blanc Golf Experience"
+                    description="Dates flexibles"
+                    link="/mont-blanc-experience"
                 />
                 <ItemElement 
-                    image="/assets/home_banner.jpeg"
-                    title="Voyage a Marrakech"
-                    description="24-26 mai 2025"
-                    link="/test-sejour"
+                    image="/assets/sejours/RoyalPark.jpg"
+                    title="Royal Park I Roveri"
+                    description="Dates flexibles"
+                    link="/royal-park"
                 />
                 <ItemElement 
-                    image="/assets/home_banner.jpeg"
-                    title="Voyage en Italie"
-                    description="7-9 juin 2025"
-                    link="/test-sejour"
+                    image="/assets/sejours/SkiGolf.jpg"
+                    title="Ski & Golf"
+                    description="Entre le 22 avril et le 3 mai"
+                    link="/ski-golf"
                 />
                 <ItemElement 
-                    image="/assets/home_banner.jpeg"
-                    title="Decouverte du Sud Ouest et ses golfs"
-                    description="21-23 juin 2025"
-                    link="/test-sejour"
+                    image="/assets/sejours/VillaCarolina.jpg"
+                    title="Sejour a Villa Carolina"
+                    description="Dates flexibles"
+                    link="/villa-carolina"
                 />
         </div>
         <StageCustom 

@@ -15,7 +15,10 @@ import StageIntensif from './views/stages/StageIntensif.vue';
 import StageEntreprise from './views/stages/StageEntreprise.vue';
 import StageSwingHouse from './views/stages/StageSwingHouse.vue';
 import testProam from './views/proam/test-proam.vue';
-import testSejour from './views/sejours/test-sejour.vue';
+import MontBlancExperience from './views/sejours/MontBlancExperience.vue';
+import RoyalPark from './views/sejours/RoyalPark.vue';
+import SkiGolf from './views/sejours/SkiGolf.vue';
+import VillaCarolina from './views/sejours/VillaCarolina.vue';
 
 import './css/main.css';
 
@@ -32,7 +35,10 @@ const routes = [
   { path: '/stage-intensif', component: StageIntensif },
   { path: '/stage-swing-house', component: StageSwingHouse },
   { path: '/test-proam', component: testProam },
-  { path: '/test-sejour', component: testSejour },
+  { path: '/mont-blanc-experience', component: MontBlancExperience },
+  { path: '/royal-park', component: RoyalPark },
+  { path: '/ski-golf', component: SkiGolf },
+  { path: '/villa-carolina', component: VillaCarolina },
 ];
 
 const router = createRouter({
