@@ -21,7 +21,7 @@
           href="/sejours"
         />
         <HomeElement 
-          image="/assets/Accueil-ProAm.jpg"
+          image="/assets/ProAm.jpg"
           :title="$t('home.competitions.title')"
           :description="$t('home.competitions.description')"
           :buttonText="$t('home.competitions.buttonText')"
