@@ -30,7 +30,7 @@
           - --agree-tos
           - --no-eff-email
           - -d
-          - apgolf.xyz
+          - ap-golf.fr
         cleanup: true
     - name: Rename nginx final conf
       ansible.builtin.copy:

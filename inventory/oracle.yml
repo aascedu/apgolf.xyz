@@ -3,5 +3,5 @@ all:
     oracle_vm:
       hosts:
         vm1:
-          ansible_host: apgolf.xyz
+          ansible_host: ap-golf.fr
           ansible_user: ubuntu
