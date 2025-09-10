@@ -87,7 +87,7 @@
         <li v-for="item in menuItems" :key="item.href">
           <a
             :href="item.href"
-            class="uppercase text-lg text-bold relative group drop-shadow-custom"
+            class="uppercase text-lg font-bold relative group drop-shadow-custom"
           >
             {{ $t(item.label) }}
             <span
@@ -128,6 +128,9 @@ const toggleMenu = () => {
 
 <style>
 .drop-shadow-custom {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  text-shadow:
+    0 12px 72px rgba(0,0,0,1),
+    0 6px 24px rgba(0,0,0,1),
+    0 3px 6px rgba(0,0,0,1);
 }
 </style>
