@@ -113,7 +113,6 @@ const menuItems = reactive([
   { label: 'menu.stages', href: '/stages' },
   { label: 'menu.sejours', href: '/sejours' },
   { label: 'menu.competitions', href: '/competitions' },
-  { label: 'menu.about', href: '/propos' },
   { label: 'menu.contact', href: '/contact' },
 ]);
 

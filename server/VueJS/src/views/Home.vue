@@ -4,6 +4,14 @@
     :text="$t('banner.home')"
   />
   <div class="padded-div">
+    <HomeElement 
+            image="/assets/APropos.jpg"
+            title="Pierre ASCEDU"
+            :description="$t('presentation.description')"
+            href="/contact"
+            :buttonText="$t('presentation.buttonText')"
+            imageSize="w-[100%]"
+    />
     <div class="home-elements">
       <HomeElement 
         image="/assets/Accueil-Stages.jpg"
@@ -11,8 +19,10 @@
         :description="$t('home.stages.description')"
         :buttonText="$t('home.stages.buttonText')"
         href="/stages"
+        class="primary-element"
+        imageSize="w-[50%]"
       />
-      <div class="secondary-row justify-between">
+      <div class="secondary-row">
         <HomeElement 
           image="/assets/Accueil-Sejours.jpg"
           :title="$t('home.sejours.title')"
@@ -67,7 +77,7 @@ export default {
   }
   .secondary-row {
     flex-direction: row;
-    gap: 0rem; 
+    gap: 2rem;
   }
 }
 </style>

@@ -6,7 +6,6 @@ import i18n from './i18n'; // Import Vue I18n
 import Home from './views/Home.vue';
 import Contact from './views/Contact.vue';
 import Stages from './views/Stages.vue';
-import Propos from './views/Propos.vue';
 import Sejours from './views/Sejours.vue';
 import Competitions from './views/Competitions.vue';
 
@@ -27,7 +26,6 @@ const routes = [
   { path: '/', component: Home },
   { path: '/stages', component: Stages },
   { path: '/contact', component: Contact },
-  { path: '/propos', component: Propos },
   { path: '/sejours', component: Sejours },
   { path: '/competitions', component: Competitions },
   { path: '/mont-blanc-experience', component: MontBlancExperience },

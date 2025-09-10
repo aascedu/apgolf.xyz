@@ -2,11 +2,11 @@
   <!-- Desktop -->
   <div class="hidden md:flex flex-row mt-24 w-full">
     <!-- Picture on the Left -->
-    <div class="w-[50%]">
+    <div :class="`${imageSize}`">
       <img
         :src="image"
         :alt="title"
-        class="object-cover"
+        class="object-cover aspect-[4/3]"
       />
     </div>
     <!-- Text and Button on the Right -->
@@ -35,7 +35,7 @@
     <img
       :src="image"
       :alt="title"
-      class="w-full aspect-[4/3] object-cover"
+      :class="`w-full aspect-[4/3] object-cover ${imageSize}`"
     />
     <div class="flex items-center w-full gap-2 mt-2">
       <h2 class="text-green-700 text-left whitespace-nowrap">
@@ -62,7 +62,8 @@ export default {
     title: { type: String, required: true },
     description: { type: String, required: true },
     buttonText: { type: String, required: true },
-    href: { type: String, required: true }
+    href: { type: String, required: true },
+    imageSize: { type: String, default: 'w-[50%]' } // Add imageSize prop
   },
   methods: {
     navigateTo() {
