@@ -10,33 +10,33 @@
             <ItemElement 
                     image="/assets/sejours/MontBlancExperience.jpg"
                     :title="$t('sejours.montBlancExperience.title')"
-                    :description="$t('sejours.montBlancExperience.description')"
+                    :description="$t('sejours.montBlancExperience.dates')"
                     link="/mont-blanc-experience"
                 />
                 <ItemElement 
                     image="/assets/sejours/RoyalPark.jpg"
                     :title="$t('sejours.royalPark.title')"
-                    :description="$t('sejours.royalPark.description')"
+                    :description="$t('sejours.royalPark.dates')"
                     link="/royal-park"
                 />
                 <ItemElement 
                     image="/assets/sejours/SkiGolf.jpg"
                     :title="$t('sejours.skiGolf.title')"
-                    :description="$t('sejours.skiGolf.description')"
+                    :description="$t('sejours.skiGolf.dates')"
                     link="/ski-golf"
                 />
                 <ItemElement 
                     image="/assets/sejours/VillaCarolina.jpg"
                     :title="$t('sejours.villaCarolina.title')"
-                    :description="$t('sejours.villaCarolina.description')"
+                    :description="$t('sejours.villaCarolina.dates')"
                     link="/villa-carolina"
                 />
         </div>
         <StageCustom 
-            image="/assets/home_banner.jpeg"
-            :title="$t('stageCustom.title')"
-            :description="$t('stageCustom.description')"
-            :buttonText="$t('stageCustom.buttonText')"
+            image="/assets/SejourCustom.jpg"
+            :title="$t('sejourCustom.title')"
+            :description="$t('sejourCustom.description')"
+            :buttonText="$t('sejourCustom.buttonText')"
             href="/contact"
         />
     </div>

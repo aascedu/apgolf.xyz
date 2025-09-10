@@ -2,20 +2,22 @@
   <div class="md:pt-0 pt-16">
     <Banner image="/assets/sejours/VillaCarolina.jpg" />
       <DescriptionElement
-        :title="$t('stageDecouverte.title')"
-        :description="$t('stageDecouverte.description')"
+        :title="$t('sejours.villaCarolina.title')"
+        :description="$t('sejours.villaCarolina.description')"
         :program="[
-          $t('stageDecouverte.program.day1'),
-          $t('stageDecouverte.program.day2'),
-          $t('stageDecouverte.program.day3')
+          $t('sejours.villaCarolina.program.day1'),
+          $t('sejours.villaCarolina.program.day2'),
+          $t('sejours.villaCarolina.program.day3'),
+          $t('sejours.villaCarolina.program.day4'),
+          $t('sejours.villaCarolina.program.day5')
         ]"
         :additionalInfo="{
-          duree: $t('stageDecouverte.additionalInfo.duration'),
-          dates: $t('stageDecouverte.additionalInfo.dates'),
-          lieu: $t('stageDecouverte.additionalInfo.location'),
-          tarif: $t('stageDecouverte.additionalInfo.price'),
-          nombrePersonnes: $t('stageDecouverte.additionalInfo.participants'),
-          niveau: $t('stageDecouverte.additionalInfo.level')
+          duree: $t('sejours.villaCarolina.additionalInfo.duration'),
+          dates: $t('sejours.villaCarolina.additionalInfo.dates'),
+          lieu: $t('sejours.villaCarolina.additionalInfo.location'),
+          tarif: $t('sejours.villaCarolina.additionalInfo.price'),
+          nombrePersonnes: $t('sejours.villaCarolina.additionalInfo.participants'),
+          niveau: $t('sejours.villaCarolina.additionalInfo.level')
         }"
       />
     </div>

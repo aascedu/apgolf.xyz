@@ -5,7 +5,7 @@
     />
     <div class="padded-div ">
         <StagesIntro />
-        <div class="flex flex-row flex-wrap justify-between">
+        <div class="flex flex-row flex-wrap justify-evenly">
             <ItemElement
                 image="/assets/stages/BootCampAcademy.png"
                 :title="$t('stages.bootCampAcademy.title')"
@@ -26,7 +26,7 @@
             />
         </div>
         <StageCustom 
-            image="/assets/home_banner.jpeg"
+            image="/assets/StageCustom.jpg"
             :title="$t('stageCustom.title')"
             :description="$t('stageCustom.description')"
             :buttonText="$t('stageCustom.buttonText')"

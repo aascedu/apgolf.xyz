@@ -9,7 +9,6 @@ import Stages from './views/Stages.vue';
 import Propos from './views/Propos.vue';
 import Sejours from './views/Sejours.vue';
 import Competitions from './views/Competitions.vue';
-import testProam from './views/proam/test-proam.vue';
 
 // sejours
 import MontBlancExperience from './views/sejours/MontBlancExperience.vue';
@@ -31,7 +30,6 @@ const routes = [
   { path: '/propos', component: Propos },
   { path: '/sejours', component: Sejours },
   { path: '/competitions', component: Competitions },
-  { path: '/test-proam', component: testProam },
   { path: '/mont-blanc-experience', component: MontBlancExperience },
   { path: '/royal-park', component: RoyalPark },
   { path: '/ski-golf', component: SkiGolf },

@@ -98,7 +98,19 @@
     "description": "Do you have a specific need? A precise goal? Our golf courses in Chamonix are designed to adapt to your level and expectations. Each course combines technical progress, mental work, and the joy of the game in an exceptional setting at the foot of Mont-Blanc. Supervised by a high-performance expert coach, these courses allow you to progress quickly while enjoying a unique natural environment. Contact us to learn more.",
     "descriptionMobile": "Golf courses in Chamonix, supervised by a high-performance expert coach. Whether you are a beginner, passionate amateur, or a player seeking excellence, these courses adapt to your level: discovery, nature immersion, or intensive improvement. Each session combines technical progress, mental work, and the joy of the game in an exceptional setting at the foot of Mont-Blanc.",
     "buttonText": "Contact Us"
-  },  
+  },
+  "sejourCustom": {
+    "title": "Custom Stays",
+    "description": "Do you have a specific need? A precise goal? Our golf stays are designed to adapt to your level and expectations. Each stay combines technical progress, mental work, and the joy of the game in exceptional settings. Supervised by a high-performance expert coach, these stays allow you to progress quickly while enjoying unique natural environments. Contact us to learn more.",
+    "descriptionMobile": "Golf stays, supervised by a high-performance expert coach. Whether you are a beginner, passionate amateur, or a player seeking excellence, these stays adapt to your level: discovery, nature immersion, or intensive improvement. Each session combines technical progress, mental work, and the joy of the game in exceptional settings.",
+    "buttonText": "Contact Us"
+  },
+  "proAmCustom": {
+    "title": "Challenge yourself",
+    "description": "You want to prove your skills on a real competition with real pros ? We can partner to make it happen. If you have a specific event in mind, let us know and we will do our best to accommodate you.",
+    "descriptionMobile": "Prove your skills on a real competition with real pros. We can partner to make it happen. If you have a specific event in mind, let us know and we will do our best to accommodate you.",
+    "buttonText": "Contact Us"
+  },
   "presentation": {
     "title": "The Coach",
     "description": "Qualified professional, I teach golf with passion and rigor. Former coach of the French military ski team, I possess a unique expertise in coaching up to high performance. My teaching methodology is based on a personalized, technical, and mental approach, tailored to all levels of play. Whether you are a beginner or an advanced player, I will accompany you in your progress with kindness, precision, and efficiency.",
@@ -145,14 +157,82 @@
   },
   "sejours": {
     "intro": {
-      "main": "Discover our vacation packages",
-      "second": "Experience golf more intensely with our stays, tailored to all levels. Discover all our options!"
-    }
-  },
-  "proam": {
-    "intro": {
-      "main": "Join our Pro-Am competitions",
-      "second": "Join our Pro-Am competitions for an unforgettable golfing experience. Push your potential to the fullest."
+      "main": "Discover our golf stays",
+      "second": "Experience golf more intensely with our stays, suitable for all levels. Discover all our options!"
+    },
+    "montBlancExperience": {
+      "title": "Mont Blanc Experience",
+      "description": "These 3-day courses take place around Chamonix. The core itinerary is Chamonix-Mont-Blanc, Courmayeur (Italy), and Evian. However, variations with the golf courses of Megève Mont d’Arbois, Biella (Italy), Esery, or Crans Montana (Switzerland) are possible.",
+      "dates": "Flexible dates",
+      "program": {
+        "day1": "<strong>Day 1: Chamonix Golf and VIP Swing House Evening</strong><br>8:30am: Meet at Chamonix Golf, program presentation over coffee.<br>9:00am - 10:00am: Warm-up<br>10:00am - 3:00pm: 18-hole course, real-time coaching.<br>3:00pm - 4:00pm: Stress management debrief.<br>8:00pm - 10:00pm: VIP Swing House evening, technical recovery, video analysis, and practice with Trackman.",
+        "day2": "<strong>Day 2: Courmayeur Golf - Grandes Jorasses (Italy)</strong><br>8:00am: Departure from Chamonix.<br>9:00am - 10:00am: Warm-up and technical recap from the previous day.<br>10:30am - 12:30pm: 9-hole course, real-time coaching.<br>12:30pm - 2:00pm: Lunch, tactical advice, tactical reasoning method.<br>2:00pm - 5:00pm: 9-hole course, real-time coaching.<br>Return to Chamonix, free evening.",
+        "day3": "<strong>Day 3: Evian Golf</strong><br>8:45am: Meet at the Evian academy.<br>9:00am - 10:00am: Technical training (Trackman / Top Tracer) and club calibration.<br>12:30pm - 5:00pm: 18-hole course at Evian Champions Course, real-time coaching."
+      },
+      "additionalInfo": {
+        "duration": "3 days",
+        "dates": "Flexible dates",
+        "location": "4-star hotel in Chamonix",
+        "price": "From €774 (accommodation included)",
+        "participants": "6 to 9",
+        "level": "All levels"
+      }
+    },
+    "royalPark": {
+      "title": "Royal Park I Roveri",
+      "description": "Dolce Vita on the agenda. This 3-day course takes place in the magnificent setting of La Mandria Natural Park, at the foot of the Alps. Royal Park I Roveri is one of Italy’s most prestigious clubs, host to several international events including the Italian Open and European Amateur Championship. The golf course offers members, their guests, and tourists a unique opportunity to play on two courses designed by world-renowned architects.",
+      "dates": "Flexible dates",
+      "program": {
+        "day1": "<strong>Day 1: Green Attack</strong><br>9:00am - 12:00pm: Practice improvement on green attacks.<br>2:00pm - 6:00pm: Old Trent Jones course.",
+        "day2": "<strong>Day 2: Putting Focus</strong><br>9:00am - 12:00pm: Putting focus at the Royal Park I Roveri practice.<br>2:00pm - 6:00pm: Trent Jones course.",
+        "day3": "<strong>Day 3: Game Strategy</strong><br>Links Dana Fry course."
+      },
+      "additionalInfo": {
+        "duration": "3 days",
+        "dates": "Flexible dates",
+        "location": "La Mandria Natural Park - Italy",
+        "price": "From €1200 half-board",
+        "participants": "6 to 9",
+        "level": "All levels"
+      }
+    },
+    "skiGolf": {
+      "title": "Ski & Golf",
+      "description": "These 3-day courses take place around Chamonix. Experience an incredible and rare adventure in France. Alpine or touring skiing in the morning and golf in the afternoon. We accompany you on the slopes as well as on the course.",
+      "dates": "Between April 22 and May 3",
+      "program": {
+        "day1": "<strong>Day 1:</strong><br>Morning: Skiing at Grands Montets.<br>Afternoon: Trent Jones course at Chamonix Golf.",
+        "day2": "<strong>Day 2:</strong><br>Morning: Skiing at Grands Montets.<br>Afternoon: Trent Jones course at Chamonix Golf.",
+        "day3": "<strong>Day 3:</strong><br>Morning: Skiing at Grands Montets.<br>Afternoon: Trent Jones course at Chamonix Golf."
+      },
+      "additionalInfo": {
+        "duration": "3 days / 2 nights",
+        "dates": "Between April 22 and May 3",
+        "location": "4-star hotel in Chamonix",
+        "price": "From €750 excluding ski pass and equipment",
+        "participants": "6 to 9",
+        "level": "All levels"
+      }
+    },
+    "villaCarolina": {
+      "title": "Dolce Vita at Villa Carolina Resort",
+      "description": "Dolce Vita on the agenda. This 5-day course takes place at the Villa Carolina Golf Club Resort, immersed in the beautiful landscape of the Ovada hills. The two private 18-hole courses guarantee unique playing and training experiences for this course.",
+      "dates": "Flexible dates",
+      "program": {
+        "day1": "<strong>Day 1: Tee Shots</strong><br>9:00am - 12:00pm: Practice improvement on tee shots.<br>2:00pm - 6:00pm: La Marchesa course.",
+        "day2": "<strong>Day 2: Green Attack</strong><br>9:00am - 12:00pm: Practice improvement on green attacks.<br>2:00pm - 6:00pm: La Marchesa course.",
+        "day3": "<strong>Day 3: Game Strategy</strong><br>Paradiso course.",
+        "day4": "<strong>Day 4: Bunker Shots Focus</strong><br>9:00am - 12:00pm: Practice improvement on bunker shots.<br>2:00pm - 6:00pm: La Marchesa course.",
+        "day5": "<strong>Day 5: Friendly Competition</strong><br>Paradiso course."
+      },
+      "additionalInfo": {
+        "duration": "5 days",
+        "dates": "Flexible dates",
+        "location": "Villa Carolina Resort, Italy",
+        "price": "From €1200 half-board",
+        "participants": "6 to 9",
+        "level": "All levels"
+      }
     }
   }
 }

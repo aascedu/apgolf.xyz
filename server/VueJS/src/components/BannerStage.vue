@@ -71,7 +71,7 @@ export default {
 @media (max-width: 767px) {
   .banner-container {
     height: 35vh;
-    margin-top: 61px;
+    /* margin-top: 61px; */
   }
 }
 </style>

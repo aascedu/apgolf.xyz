@@ -10,25 +10,25 @@
     "banner": {
       "home": "AP GOLF",
       "stages": "LES STAGES",
-      "about": "A PROPOS",
+      "about": "À PROPOS",
       "contact": "NOUS CONTACTER",
-      "sejours": "LES SEJOURS",
+      "sejours": "LES SÉJOURS",
       "competitions": "LES PRO-AM"
     },
     "stages": {
       "intro": {
-        "main": "Decouvrez nos stages de golf",
+        "main": "Découvrez nos stages de golf",
         "second": "Stages de golf à Chamonix, encadrés par un coach expert de la haute performance. Que vous soyez débutant, amateur passionné ou joueur en quête d’excellence, ces stages s’adaptent à votre niveau : découverte, immersion nature ou perfectionnement intensif. Chaque session allie progression technique, travail mental et plaisir du jeu dans un cadre exceptionnel, au pied du Mont-Blanc."
       },
       "bootCampAcademy": {
         "title": "Boot camp journée à l’Evian Académie",
         "dates": "Dates flexibles",
-        "description": "Venez participer à une journée d’entrainement et repartez avec les exercices et pistes de travail pour vous entrainer sur votre practice.",
+        "description": "Venez participer à une journée d’entraînement et repartez avec les exercices et pistes de travail pour vous entraîner sur votre practice.",
         "program": {
-          "day1": "<strong>Focus sur le jeu a moins de 135m<br>9h00 - 10h30 :</strong> Attaque de green (< 135m)",
+          "day1": "<strong>Focus sur le jeu à moins de 135m<br>9h00 - 10h30 :</strong> Attaque de green (< 135m)",
           "day2": "<strong>10h30 - 12h00 :</strong> Wedging (< PW)",
-          "day3": "<strong>13h30 - 15h00 :</strong> Putting (Court et long)",
-          "day4": "<strong>15h00 - 18h00 :</strong> Autour du Green (CR, CL, et SB)"
+          "day3": "<strong>13h30 - 15h00 :</strong> Putting (court et long)",
+          "day4": "<strong>15h00 - 18h00 :</strong> Autour du green (CR, CL, et SB)"
         },
         "additionalInfo": {
           "duration": "1 jour",
@@ -42,7 +42,7 @@
       "dataExpertise": {
         "title": "Data Expertise au Golf National",
         "dates": "Dates flexibles",
-        "description": "Changez de regard sur votre conception du golf. Venez trouver votre swing en suivant un stage au golf national avec toutes les nouvelles technologies et la participation de Damien GUINARD, un des meilleurs data expert français.",
+        "description": "Changez de regard sur votre conception du golf. Venez trouver votre swing en suivant un stage au Golf National avec toutes les nouvelles technologies et la participation de Damien GUINARD, un des meilleurs data experts français.",
         "program": {
           "day1": "<strong>Jour 1 : Trouvez votre Swing</strong><br> Le matin passage sur les plaques de force avec Damien. Explication de votre système de swing. Travail sur les mises en jeu et votre long jeu en général.<br>L'après-midi, parcours de l'Aigle.",
           "day2": "<strong>Jour 2 : Boot Camp</strong><br>Le matin, focus sur le jeu long, enregistrement de données (Trackman ou Flight Scope).<br>L'après-midi, focus sur chip roulé, pitch & run et sortie de bunker.",
@@ -52,19 +52,19 @@
           "duration": "3 jours / 2 nuits",
           "dates": "Dates flexibles",
           "location": "Golf National - Guyancourt (France 78)",
-          "price": "A partir de 650€ en demi-pension, Green fee inclus",
+          "price": "À partir de 650€ en demi-pension, Green fee inclus",
           "participants": "6 à 9",
           "level": "Tous niveaux"
         }
       },
       "evianImmersion": {
-        "title": "Immersion Competition Majeur à Evian",
+        "title": "Immersion Compétition Majeure à Evian",
         "dates": "Dates flexibles",
         "description": "Venez perfectionner votre jeu sur les installations incroyables de l’Evian Resort et jouez un parcours de majeur.",
         "program": {
           "day1": "<strong>Jour 1 : Entraînement à l'académie</strong><br>Le matin, travail technique au practice sur le long jeu.<br>L'après-midi, entraînement au practice sur le petit jeu.",
-          "day2": "<strong>Jour 2 : Mise en situation sur la Lake course</strong><br>Parcours accompagné et stratégie sur le Lake Course.",
-          "day3": "<strong>Jour 3 : Mise en situation sur la Champions course</strong><br>Échauffement, travail de putting.<br>Parcours accompagné et stratégie sur la Champions Course."
+          "day2": "<strong>Jour 2 : Mise en situation sur la Lake Course</strong><br>Parcours accompagné et stratégie sur la Lake Course.",
+          "day3": "<strong>Jour 3 : Mise en situation sur la Champions Course</strong><br>Échauffement, travail de putting.<br>Parcours accompagné et stratégie sur la Champions Course."
         },
         "additionalInfo": {
           "duration": "3 jours / 2 nuits",
@@ -86,7 +86,7 @@
       "sejours": {
         "title": "Nos Séjours",
         "description":
-          "Parce que le golf, c’est une histoire de passion et de partage. AP Golf vous propose des séjours clés en main. Progression, découverte, convivialité, confort, découvrez tous nos séjours",
+          "Parce que le golf, c’est une histoire de passion et de partage. AP Golf vous propose des séjours clés en main. Progression, découverte, convivialité, confort, découvrez tous nos séjours.",
         "buttonText": "Voir les séjours"
       },
       "competitions": {
@@ -99,9 +99,21 @@
     "stageCustom": {
       "title": "Sur mesure",
       "description":
-        "Vous avez un besoin particulier ? Un objectif précis ? Nos stages de golf à Chamonix sont conçus pour s’adapter à votre niveau et vos attentes. Chaque stage allie progression technique, travail mental et plaisir du jeu dans un cadre exceptionnel, au pied du Mont-Blanc. Encadrés par un coach expert de la haute performance, ces stages vous permettent de progresser rapidement tout en profitant d’un environnement naturel unique. Contactez-nous pour en savoir plus.",
+        "Vous avez un besoin particulier ? Un objectif précis ? Nos stages de golf sont conçus pour s’adapter à votre niveau et à vos attentes. Chaque stage allie progression technique, travail mental et plaisir du jeu dans un cadre exceptionnel. Encadrés par un coach expert de la haute performance, ces stages vous permettent de progresser rapidement tout en profitant d’un environnement naturel unique. Contactez-nous pour en savoir plus.",
       "descriptionMobile":
-        "Stages de golf à Chamonix, encadrés par un coach expert de la haute performance. Que vous soyez débutant, amateur passionné ou joueur en quête d’excellence, ces stages s’adaptent à votre niveau : découverte, immersion nature ou perfectionnement intensif. Chaque session allie progression technique, travail mental et plaisir du jeu dans un cadre exceptionnel, au pied du Mont-Blanc.",
+        "Vous avez un besoin particulier ? Un objectif précis ? Nos stages de golf sont conçus pour s’adapter à votre niveau et à vos attentes. Chaque stage allie progression technique, travail mental et plaisir du jeu dans un cadre exceptionnel. Encadrés par un coach expert de la haute performance, ces stages vous permettent de progresser rapidement tout en profitant d’un environnement naturel unique. Contactez-nous pour en savoir plus.",
+      "buttonText": "Nous contacter"
+    },
+    "sejourCustom" : {
+      "title": "Séjour Sur Mesure",
+      "description": "Vous avez un besoin particulier ? Un objectif précis ? Nos séjours de golf à Chamonix sont conçus pour s’adapter à votre niveau et à vos attentes. Chaque séjour allie progression technique, travail mental et plaisir du jeu dans un cadre exceptionnel. Encadrés par un coach expert de la haute performance, ces séjours vous permettent de progresser tout en profitant d’un environnement naturel unique. Contactez-nous pour en savoir plus.",
+      "descriptionMobile": "Vous avez un besoin particulier ? Un objectif précis ? Nos séjours de golf à Chamonix sont conçus pour s’adapter à votre niveau et à vos attentes. Chaque séjour allie progression technique, travail mental et plaisir du jeu dans un cadre exceptionnel. Encadrés par un coach expert de la haute performance, ces séjours vous permettent de progresser tout en profitant d’un environnement naturel unique. Contactez-nous pour en savoir plus.",
+      "buttonText": "Nous contacter"
+    },
+    "proAmCustom": {
+      "title": "Relevez le défi",
+      "description": "Vous souhaitez prouver votre talent lors d'une compétition avec de vrais pros ? Nous pouvons vous accompagner dans votre projet. Si vous avez un événement spécifique en tête, n'hésitez pas à nous contacter pour en discuter.",
+      "descriptionMobile": "Vous souhaitez prouver votre talent lors d'une compétition avec de vrais pros ? Nous pouvons vous accompagner dans votre projet. Si vous avez un événement spécifique en tête, n'hésitez pas à nous contacter pour en discuter.",
       "buttonText": "Nous contacter"
     },
     "presentation": {
@@ -112,10 +124,10 @@
     },
     "infoPratique": {
       "title": "Infos Pratiques",
-      "contactUs": "Contactez nous !",
+      "contactUs": "Contactez-nous !",
       "interested": "Vous êtes intéressé par nos",
       "stages": "stages",
-      "sendMailOrCall": "Envoyez nous un mail ou appelez nous au :",
+      "sendMailOrCall": "Envoyez-nous un mail ou appelez-nous au :",
       "phone": "Tél : +33 (0) 6 21 62 05 86",
       "email": "Mail : "
     },
@@ -137,7 +149,7 @@
       "price": "Tarif participant",
       "participants": "Nombre de personnes",
       "level": "Niveau",
-      "contactReserve": "Nous contacter / Reserver"
+      "contactReserve": "Nous contacter / Réserver"
     },
     "coachHome": {
       "title": "Le Coach",
@@ -155,6 +167,80 @@
       "intro": {
         "main": "Découvrez nos séjours de golf",
         "second": "Vivez le golf plus intensément avec nos séjours, adaptés à tous les niveaux. Découvrez toutes nos options !"
+      },
+      "montBlancExperience": {
+        "title": "Mont Blanc Experience",
+        "description": "Ces stages de 3 jours se déroulent autour de Chamonix. La formule socle est Chamonix-Mont-Blanc, Courmayeur (Italie) et Evian. Toutefois, des variantes avec les golfs de Megève Mont d’Arbois, Biella (Italie), Esery ou Crans Montana (Suisse) sont envisageables.",
+        "dates": "Dates flexibles",
+        "program": {
+          "day1": "<strong>Jour 1 : Golf de Chamonix et Soirée VIP Swing House</strong><br>8h30 : Accueil au Golf de Chamonix, présentation du programme autour d'un café.<br>9h00 - 10h00 : Échauffement<br>10h00 - 15h00 : Parcours 18 trous, coaching en temps réel.<br>15h00 - 16h00 : Débriefing gestion du stress.<br>20h00 - 22h00 : Soirée VIP Swing House, récupération technique, analyse vidéo et practice avec Trackman.",
+          "day2": "<strong>Jour 2 : Golf de Courmayeur - Grandes Jorasses (Italie)</strong><br>8h00 : Départ de Chamonix.<br>9h00 - 10h00 : Échauffement et rappel technique de la veille.<br>10h30 - 12h30 : Parcours 9 trous, coaching en temps réel.<br>12h30 - 14h00 : Repas, conseils tactiques, méthode de raisonnement tactique.<br>14h00 - 17h00 : Parcours 9 trous, coaching en temps réel.<br>Retour à Chamonix, soirée libre.",
+          "day3": "<strong>Jour 3 : Golf d'Évian</strong><br>8h45 : Rendez-vous à l'académie d'Évian.<br>9h00 - 10h00 : Entraînement technique (Trackman / Top Tracer) et étalonnage de clubs.<br>12h30 - 17h00 : Parcours 18 trous Évian Champions Course, coaching en temps réel."
+        },
+        "additionalInfo": {
+          "duration": "3 jours",
+          "dates": "Dates flexibles",
+          "location": "Hôtel 4 étoiles à Chamonix",
+          "price": "À partir de 774€ (logement inclus)",
+          "participants": "6 à 9",
+          "level": "Tous niveaux"
+        }
+      },
+      "royalPark": {
+        "title": "Royal Park I Roveri",
+        "description": "Dolce Vita au programme. Ce stage de 3 jours se déroulera dans le cadre magnifique du Parc Naturel de La Mandria, au pied des Alpes, le Royal Park I Roveri est l’un des clubs les plus prestigieux d’Italie, théâtre de plusieurs événements internationaux dont l’Italian Open et l’European Amateur Championship. Le parcours de golf offre aux membres, à leurs invités et aux touristes une occasion unique de jouer sur deux parcours conçus par des architectes de renommée mondiale.",
+        "dates": "Dates flexibles",
+        "program": {
+          "day1": "<strong>Jour 1 : Attaque de green</strong><br>9h00 - 12h00 : Perfectionnement au practice sur les attaques de green.<br>14h00 - 18h00 : Parcours Old Trent Jones.",
+          "day2": "<strong>Jour 2 : Focus Putting</strong><br>9h00 - 12h00 : Focus sur le putting au practice du Royal Park I Roveri.<br>14h00 - 18h00 : Parcours Trent Jones.",
+          "day3": "<strong>Jour 3 : Stratégie de jeu</strong><br>Parcours Links Dana Fry."
+        },
+        "additionalInfo": {
+          "duration": "3 jours",
+          "dates": "Dates flexibles",
+          "location": "Parc naturel de la Mandria - Italie",
+          "price": "À partir de 1200€ en demi-pension",
+          "participants": "6 à 9",
+          "level": "Tous niveaux"
+        }
+      },
+      "skiGolf": {
+        "title": "Ski & Golf",
+        "description": "Ces stages de 3 jours se déroulent autour de Chamonix. Vivez une expérience incroyable et rarissime en France. Ski alpin ou de randonnée le matin et golf l’après-midi. Nous vous accompagnons sur les pistes comme sur le parcours.",
+        "dates": "Entre le 22 avril et le 3 mai",
+        "program": {
+          "day1": "<strong>Jour 1 :</strong><br>Matin : Ski aux Grands Montets.<br>Après-midi : Parcours Trent Jones au golf de Chamonix.",
+          "day2": "<strong>Jour 2 :</strong><br>Matin : Ski aux Grands Montets.<br>Après-midi : Parcours Trent Jones au golf de Chamonix.",
+          "day3": "<strong>Jour 3 :</strong><br>Matin : Ski aux Grands Montets.<br>Après-midi : Parcours Trent Jones au golf de Chamonix."
+        },
+        "additionalInfo": {
+          "duration": "3 jours / 2 nuits",
+          "dates": "Entre le 22 avril et le 3 mai",
+          "location": "Hôtel 4 étoiles à Chamonix",
+          "price": "À partir de 750€ hors forfait et matériel de ski",
+          "participants": "6 à 9",
+          "level": "Tous niveaux"
+        }
+      },
+      "villaCarolina": {
+        "title": "Dolce Vita à la Villa Carolina Resort",
+        "description": "Dolce Vita au programme. Ce stage de 5 jours se déroulera sur le Resort du Golf Club Villa Carolina, immergé dans la beauté du paysage des collines d’Ovada. Les deux parcours privés de 18 trous garantissent des expériences de jeu et d’entraînement uniques pour ce stage.",
+        "dates": "Dates flexibles",
+        "program": {
+          "day1": "<strong>Jour 1 : Mise en jeu</strong><br>9h00 - 12h00 : Perfectionnement au practice sur les mises en jeu.<br>14h00 - 18h00 : Parcours La Marchesa.",
+          "day2": "<strong>Jour 2 : Attaque de green</strong><br>9h00 - 12h00 : Perfectionnement au practice sur les attaques de green.<br>14h00 - 18h00 : Parcours La Marchesa.",
+          "day3": "<strong>Jour 3 : Stratégie de jeu</strong><br>Parcours Paradiso.",
+          "day4": "<strong>Jour 4 : Focus sortie de bunker</strong><br>9h00 - 12h00 : Perfectionnement au practice sur les sorties de bunker.<br>14h00 - 18h00 : Parcours La Marchesa.",
+          "day5": "<strong>Jour 5 : Compétition amicale</strong><br>Parcours Paradiso."
+        },
+        "additionalInfo": {
+          "duration": "5 jours",
+          "dates": "Dates flexibles",
+          "location": "Villa Carolina Resort, Italie",
+          "price": "À partir de 1200€ en demi-pension",
+          "participants": "6 à 9",
+          "level": "Tous niveaux"
+        }
       }
     },
     "proam": {
