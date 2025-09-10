@@ -2,20 +2,20 @@
   <div class="md:pt-0 pt-16">
     <Banner image="/assets/stages/EvianImmersion.jpg" />
       <DescriptionElement
-        :title="$t('stageDecouverte.title')"
-        :description="$t('stageDecouverte.description')"
+        :title="$t('stages.evianImmersion.title')"
+        :description="$t('stages.evianImmersion.description')"
         :program="[
-          $t('stageDecouverte.program.day1'),
-          $t('stageDecouverte.program.day2'),
-          $t('stageDecouverte.program.day3')
+          $t('stages.evianImmersion.program.day1'),
+          $t('stages.evianImmersion.program.day2'),
+          $t('stages.evianImmersion.program.day3')
         ]"
         :additionalInfo="{
-          duree: $t('stageDecouverte.additionalInfo.duration'),
-          dates: $t('stageDecouverte.additionalInfo.dates'),
-          lieu: $t('stageDecouverte.additionalInfo.location'),
-          tarif: $t('stageDecouverte.additionalInfo.price'),
-          nombrePersonnes: $t('stageDecouverte.additionalInfo.participants'),
-          niveau: $t('stageDecouverte.additionalInfo.level')
+          duree: $t('stages.evianImmersion.additionalInfo.duration'),
+          dates: $t('stages.evianImmersion.additionalInfo.dates'),
+          lieu: $t('stages.evianImmersion.additionalInfo.location'),
+          tarif: $t('stages.evianImmersion.additionalInfo.price'),
+          nombrePersonnes: $t('stages.evianImmersion.additionalInfo.participants'),
+          niveau: $t('stages.evianImmersion.additionalInfo.level')
         }"
       />
     </div>

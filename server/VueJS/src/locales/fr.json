@@ -19,6 +19,61 @@
       "intro": {
         "main": "Decouvrez nos stages de golf",
         "second": "Stages de golf à Chamonix, encadrés par un coach expert de la haute performance. Que vous soyez débutant, amateur passionné ou joueur en quête d’excellence, ces stages s’adaptent à votre niveau : découverte, immersion nature ou perfectionnement intensif. Chaque session allie progression technique, travail mental et plaisir du jeu dans un cadre exceptionnel, au pied du Mont-Blanc."
+      },
+      "bootCampAcademy": {
+        "title": "Boot camp journée à l’Evian Académie",
+        "dates": "Dates flexibles",
+        "description": "Venez participer à une journée d’entrainement et repartez avec les exercices et pistes de travail pour vous entrainer sur votre practice.",
+        "program": {
+          "day1": "<strong>Focus sur le jeu a moins de 135m<br>9h00 - 10h30 :</strong> Attaque de green (< 135m)",
+          "day2": "<strong>10h30 - 12h00 :</strong> Wedging (< PW)",
+          "day3": "<strong>13h30 - 15h00 :</strong> Putting (Court et long)",
+          "day4": "<strong>15h00 - 18h00 :</strong> Autour du Green (CR, CL, et SB)"
+        },
+        "additionalInfo": {
+          "duration": "1 jour",
+          "dates": "Dates flexibles",
+          "location": "Evian Académie",
+          "price": "175€",
+          "participants": "Max 6 personnes",
+          "level": "Tous niveaux"
+        }
+      },
+      "dataExpertise": {
+        "title": "Data Expertise au Golf National",
+        "dates": "Dates flexibles",
+        "description": "Changez de regard sur votre conception du golf. Venez trouver votre swing en suivant un stage au golf national avec toutes les nouvelles technologies et la participation de Damien GUINARD, un des meilleurs data expert français.",
+        "program": {
+          "day1": "<strong>Jour 1 : Trouvez votre Swing</strong><br> Le matin passage sur les plaques de force avec Damien. Explication de votre système de swing. Travail sur les mises en jeu et votre long jeu en général.<br>L'après-midi, parcours de l'Aigle.",
+          "day2": "<strong>Jour 2 : Boot Camp</strong><br>Le matin, focus sur le jeu long, enregistrement de données (Trackman ou Flight Scope).<br>L'après-midi, focus sur chip roulé, pitch & run et sortie de bunker.",
+          "day3": "<strong>Jour 3 : Stratégie</strong><br>Le matin putting.<br>L'après-midi parcours de l'Aigle."
+        },
+        "additionalInfo": {
+          "duration": "3 jours / 2 nuits",
+          "dates": "Dates flexibles",
+          "location": "Golf National - Guyancourt (France 78)",
+          "price": "A partir de 650€ en demi-pension, Green fee inclus",
+          "participants": "6 à 9",
+          "level": "Tous niveaux"
+        }
+      },
+      "evianImmersion": {
+        "title": "Immersion Competition Majeur à Evian",
+        "dates": "Dates flexibles",
+        "description": "Venez perfectionner votre jeu sur les installations incroyables de l’Evian Resort et jouez un parcours de majeur.",
+        "program": {
+          "day1": "<strong>Jour 1 : Entraînement à l'académie</strong><br>Le matin, travail technique au practice sur le long jeu.<br>L'après-midi, entraînement au practice sur le petit jeu.",
+          "day2": "<strong>Jour 2 : Mise en situation sur la Lake course</strong><br>Parcours accompagné et stratégie sur le Lake Course.",
+          "day3": "<strong>Jour 3 : Mise en situation sur la Champions course</strong><br>Échauffement, travail de putting.<br>Parcours accompagné et stratégie sur la Champions Course."
+        },
+        "additionalInfo": {
+          "duration": "3 jours / 2 nuits",
+          "dates": "Dates flexibles",
+          "location": "Evian Resort Golf Club",
+          "price": "À partir de 812€ en demi-pension, Green fee inclus",
+          "participants": "6 à 9",
+          "level": "Tous niveaux"
+        }
       }
     },
     "home": {
@@ -89,101 +144,6 @@
       "description":
         "Professionnel diplômé depuis plus de 30 ans, Pierre Ascedu enseigne au Golf de Chamonix avec passion et exigence. Ancien entraîneur de l’équipe militaire française de ski, il possède une expertise unique du coaching en milieu de haute performance. Sa pédagogie repose sur une approche personnalisée, technique et mentale, adaptée à tous les niveaux de jeu. Que vous soyez débutant ou joueur confirmé, il vous accompagne dans votre progression avec précision, bienveillance et efficacité. Grâce à des outils modernes (Trackman, AimPoint, TPI) et une grande expérience de terrain, Pierre vous aide à atteindre vos objectifs, que ce soit pour le loisir ou la compétition.",
       "buttonText": "En savoir plus"
-    },
-    "stageIntensif": {
-      "title": "Stage de Golf Intensif",
-      "description":
-        "Ce stage intensif est conçu pour les golfeurs confirmés souhaitant perfectionner leur jeu et atteindre un niveau supérieur. Encadré par Pierre ASCEDU, coach professionnel avec plus de 30 ans d’expérience, ce programme allie technique, stratégie et préparation mentale pour optimiser vos performances sur le parcours.",
-      "program": {
-        "day1": "<strong>Jour 1 : Analyse technique et mise en place des objectifs</strong><br>Analyse vidéo de votre swing, évaluation de votre jeu court et long. Définition des objectifs personnalisés pour le stage.",
-        "day2": "<strong>Jour 2 : Perfectionnement du swing</strong><br>Travail sur la posture, le grip et le mouvement. Exercices spécifiques pour gagner en puissance et en précision.",
-        "day3": "<strong>Jour 3 : Stratégie sur le parcours</strong><br>Session sur le parcours pour apprendre à gérer les différentes situations de jeu. Focus sur la prise de décision et la gestion des risques.",
-        "day4": "<strong>Jour 4 : Approche mentale et gestion du stress</strong><br>Techniques de concentration et de relaxation pour améliorer votre mental. Préparation à la compétition.",
-        "day5": "<strong>Jour 5 : Parcours complet et bilan</strong><br>Parcours complet avec mise en pratique des acquis. Bilan personnalisé et recommandations pour continuer à progresser."
-      },
-      "additionalInfo": {
-        "duration": "5 jours",
-        "dates": "Du 10 au 14 juillet 2025",
-        "location": "Golf de Chamonix",
-        "price": "520 € par personne",
-        "participants": "3 à 5 personnes",
-        "level": "Confirmé"
-      }
-    },
-    "stageHautePerf": {
-      "title": "Stage de Golf Haute Performance",
-      "description":
-        "Ce stage intensif est conçu pour les golfeurs souhaitant améliorer leur jeu à un niveau supérieur. Encadré par Pierre ASCEDU, coach professionnel avec plus de 30 ans d’expérience, ce programme allie technique, stratégie et préparation mentale pour optimiser vos performances sur le parcours.",
-      "program": {
-        "day1": "<strong>Jour 1 : Analyse technique et mise en place des objectifs</strong><br>Analyse vidéo de votre swing, évaluation de votre jeu court et long. Définition des objectifs personnalisés pour le stage.",
-        "day2": "<strong>Jour 2 : Perfectionnement du swing</strong><br>Travail sur la posture, le grip et le mouvement. Exercices spécifiques pour gagner en puissance et en précision.",
-        "day3": "<strong>Jour 3 : Stratégie sur le parcours</strong><br>Session sur le parcours pour apprendre à gérer les différentes situations de jeu. Focus sur la prise de décision et la gestion des risques.",
-        "day4": "<strong>Jour 4 : Approche mentale et gestion du stress</strong><br>Techniques de concentration et de relaxation pour améliorer votre mental. Préparation à la compétition.",
-        "day5": "<strong>Jour 5 : Jeu court et putting</strong><br>Exercices intensifs sur le chipping, le pitching et le putting. Amélioration de la précision et de la régularité.",
-        "day6": "<strong>Jour 6 : Parcours complet et bilan</strong><br>Parcours complet avec mise en pratique des acquis. Bilan personnalisé et recommandations pour continuer à progresser."
-      },
-      "additionalInfo": {
-        "duration": "6 jours",
-        "dates": "Du 10 au 15 juillet 2025",
-        "location": "Golf de Chamonix",
-        "price": "420 € par personne",
-        "participants": "3 à 5 personnes",
-        "level": "Confirmé"
-      }
-    },
-    "stageEntreprise": {
-      "title": "Stage de Golf Entreprise",
-      "description":
-        "Ce stage de golf pour entreprises est conçu pour renforcer la cohésion d'équipe et offrir une expérience unique à vos collaborateurs. Encadré par Pierre ASCEDU, coach professionnel, ce programme allie initiation au golf, activités ludiques et moments de partage dans un cadre exceptionnel.",
-      "program": {
-        "day1": "<strong>Jour 1 : Initiation et découverte</strong><br>Présentation du matériel, initiation au swing et au putting. Activités ludiques pour favoriser la cohésion d’équipe.",
-        "day2": "<strong>Jour 2 : Challenges et ateliers</strong><br>Ateliers techniques sur le jeu court et le jeu long. Challenges en équipe pour développer l’esprit de collaboration.",
-        "day3": "<strong>Jour 3 : Parcours et moments de partage</strong><br>Parcours accompagné pour mettre en pratique les acquis. Débriefing et moments de convivialité pour clôturer le stage."
-      },
-      "additionalInfo": {
-        "duration": "3 jours",
-        "dates": "Du 15 au 17 septembre 2025",
-        "location": "Golf de Trévignin (73)",
-        "price": "350 € par personne",
-        "participants": "8 à 12 personnes",
-        "level": "Tous niveaux"
-      }
-    },
-    "stageDecouverte": {
-      "title": "Stage de Golf Découverte",
-      "description":
-        "Ce stage découverte est idéal pour les golfeurs débutants ou ceux souhaitant découvrir les bases du golf dans un cadre convivial. Encadré par Pierre ASCEDU, coach professionnel, ce programme vous initiera aux fondamentaux techniques et stratégiques du golf tout en vous permettant de profiter d'une expérience ludique et enrichissante.",
-      "program": {
-        "day1": "<strong>Jour 1 : Initiation et découverte</strong><br>Présentation du matériel, initiation au swing et au putting. Découverte des bases du jeu sur le practice.",
-        "day2": "<strong>Jour 2 : Approfondissement des techniques</strong><br>Travail sur le grip, la posture et le mouvement. Exercices sur le jeu court et le jeu long.",
-        "day3": "<strong>Jour 3 : Parcours et mise en pratique</strong><br>Parcours accompagné pour mettre en pratique les acquis. Conseils personnalisés pour progresser et prendre plaisir sur le terrain."
-      },
-      "additionalInfo": {
-        "duration": "3 jours",
-        "dates": "Du 3 au 5 août 2025",
-        "location": "Golf de Trévignin (73)",
-        "price": "250 € par personne",
-        "participants": "6 à 8 personnes",
-        "level": "Débutant"
-      }
-    },
-    "stageSwingHouse": {
-      "title": "Stage Swing House",
-      "description":
-        "Le stage Swing House est une expérience unique conçue pour les passionnés de golf souhaitant améliorer leur jeu dans une ambiance détendue et conviviale. Encadré par Pierre ASCEDU, ce stage allie entraînement technique et moments de partage.",
-      "program": {
-        "day1": "<strong>Jour 1 : Introduction au Swing House</strong><br>Accueil et présentation du concept Swing House. Découverte des installations et du matériel. Évaluation initiale du niveau de chaque participant.",
-        "day2": "<strong>Jour 2 : Entraînement technique</strong><br>Focus sur la mécanique du swing et le positionnement du corps. Exercices individualisés pour améliorer la technique. Analyse vidéo des swings pour un retour personnalisé.",
-        "day3": "<strong>Jour 3 : Jeu sur le parcours et stratégie</strong><br>Session sur le parcours pour appliquer les techniques apprises. Accent mis sur la gestion du parcours et le choix des coups. Discussions en groupe sur les stratégies à adopter dans différentes situations de jeu."
-      },
-      "additionalInfo": {
-        "duration": "3 jours",
-        "dates": "Du 10 au 12 août 2025",
-        "location": "Swing House, Chamonix",
-        "price": "300 € par personne",
-        "participants": "4 à 6 personnes",
-        "level": "Tous niveaux"
-      }
     },
     "swingHouse": {
       "title": "Notre partenaire",

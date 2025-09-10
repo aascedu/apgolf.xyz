@@ -2,20 +2,21 @@
   <div class="md:pt-0 pt-16">
     <Banner image="/assets/stages/BootCampAcademy.png" />
       <DescriptionElement
-        :title="$t('stageDecouverte.title')"
-        :description="$t('stageDecouverte.description')"
+        :title="$t('stages.bootCampAcademy.title')"
+        :description="$t('stages.bootCampAcademy.description')"
         :program="[
-          $t('stageDecouverte.program.day1'),
-          $t('stageDecouverte.program.day2'),
-          $t('stageDecouverte.program.day3')
+          $t('stages.bootCampAcademy.program.day1'),
+          $t('stages.bootCampAcademy.program.day2'),
+          $t('stages.bootCampAcademy.program.day3'),
+          $t('stages.bootCampAcademy.program.day4')
         ]"
         :additionalInfo="{
-          duree: $t('stageDecouverte.additionalInfo.duration'),
-          dates: $t('stageDecouverte.additionalInfo.dates'),
-          lieu: $t('stageDecouverte.additionalInfo.location'),
-          tarif: $t('stageDecouverte.additionalInfo.price'),
-          nombrePersonnes: $t('stageDecouverte.additionalInfo.participants'),
-          niveau: $t('stageDecouverte.additionalInfo.level')
+          duree: $t('stages.bootCampAcademy.additionalInfo.duration'),
+          dates: $t('stages.bootCampAcademy.additionalInfo.dates'),
+          lieu: $t('stages.bootCampAcademy.additionalInfo.location'),
+          tarif: $t('stages.bootCampAcademy.additionalInfo.price'),
+          nombrePersonnes: $t('stages.bootCampAcademy.additionalInfo.participants'),
+          niveau: $t('stages.bootCampAcademy.additionalInfo.level')
         }"
       />
     </div>

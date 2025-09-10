@@ -9,19 +9,19 @@
             <ItemElement
                 image="/assets/stages/BootCampAcademy.png"
                 :title="$t('stages.bootCampAcademy.title')"
-                :description="$t('stages.bootCampAcademy.description')"
+                :description="$t('stages.bootCampAcademy.dates')"
                 link="/boot-camp-academy"
             />
             <ItemElement 
                 image="/assets/stages/DataExpertise.jpg"
                 :title="$t('stages.dataExpertise.title')"
-                :description="$t('stages.dataExpertise.description')"
+                :description="$t('stages.dataExpertise.dates')"
                 link="/data-expertise"
             />
             <ItemElement 
                 image="/assets/stages/EvianImmersion.jpg"
                 :title="$t('stages.evianImmersion.title')"
-                :description="$t('stages.evianImmersion.description')"
+                :description="$t('stages.evianImmersion.dates')"
                 link="/evian-immersion"
             />
         </div>

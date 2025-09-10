@@ -36,6 +36,61 @@
     "intro": {
       "main": "Discover our selection of golf courses",
       "second": "Golf courses in Chamonix, led by a high-performance expert coach. Whether you are a beginner, passionate amateur, or a player seeking excellence, these courses adapt to your level: discovery, nature immersion, or intensive improvement. Each session combines technical progress, mental work, and the joy of the game in an exceptional setting at the foot of Mont-Blanc."
+    },
+    "bootCampAcademy": {
+      "title": "One Day Evian Academy",
+      "dates": "Flexible dates",
+      "description": "Join us for a day of training and leave with exercises and work plans to practice on your own.",
+      "program": {
+        "day1": "9am - 10.30am : Green approach (< 135m)",
+        "day2": "10.30am - 12pm : Wedging (< PW)",
+        "day3": "1.30pm - 3pm : Putting (Short and Long)",
+        "day4": "3pm - 6pm : Around the green (CR, CL, and SB)"
+      },
+      "additionalInfo": {
+        "duration": "1 day",
+        "dates": "Flexible dates",
+        "location": "Evian Resort Golf Club",
+        "price": "€175 per person",
+        "participants": "Max 6 people",
+        "level": "All levels"
+      }
+    },
+    "dataExpertise": {
+      "title": "Data Expertise at Golf National",
+      "dates": "Flexible dates",
+      "description": "Change your perspective on your conception of golf. Find your swing by attending a course at Golf National with all the latest technologies and the participation of Damien GUINARD, one of the best French data experts.",
+      "program": {
+        "day1": "<strong>Day 1 : Find your swing</strong><br>Morning: Force plate analysis with Damien. Explanation of your swing system. Work on tee shots and your long game in general. <br>Afternoon: Play the Aigle course.",
+        "day2": "<strong>Day 2 : Boot Camp</strong><br>Morning: Focus on long game, data recording (Trackman or Flight Scope).<br>Afternoon: Focus on chip roll, pitch & run, and bunker shots.",
+        "day3": "<strong>Day 3 : Strategy</strong><br>Morning: Putting.<br>Afternoon: Play the Aigle course."
+      },
+      "additionalInfo": {
+        "duration": "3 days / 2 nights",
+        "dates": "Flexible dates",
+        "location": "Golf National - Guyancourt (France 78)",
+        "price": "From €650 half-board, Green fee included",
+        "participants": "6 to 9",
+        "level": "All levels"
+      }
+    },
+    "evianImmersion": {
+      "title": "Major Competition Immersion at Evian",
+      "dates": "Flexible dates",
+      "description": "Come perfect your game on the incredible facilities of the Evian Resort and play a major course.",
+      "program": {
+        "day1": "<strong>Day 1 : Training at the academy</strong><br>Morning: Technical work at the practice on the long game.<br>Afternoon: Training at the practice on the short game.",
+        "day2": "<strong>Day 2 : Situational training on the Lake course</strong><br>Accompanied course and strategy on the Lake Course.",
+        "day3": "<strong>Day 3 : Situational training on the Champions course</strong><br>Warm-up, putting.<br>Accompanied course and strategy on the Champions Course."
+      },
+      "additionalInfo": {
+        "duration": "3 days / 2 nights",
+        "dates": "Flexible dates",
+        "location": "Evian Resort Golf Club",
+        "price": "From €812 half-board, Green fee included",
+        "participants": "6 to 9",
+        "level": "All levels"
+      }
     }
   },
   "stageCustom": {
@@ -82,96 +137,6 @@
     "title": "The Coach",
     "description": "Pierre ASCEDU, a certified professional for over 30 years, teaches golf at the Chamonix Golf Club with passion and precision. A former coach of the French military ski team, he has unique expertise in high-performance coaching. His teaching is based on a personalized, technical, and mental approach, adapted to all levels of play. Whether you are a beginner or an experienced player, he guides you in your progress with accuracy, care, and efficiency. Using modern tools (Trackman, AimPoint, TPI) and extensive field experience, Pierre helps you achieve your goals, whether for leisure or competition.",
     "buttonText": "Learn More"
-  },
-  "stageIntensif": {
-    "title": "Intensive Golf Course",
-    "description": "This intensive course is designed for experienced golfers who want to improve their game and reach the next level. Led by Pierre ASCEDU, a professional coach with over 30 years of experience, this program combines technique, strategy, and mental preparation to optimize your performance on the course.",
-    "program": {
-      "day1": "<strong>Day 1: Technical analysis and goal setting</strong><br>Video analysis of your swing, evaluation of your short and long game. Personalized goal setting for the course.",
-      "day2": "<strong>Day 2: Swing improvement</strong><br>Work on posture, grip, and movement. Specific exercises to gain power and precision.",
-      "day3": "<strong>Day 3: Course strategy</strong><br>On-course session to learn how to handle different game situations. Focus on decision-making and risk management.",
-      "day4": "<strong>Day 4: Mental approach and stress management</strong><br>Concentration and relaxation techniques to improve your mental game. Competition preparation.",
-      "day5": "<strong>Day 5: Full course and review</strong><br>Full course with practical application of skills. Personalized review and recommendations for continued improvement."
-    },
-    "additionalInfo": {
-      "duration": "5 days",
-      "dates": "From July 10 to July 14, 2025",
-      "location": "Chamonix Golf Club",
-      "price": "€520 per person",
-      "participants": "3 to 5 people",
-      "level": "Advanced"
-    }
-  },
-  "stageHautePerf": {
-    "title": "High-Performance Golf Course",
-    "description": "This intensive course is designed for golfers who want to take their game to the next level. Led by Pierre ASCEDU, a professional coach with over 30 years of experience, this program combines technique, strategy, and mental preparation to optimize your performance on the course.",
-    "program": {
-      "day1": "<strong>Day 1: Technical analysis and goal setting</strong><br>Video analysis of your swing, evaluation of your short and long game. Personalized goal setting for the course.",
-      "day2": "<strong>Day 2: Swing improvement</strong><br>Work on posture, grip, and movement. Specific exercises to gain power and precision.",
-      "day3": "<strong>Day 3: Course strategy</strong><br>On-course session to learn how to handle different game situations. Focus on decision-making and risk management.",
-      "day4": "<strong>Day 4: Mental approach and stress management</strong><br>Concentration and relaxation techniques to improve your mental game. Competition preparation.",
-      "day5": "<strong>Day 5: Short game and putting</strong><br>Intensive exercises on chipping, pitching, and putting. Improvement of precision and consistency.",
-      "day6": "<strong>Day 6: Full course and review</strong><br>Full course with practical application of skills. Personalized review and recommendations for continued improvement."
-    },
-    "additionalInfo": {
-      "duration": "6 days",
-      "dates": "From July 10 to July 15, 2025",
-      "location": "Chamonix Golf Club",
-      "price": "€420 per person",
-      "participants": "3 to 5 people",
-      "level": "Advanced"
-    }
-  },
-  "stageEntreprise": {
-    "title": "Corporate Golf Course",
-    "description": "This corporate golf course is designed to strengthen team cohesion and provide a unique experience for your employees. Led by Pierre ASCEDU, a professional coach, this program combines golf initiation, fun activities, and moments of sharing in an exceptional setting.",
-    "program": {
-      "day1": "<strong>Day 1: Initiation and discovery</strong><br>Introduction to equipment, initiation to swing and putting. Fun activities to promote team cohesion.",
-      "day2": "<strong>Day 2: Challenges and workshops</strong><br>Technical workshops on short and long games. Team challenges to develop a spirit of collaboration.",
-      "day3": "<strong>Day 3: Course and moments of sharing</strong><br>Accompanied course to apply the skills learned. Debriefing and moments of conviviality to close the course."
-    },
-    "additionalInfo": {
-      "duration": "3 days",
-      "dates": "From September 15 to September 17, 2025",
-      "location": "Golf de Trévignin (73)",
-      "price": "€350 per person",
-      "participants": "8 to 12 people",
-      "level": "All levels"
-    }
-  },
-  "stageDecouverte": {
-    "title": "Discovery Golf Course",
-    "description": "This discovery course is ideal for beginner golfers or those wishing to learn the basics of golf in a friendly environment. Led by Pierre ASCEDU, a professional coach, this program introduces you to the technical and strategic fundamentals of golf while allowing you to enjoy a fun and enriching experience.",
-    "program": {
-      "day1": "<strong>Day 1: Initiation and discovery</strong><br>Introduction to equipment, initiation to swing and putting. Discovering the basics of the game on the practice range.",
-      "day2": "<strong>Day 2: Deepening techniques</strong><br>Work on grip, posture, and movement. Exercises on short and long games.",
-      "day3": "<strong>Day 3: Course and practical application</strong><br>Accompanied course to apply the skills learned. Personalized advice to progress and enjoy the game on the course."
-    },
-    "additionalInfo": {
-      "duration": "3 days",
-      "dates": "From August 3 to August 5, 2025",
-      "location": "Golf de Trévignin (73)",
-      "price": "€250 per person",
-      "participants": "6 to 8 people",
-      "level": "Beginner"
-    }
-  },
-  "stageSwingHouse": {
-    "title": "Swing House Course",
-    "description": "The Swing House course is a unique experience designed for golf enthusiasts who want to improve their game in a relaxed and friendly atmosphere. Led by Pierre ASCEDU, this course combines technical training.",
-    "program": {
-      "day1": "<strong>Day 1: Introduction to Swing House</strong><br>Welcome and introduction to the Swing House concept. Overview of the facilities and equipment. Initial assessment of each participant’s level.",
-      "day2": "<strong>Day 2: Technical training</strong><br>Focus on swing mechanics and body positioning. Individualized drills to improve technique. Video analysis of swings for personalized feedback.",
-      "day3": "<strong>Day 3: Course play and strategy</strong><br>On-course session to apply learned techniques. Emphasis on course management and shot selection. Group discussions on strategies for different course situations."
-    },
-    "additionalInfo": {
-      "duration": "3 days",
-      "dates": "From August 10 to August 12, 2025",
-      "location": "Swing House, Chamonix",
-      "price": "€300 per person",
-      "participants": "4 to 6 people",
-      "level": "All levels"
-    }
   },
   "swingHouse": {
     "title": "Our partner",
