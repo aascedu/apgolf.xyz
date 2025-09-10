@@ -82,8 +82,8 @@
 
 
     <!-- Desktop Menu -->
-    <nav class="bg-transparent text-white absolute top-0 left-0 w-full h-[7rem] z-50 hidden md:block">
-      <ul class="flex flex-row justify-center items-start gap-8 mt-4">
+    <nav class="bg-transparent text-white absolute top-0 left-0 w-full z-50 hidden md:block">
+      <ul class="flex flex-row justify-center items-center gap-8 mt-4">
         <li v-for="item in menuItems" :key="item.href">
           <a
             :href="item.href"

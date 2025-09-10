@@ -1,29 +1,14 @@
 <template>
   <!-- Desktop Div -->
-  <div class="hidden md:inline-block flex h-[1rem]">
-    <!-- Current Language Button -->
-    <button class="" @mouseenter="showDropdown = true" @mouseleave="hideDropdown">
-      <img :src="currentLanguage.flag" :alt="currentLanguage.name" class="w-[2rem] aspect-[4/3]" />
-    </button>
-
-    <!-- Dropdown Menu -->
-    <div
-      class="text-black z-10 min-w-[2.5rem] items-start"
-      v-if="showDropdown"
-      @mouseenter="showDropdown = true"
-      @mouseleave="hideDropdown"
+  <div class="hidden md:flex gap-4 items-center">
+    <button
+      v-for="lang in languages"
+      :key="lang.code"
+      @click="changeLanguage(lang.code)"
+      class="flex items-center cursor-pointer p-0 m-0"
     >
-      <ul>
-        <li
-          v-for="lang in filteredLanguages"
-          :key="lang.code"
-          @click="changeLanguage(lang.code)"
-          class="cursor-pointer flex justify-center"
-        >
-          <img :src="lang.flag" :alt="lang.name" class="w-[2rem] aspect-[4/3]" />
-        </li>
-      </ul>
-    </div>
+      <img :src="lang.flag" :alt="lang.name" class="w-[2rem] aspect-[4/3]" />
+    </button>
   </div>
 
   <!-- Mobile Div -->
