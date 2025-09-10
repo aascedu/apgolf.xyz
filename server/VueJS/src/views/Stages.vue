@@ -7,22 +7,22 @@
         <StagesIntro />
         <div class="flex flex-row flex-wrap justify-between">
             <ItemElement
-                image="/assets/home_banner.jpeg"
-                title="Golf à Chamonix"
-                description="10-12 mai 2025"
-                link="/stage-haute-performance"
+                image="/assets/stages/BootCampAcademy.png"
+                :title="$t('stages.bootCampAcademy.title')"
+                :description="$t('stages.bootCampAcademy.description')"
+                link="/boot-camp-academy"
             />
             <ItemElement 
-                image="/assets/home_banner.jpeg"
-                title="Golf à Évian"
-                description="24-26 mai 2025"
-                link="/stage-decouverte"
+                image="/assets/stages/DataExpertise.jpg"
+                :title="$t('stages.dataExpertise.title')"
+                :description="$t('stages.dataExpertise.description')"
+                link="/data-expertise"
             />
             <ItemElement 
-                image="/assets/home_banner.jpeg"
-                title="Golf à Megève"
-                description="7-9 juin 2025"
-                link="/stage-entreprise"
+                image="/assets/stages/EvianImmersion.jpg"
+                :title="$t('stages.evianImmersion.title')"
+                :description="$t('stages.evianImmersion.description')"
+                link="/evian-immersion"
             />
         </div>
         <StageCustom 

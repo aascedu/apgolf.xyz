@@ -9,26 +9,26 @@
 
             <ItemElement 
                     image="/assets/sejours/MontBlancExperience.jpg"
-                    title="Mont Blanc Golf Experience"
-                    description="Dates flexibles"
+                    :title="$t('sejours.montBlancExperience.title')"
+                    :description="$t('sejours.montBlancExperience.description')"
                     link="/mont-blanc-experience"
                 />
                 <ItemElement 
                     image="/assets/sejours/RoyalPark.jpg"
-                    title="Royal Park I Roveri"
-                    description="Dates flexibles"
+                    :title="$t('sejours.royalPark.title')"
+                    :description="$t('sejours.royalPark.description')"
                     link="/royal-park"
                 />
                 <ItemElement 
                     image="/assets/sejours/SkiGolf.jpg"
-                    title="Ski & Golf"
-                    description="Entre le 22 avril et le 3 mai"
+                    :title="$t('sejours.skiGolf.title')"
+                    :description="$t('sejours.skiGolf.description')"
                     link="/ski-golf"
                 />
                 <ItemElement 
                     image="/assets/sejours/VillaCarolina.jpg"
-                    title="Sejour a Villa Carolina"
-                    description="Dates flexibles"
+                    :title="$t('sejours.villaCarolina.title')"
+                    :description="$t('sejours.villaCarolina.description')"
                     link="/villa-carolina"
                 />
         </div>

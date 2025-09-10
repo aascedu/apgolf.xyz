@@ -1,6 +1,6 @@
 <template>
     <Banner
-        image="/assets/Accueil-ProAmBanner.jpg"
+        image="/assets/Accueil-ProAm.jpg"
         :text="$t('banner.competitions')"
     />
     <div class="padded-div">
