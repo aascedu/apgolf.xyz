@@ -30,7 +30,7 @@ img {
 
 /* Uniform button style */
 button {
-  padding: clamp(0rem, 1vw, 1rem) clamp(0.5rem, 1vw, 2rem);
+  padding: clamp(0.3rem, 0.3vw, 1rem) clamp(0.5rem, 1vw, 1rem);
   font-weight: 500;
 }
 
